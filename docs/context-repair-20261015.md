@@ -33,3 +33,12 @@ Day 10 预计窗口为北京时间 12:56:07–14:56:07，完成公告发布时�
 只按已验证的回复/引用关系关联，不使用任意时间邻近或自动把别人的引用文本当官方声明。当前规则仍无法保证覆盖所有未来自然语言；新表达需以真实样本回归。原飞书业务成功、回执、UUID 窗口和不确定发送处理保持有效。
 
 GitHub 定时工作流仍可能延迟。上线验收分别记录云端迁移、普通执行与实际 schedule 触发，不能把手动触发当成调度证据。本次不补发部署前旧公告。
+
+## 云端上线验收
+
+- 上线代码：`8b7e5f1ea590459b6139a935fe620c2f8f1e72ea`。
+- [最终 CI](https://github.com/StephenChen1108/codex-reset-notifier/actions/runs/38701472031)：成功，138 项测试及类型检查、构建验证通过。
+- [云端迁移运行](https://github.com/StephenChen1108/codex-reset-notifier/actions/runs/38701474038)：成功，北京时间 15:50:47 完成采集，日志明确记录上下文基线建立及游标保留；parserVersion=6、contextVersion=1、上下文 19 条、checked-0-posts、待发送 0，状态分支提交成功。
+- 生产游标仍为 `2110624335463584028`；`feishu-deliveries.json` 的 SHA-256 与迁移前归档一致。真实飞书历史模拟消息 API 回读成功，POST 数 0，未新增模拟消息或补发旧公告。
+- 工作流 API 状态为 active；目前验收证据为手动触发，尚未观察到 schedule 事件，不将其描述为已验证严格五分钟调度。
+- 本地副本收尾时已位于 `D:\Users\Desktop\SoarInt\CodexResetNotifier`；核对独立 Git 根目录、HEAD 和 origin 均正确，工作区干净。该路径变更不是本次修复命令所执行的移动；Soar 运行工作树未参与开发或部署。

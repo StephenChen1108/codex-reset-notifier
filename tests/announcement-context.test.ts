@@ -43,6 +43,12 @@ describe("verified October announcement replay", () => {
   it("recognizes Loading a banked reset as a grant, separately from automatic resets", () => {
     expect(events(posts[2])).toEqual(expect.arrayContaining([expect.objectContaining({ type: "bank_credit" })]));
   });
+  it("preserves bank grants when an announcement also includes or quotes an automatic reset", () => {
+    const mixed = { ...day10[0], text: "We will do a global reset of Codex usage within two hours.\nWe are adding a banked reset credit for everyone now." };
+    expect(events(mixed).map(e => e.type)).toEqual(["reset", "bank_credit"]);
+    const bank = { ...day10[2], quotedPostId: day10[0].id, text: "Loading a banked reset in everyone's paid accounts." };
+    expect(events(bank).map(e => e.type)).toEqual(["bank_credit"]);
+  });
   it("anchors the two-hour window to the timing reply and preserves source links", () => {
     const e = events(day10[0])[0];
     expect(e.time).toMatchObject({ kind: "window", start: "2026-10-15T04:56:07.000Z", end: "2026-10-15T06:56:07.000Z" });

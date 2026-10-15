@@ -77,6 +77,9 @@ export function announcementEvents(post: XPost, cache: Record<string, XPost>, ti
   };
   const path = findRoot(post, 0, new Set());
   if (!path) return extractEvents(post, timezone);
+  const bankEvents = extractEvents(post, timezone).filter(e => e.type === "bank_credit" || e.type === "bank_expiry");
+  // A bank grant quoting a previous reset is a separate benefit, not that reset's lifecycle.
+  if (bankEvents.length && !rootEvents(post, timezone).length) return bankEvents;
   const root = path[0];
   const sources = path.map(({ quotedPost, ...plain }) => plain);
   const done = completion(post.text);
@@ -90,10 +93,10 @@ export function announcementEvents(post: XPost, cache: Record<string, XPost>, ti
     .filter(p => p.replyToId === root.id && isTiboPost(p) && timing(p.text) && p.createdAt && root.createdAt &&
       Date.parse(p.createdAt) >= Date.parse(root.createdAt))
     .sort((a, b) => Date.parse(a.createdAt!) - Date.parse(b.createdAt!))[0];
-  return events.map(event => ({ ...event, rootPostId: root.id,
+  return [...events.map(event => ({ ...event, rootPostId: root.id,
     ...(timePost && event.status !== "completed" ? { status: "scheduled" as const,
       time: parseEventTime(timePost.text, timePost.createdAt, timezone) } : {}),
-    sources: timePost && !sources.some(s => s.id === timePost.id) ? [...sources, timePost] : sources }));
+    sources: timePost && !sources.some(s => s.id === timePost.id) ? [...sources, timePost] : sources })), ...bankEvents];
 }
 
 export function announcementKey(event: ResetEvent): string | undefined {

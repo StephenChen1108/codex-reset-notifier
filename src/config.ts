@@ -1,5 +1,6 @@
 import { IANAZone } from "luxon";
 import type { AppConfig } from "./types";
+import { loadFeishuConfig } from "./feishu";
 
 function splitList(value: string | undefined): string[] {
   return (value ?? "")
@@ -22,6 +23,7 @@ export function loadConfig(env: NodeJS.ProcessEnv = process.env): AppConfig {
     env.SOURCE_TIMEZONE?.trim() ||
     (username.toLowerCase() === "thsottiaux" ? "America/Los_Angeles" : undefined);
   return {
+    feishu: loadFeishuConfig(env, env.STATE_PATH?.trim() || "data/state.json"),
     sourceProvider,
     timezone: env.TARGET_TIMEZONE?.trim() || "Asia/Shanghai",
     sourceTimezone,
@@ -116,6 +118,7 @@ export function validateConfig(
   if (
     !options.offline &&
     !config.githubSummaryPath &&
+    !config.feishu &&
     !config.emailTo.length &&
     !config.smsTo.length &&
     !config.telegramChatIds.length &&

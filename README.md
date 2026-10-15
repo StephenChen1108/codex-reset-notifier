@@ -1,5 +1,7 @@
 # Codex Reset Signal
 
+This independent deployment adds a Feishu notifier using the same app identity and recipient as a local Soar installation, without importing or changing Soar. **[中文安装、部署与故障处理](docs/feishu-notifier.zh-CN.md)** · **[实际验证记录](docs/notifier-verification.md)**. Upstream collection and parsing remain intact; Feishu applies a conservative global-reset notification policy.
+
 **English** | [简体中文](README.zh-CN.md)
 
 [![CI](https://github.com/AllenXiao95/codex-reset-signal/actions/workflows/ci.yml/badge.svg)](https://github.com/AllenXiao95/codex-reset-signal/actions/workflows/ci.yml)

@@ -95,6 +95,7 @@ export type PublicStatus = {
 };
 
 export type AppConfig = {
+  feishu?: import("./feishu").FeishuConfig;
   sourceProvider: "fxembed" | "x";
   timezone: string;
   sourceTimezone?: string;

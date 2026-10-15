@@ -2,6 +2,11 @@ name: Monitor X for reset
 
 on:
   workflow_dispatch:
+    inputs:
+      test_notification:
+        description: Send one clearly labelled Feishu simulation (deduplicated)
+        type: boolean
+        default: false
   schedule:
     - cron: "2,7,12,17,22,27,32,37,42,47,52,57 * * * *"
 
@@ -20,13 +25,18 @@ jobs:
     env:
       SOURCE_PROVIDER: ${{ vars.SOURCE_PROVIDER || 'fxembed' }}
       X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
-      X_USERNAME: ${{ vars.X_USERNAME || 'thsottiaux' }}
-      MATCH_WORD: ${{ vars.MATCH_WORD || 'reset' }}
+      X_USERNAME: thsottiaux
+      MATCH_WORD: reset
       X_EXCLUDE_REPLIES: ${{ vars.X_EXCLUDE_REPLIES || 'false' }}
       BOOTSTRAP_NOTIFY: "false"
       TARGET_TIMEZONE: ${{ vars.TARGET_TIMEZONE || 'Asia/Shanghai' }}
       SOURCE_TIMEZONE: ${{ vars.SOURCE_TIMEZONE }}
-      INCLUDE_MENTIONS: ${{ vars.INCLUDE_MENTIONS || 'true' }}
+      INCLUDE_MENTIONS: "false"
+      FEISHU_REQUIRED: "true"
+      FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
+      FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
+      FEISHU_RECEIVE_ID: ${{ secrets.FEISHU_RECEIVE_ID }}
+      FEISHU_RECEIVE_ID_TYPE: ${{ secrets.FEISHU_RECEIVE_ID_TYPE }}
       WEBHOOK_DEBUG: ${{ vars.WEBHOOK_DEBUG || 'false' }}
       STATE_PATH: runtime/state.json
       PUBLIC_STATUS_PATH: runtime/status.json
@@ -60,6 +70,12 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      - name: Verify Feishu cloud delivery with labelled simulation
+        id: smoke
+        if: github.event_name == 'workflow_dispatch' && inputs.test_notification
+        env:
+          FEISHU_SMOKE_LEDGER_PATH: runtime/feishu-smoke-deliveries.json
+        run: node --import tsx scripts/feishu-smoke.ts --live
       - name: Run monitor
         id: monitor
         run: npm run monitor
@@ -68,15 +84,17 @@ jobs:
         run: node scripts/actions-summary.mjs
       - name: Persist runtime state even after notification failure
         id: persist
-        if: always() && steps.monitor.outcome != 'skipped'
+        if: always() && (steps.monitor.outcome != 'skipped' || steps.smoke.outcome != 'skipped')
         working-directory: runtime
         run: |
-          if [ -z "$(git status --porcelain -- state.json status.json feed.xml)" ]; then
+          if [ -z "$(git status --porcelain -- state.json status.json feed.xml feishu-deliveries.json feishu-smoke-deliveries.json)" ]; then
             exit 0
           fi
           git config user.name "reset-signal[bot]"
           git config user.email "reset-signal[bot]@users.noreply.github.com"
           git add state.json status.json feed.xml
+          if [ -f feishu-deliveries.json ]; then git add feishu-deliveries.json; fi
+          if [ -f feishu-smoke-deliveries.json ]; then git add feishu-smoke-deliveries.json; fi
           git commit -m "chore: update monitor runtime state"
           git pull --rebase origin monitor-state
           git push origin HEAD:monitor-state
@@ -89,4 +107,6 @@ jobs:
             runtime/state.json
             runtime/status.json
             runtime/feed.xml
+            runtime/feishu-deliveries.json
+            runtime/feishu-smoke-deliveries.json
           retention-days: 7

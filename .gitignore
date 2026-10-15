@@ -20,3 +20,5 @@ data/state.json
 data/status.json
 data/*.lock
 data/*.tmp
+data/feishu-deliveries.json
+runtime/

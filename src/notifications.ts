@@ -2,6 +2,7 @@ import { createHash, createHmac } from "node:crypto";
 import { appendFile } from "node:fs/promises";
 import type { AppConfig, PendingNotification, XPost } from "./types";
 import { formatTime, type ResetEvent } from "./events";
+import { FeishuNotifier } from "./feishu";
 
 export type NotificationTarget = {
   id: string;
@@ -70,6 +71,7 @@ export function createTargets(
   fetcher: typeof fetch = fetch,
 ): NotificationTarget[] {
   const targets: NotificationTarget[] = [];
+  if (config.feishu) targets.push(new FeishuNotifier(config.feishu, fetcher));
   const add = (
     channel: string,
     identity: string,

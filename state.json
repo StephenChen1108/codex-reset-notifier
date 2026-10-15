@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2110624335463584028",
-  "lastCheckedAt": "2026-10-15T12:42:12.714Z",
-  "lastSuccessAt": "2026-10-15T12:42:12.714Z",
-  "lastRunStatus": "checked-0-posts",
-  "postsScanned": 18,
+  "sinceId": "2110750421367287996",
+  "lastCheckedAt": "2026-10-15T17:24:06.699Z",
+  "lastSuccessAt": "2026-10-15T17:24:06.699Z",
+  "lastRunStatus": "checked-1-posts",
+  "postsScanned": 19,
   "matches": [],
   "outbox": [],
   "seen": {
@@ -28,14 +28,15 @@
     "2110595987542868381": "bd69f639e6d4d9b1fb5a17b02b396c8c828ee0809385f585a29f7fb8cf7a5954",
     "2110612268962779352": "4f39d52a7c7deee6cfa9c721b959c52f615e08675a640524b8baaf8b1a6ad1ab",
     "2110618732666257557": "996d7cf9247938296f825c7bd9eac307760773d5fd36fb40dc9f0e8c4c806639",
-    "2110624335463584028": "dbb755b91b9555b5b948fe74ed1665aad1fb20e53918a88be35338e80709d37e"
+    "2110624335463584028": "dbb755b91b9555b5b948fe74ed1665aad1fb20e53918a88be35338e80709d37e",
+    "2110750421367287996": "9ab399408adb8eb52756a9a678e0deee64aeb1a7a41f97881af9a56eb96cd563"
   },
   "latestObservedPost": {
-    "id": "2110624335463584028",
-    "canonicalId": "2110624335463584028",
-    "text": "@theo Nice. Will fix",
-    "createdAt": "2026-10-15T06:50:29.000Z",
-    "url": "https://x.com/thsottiaux/status/2110624335463584028",
+    "id": "2110750421367287996",
+    "canonicalId": "2110750421367287996",
+    "text": "Day 11/\n\nWe've landed a series of changes and more compute to very significantly decrease the occurrence of the disruptive \"Selected model is at capacity. Please try a different model\". When it does happen, it should also eventually just continue by itself and not just block on it.\n\nLet us know if you still see it out there in the wild and we'll take a look.",
+    "createdAt": "2026-10-15T15:11:30.000Z",
+    "url": "https://x.com/thsottiaux/status/2110750421367287996",
     "media": [],
     "authorUsername": "thsottiaux"
   },
@@ -47,12 +48,187 @@
     "2110595484180214059:reset:completed": true
   },
   "contextPosts": {
+    "2109045392684032299": {
+      "id": "2109045392684032299",
+      "canonicalId": "2109045392684032299",
+      "text": "Global reset by EOD. May the tokens do good things for you.",
+      "createdAt": "2026-10-10T22:16:20.000Z",
+      "url": "https://x.com/thsottiaux/status/2109045392684032299",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2109132167112782291": {
+      "id": "2109132167112782291",
+      "canonicalId": "2109132167112782291",
+      "text": "Put the reset in the bag. All propagated.",
+      "createdAt": "2026-10-11T04:01:09.000Z",
+      "url": "https://x.com/thsottiaux/status/2109132167112782291",
+      "media": [],
+      "authorUsername": "thsottiaux",
+      "quotedPostId": "2109045392684032299"
+    },
+    "2109135750054957556": {
+      "id": "2109135750054957556",
+      "canonicalId": "2109135750054957556",
+      "text": "@theo Dare you to invite everyone to a party",
+      "createdAt": "2026-10-11T04:15:23.000Z",
+      "url": "https://x.com/thsottiaux/status/2109135750054957556",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2109142061014466866": {
+      "id": "2109142061014466866",
+      "canonicalId": "2109142061014466866",
+      "text": "@SiftByte You are doing more math than I am",
+      "createdAt": "2026-10-11T04:40:27.000Z",
+      "url": "https://x.com/thsottiaux/status/2109142061014466866",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2109152716954222849": {
+      "id": "2109152716954222849",
+      "canonicalId": "2109152716954222849",
+      "text": "Pro users, would you rather have",
+      "createdAt": "2026-10-11T05:22:48.000Z",
+      "url": "https://x.com/thsottiaux/status/2109152716954222849",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2109430343346581527": {
+      "id": "2109430343346581527",
+      "canonicalId": "2109430343346581527",
+      "text": "Day 7/\n\nWe have increased default context length for GPT-6.1 Sol to 500k when used through Codex & Work, up from 272k or an ~ 80% increase.\n\nWe will go higher in the future, but it helps reduce occurrence of compactions and with tasks that require keeping a lot of context and nuance over periods of time. It was carefully tested and is the new sweet spot for most of our users. You can still override it if you want to be higher our lower, with maximum context length of GPT-6.1 Sol of 1M.",
+      "createdAt": "2026-10-11T23:45:59.000Z",
+      "url": "https://x.com/thsottiaux/status/2109430343346581527",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2109430894604026039": {
+      "id": "2109430894604026039",
+      "canonicalId": "2109430894604026039",
+      "text": "With this change, we are not charging long context fees for GPT-6.1 Sol when drawing usage from the subscription.",
+      "createdAt": "2026-10-11T23:48:11.000Z",
+      "url": "https://x.com/thsottiaux/status/2109430894604026039",
+      "media": [],
+      "authorUsername": "thsottiaux",
+      "replyToId": "2109430343346581527"
+    },
+    "2109438305188327838": {
+      "id": "2109438305188327838",
+      "canonicalId": "2109438305188327838",
+      "text": "@birdabo @poteto We're all proud of you @birdabo. Thank you for solving this one, hadn't thought about it",
+      "createdAt": "2026-10-12T00:17:38.000Z",
+      "url": "https://x.com/thsottiaux/status/2109438305188327838",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2109439315570999598": {
+      "id": "2109439315570999598",
+      "canonicalId": "2109439315570999598",
+      "text": "The results of this poll has gotten me confused. I definitely thought it would sway much more favorably in the 2X direction across Pro 100/200/500 at the cost of bringing back 5h limits in order to smoothen the demand curve.",
+      "createdAt": "2026-10-12T00:21:38.000Z",
+      "url": "https://x.com/thsottiaux/status/2109439315570999598",
+      "media": [],
+      "authorUsername": "thsottiaux",
+      "quotedPostId": "2109152716954222849"
+    },
+    "2109439813900493102": {
+      "id": "2109439813900493102",
+      "canonicalId": "2109439813900493102",
+      "text": "@AnkanXplorer Neither. It's all about coding by hand these days",
+      "createdAt": "2026-10-12T00:23:37.000Z",
+      "url": "https://x.com/thsottiaux/status/2109439813900493102",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2109491121441402912": {
+      "id": "2109491121441402912",
+      "canonicalId": "2109491121441402912",
+      "text": "@AbdoKerdawy We made it cheaper and tuned it to the new recommended level. \n\nYou can always change settings, but defaults exist for a reason.",
+      "createdAt": "2026-10-12T03:47:30.000Z",
+      "url": "https://x.com/thsottiaux/status/2109491121441402912",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2109491524358795714": {
+      "id": "2109491524358795714",
+      "canonicalId": "2109491524358795714",
+      "text": "@bobjones We tune these carefully",
+      "createdAt": "2026-10-12T03:49:06.000Z",
+      "url": "https://x.com/thsottiaux/status/2109491524358795714",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2109730998867112161": {
+      "id": "2109730998867112161",
+      "canonicalId": "2109730998867112161",
+      "text": "@gen_tt @poteto Solid step towards world peace",
+      "createdAt": "2026-10-12T19:40:41.000Z",
+      "url": "https://x.com/thsottiaux/status/2109730998867112161",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2109778880341151901": {
+      "id": "2109778880341151901",
+      "canonicalId": "2109778880341151901",
+      "text": "@steipete 250 tokens per *second* (TPS)!",
+      "createdAt": "2026-10-12T22:50:57.000Z",
+      "url": "https://x.com/thsottiaux/status/2109778880341151901",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2109812216212099456": {
+      "id": "2109812216212099456",
+      "canonicalId": "2109812216212099456",
+      "text": "Day 8/ Reset",
+      "createdAt": "2026-10-13T01:03:25.000Z",
+      "url": "https://x.com/thsottiaux/status/2109812216212099456",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
     "2109812360596865224": {
       "id": "2109812360596865224",
       "canonicalId": "2109812360596865224",
       "text": "Global reset landing by EOD PST time. Enjoy",
       "createdAt": "2026-10-13T01:03:59.000Z",
       "url": "https://x.com/thsottiaux/status/2109812360596865224",
+      "media": [],
+      "authorUsername": "thsottiaux",
+      "replyToId": "2109812216212099456"
+    },
+    "2109819027912798611": {
+      "id": "2109819027912798611",
+      "canonicalId": "2109819027912798611",
+      "text": "@alexgetmancom Alex, kindly. The world is big and fun out there. We’re in SF, just saying.",
+      "createdAt": "2026-10-13T01:30:29.000Z",
+      "url": "https://x.com/thsottiaux/status/2109819027912798611",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2109819517325205735": {
+      "id": "2109819517325205735",
+      "canonicalId": "2109819517325205735",
+      "text": "@songkeys No worries. Cooking up a solution",
+      "createdAt": "2026-10-13T01:32:26.000Z",
+      "url": "https://x.com/thsottiaux/status/2109819517325205735",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2109831908620390553": {
+      "id": "2109831908620390553",
+      "canonicalId": "2109831908620390553",
+      "text": "Perhaps I shall try to explain. There are significant differences between the 6.1 generation and prior models and therefore the optimal defaults are different between GPT-6 Astra and GPT-6.1 Sol. \n\nAnd even for 6.1 Sol we wanted to be careful with the change and make sure we felt good about the results. We do now and therefore we changed it.",
+      "createdAt": "2026-10-13T02:21:40.000Z",
+      "url": "https://x.com/thsottiaux/status/2109831908620390553",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2109832216029352391": {
+      "id": "2109832216029352391",
+      "canonicalId": "2109832216029352391",
+      "text": "@TimJayas I think we could ship absolutely nothing and be fine. But we will ship pretty insane things instead.",
+      "createdAt": "2026-10-13T02:22:53.000Z",
+      "url": "https://x.com/thsottiaux/status/2109832216029352391",
       "media": [],
       "authorUsername": "thsottiaux"
     },
@@ -227,6 +403,15 @@
       "text": "@theo Nice. Will fix",
       "createdAt": "2026-10-15T06:50:29.000Z",
       "url": "https://x.com/thsottiaux/status/2110624335463584028",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2110750421367287996": {
+      "id": "2110750421367287996",
+      "canonicalId": "2110750421367287996",
+      "text": "Day 11/\n\nWe've landed a series of changes and more compute to very significantly decrease the occurrence of the disruptive \"Selected model is at capacity. Please try a different model\". When it does happen, it should also eventually just continue by itself and not just block on it.\n\nLet us know if you still see it out there in the wild and we'll take a look.",
+      "createdAt": "2026-10-15T15:11:30.000Z",
+      "url": "https://x.com/thsottiaux/status/2110750421367287996",
       "media": [],
       "authorUsername": "thsottiaux"
     }

@@ -1,15 +1,20 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-15T07:10:27.046Z",
+  "updatedAt": "2026-10-15T07:12:30.004Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": null,
-    "lastSuccessAt": null,
-    "lastRunStatus": "waiting-for-first-run"
+    "lastCheckedAt": "2026-10-15T07:12:29.999Z",
+    "lastSuccessAt": "2026-10-15T07:12:29.999Z",
+    "lastRunStatus": "bootstrapped"
   },
-  "latestObservedPost": null,
+  "latestObservedPost": {
+    "id": "2110624335463584028",
+    "text": "@theo Nice. Will fix",
+    "url": "https://x.com/thsottiaux/status/2110624335463584028",
+    "postCreatedAt": "2026-10-15T06:50:29.000Z"
+  },
   "latest": {
     "reset": null,
     "bankCredit": {

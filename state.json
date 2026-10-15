@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2110750421367287996",
-  "lastCheckedAt": "2026-10-15T20:28:24.415Z",
-  "lastSuccessAt": "2026-10-15T20:28:24.415Z",
-  "lastRunStatus": "checked-0-posts",
-  "postsScanned": 19,
+  "sinceId": "2110868151688912976",
+  "lastCheckedAt": "2026-10-15T23:14:13.717Z",
+  "lastSuccessAt": "2026-10-15T23:14:13.717Z",
+  "lastRunStatus": "checked-3-posts",
+  "postsScanned": 22,
   "matches": [],
   "outbox": [],
   "seen": {
@@ -29,14 +29,17 @@
     "2110612268962779352": "4f39d52a7c7deee6cfa9c721b959c52f615e08675a640524b8baaf8b1a6ad1ab",
     "2110618732666257557": "996d7cf9247938296f825c7bd9eac307760773d5fd36fb40dc9f0e8c4c806639",
     "2110624335463584028": "dbb755b91b9555b5b948fe74ed1665aad1fb20e53918a88be35338e80709d37e",
-    "2110750421367287996": "9ab399408adb8eb52756a9a678e0deee64aeb1a7a41f97881af9a56eb96cd563"
+    "2110750421367287996": "9ab399408adb8eb52756a9a678e0deee64aeb1a7a41f97881af9a56eb96cd563",
+    "2110864606088593672": "aa29d9505c89a120101741f8542598b27678e81f2764b469378d7bb205839856",
+    "2110864861119045840": "def2299d9b705162add737ee22fbca4e462aa1dbd168d1e4c5c09eef61c713c9",
+    "2110868151688912976": "d0f703759921ebb86fb9b42b879f0e424d9cafa69f4e9f3902432ab3c021a5be"
   },
   "latestObservedPost": {
-    "id": "2110750421367287996",
-    "canonicalId": "2110750421367287996",
-    "text": "Day 11/\n\nWe've landed a series of changes and more compute to very significantly decrease the occurrence of the disruptive \"Selected model is at capacity. Please try a different model\". When it does happen, it should also eventually just continue by itself and not just block on it.\n\nLet us know if you still see it out there in the wild and we'll take a look.",
-    "createdAt": "2026-10-15T15:11:30.000Z",
-    "url": "https://x.com/thsottiaux/status/2110750421367287996",
+    "id": "2110868151688912976",
+    "canonicalId": "2110868151688912976",
+    "text": "@_simonsmith Spot on",
+    "createdAt": "2026-10-15T22:59:20.000Z",
+    "url": "https://x.com/thsottiaux/status/2110868151688912976",
     "media": [],
     "authorUsername": "thsottiaux"
   },
@@ -193,7 +196,8 @@
       "createdAt": "2026-10-13T01:03:59.000Z",
       "url": "https://x.com/thsottiaux/status/2109812360596865224",
       "media": [],
-      "authorUsername": "thsottiaux"
+      "authorUsername": "thsottiaux",
+      "replyToId": "2109812216212099456"
     },
     "2109819027912798611": {
       "id": "2109819027912798611",
@@ -411,6 +415,34 @@
       "text": "Day 11/\n\nWe've landed a series of changes and more compute to very significantly decrease the occurrence of the disruptive \"Selected model is at capacity. Please try a different model\". When it does happen, it should also eventually just continue by itself and not just block on it.\n\nLet us know if you still see it out there in the wild and we'll take a look.",
       "createdAt": "2026-10-15T15:11:30.000Z",
       "url": "https://x.com/thsottiaux/status/2110750421367287996",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2110864606088593672": {
+      "id": "2110864606088593672",
+      "canonicalId": "2110864606088593672",
+      "text": "Bonjour",
+      "createdAt": "2026-10-15T22:45:14.000Z",
+      "url": "https://x.com/thsottiaux/status/2110864606088593672",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2110864861119045840": {
+      "id": "2110864861119045840",
+      "canonicalId": "2110864861119045840",
+      "text": "Je programme en français",
+      "createdAt": "2026-10-15T22:46:15.000Z",
+      "url": "https://x.com/thsottiaux/status/2110864861119045840",
+      "media": [],
+      "authorUsername": "thsottiaux",
+      "replyToId": "2110864606088593672"
+    },
+    "2110868151688912976": {
+      "id": "2110868151688912976",
+      "canonicalId": "2110868151688912976",
+      "text": "@_simonsmith Spot on",
+      "createdAt": "2026-10-15T22:59:20.000Z",
+      "url": "https://x.com/thsottiaux/status/2110868151688912976",
       "media": [],
       "authorUsername": "thsottiaux"
     }

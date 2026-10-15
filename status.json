@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-15T20:28:24.418Z",
+  "updatedAt": "2026-10-15T23:14:13.719Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-10-15T20:28:24.415Z",
-    "lastSuccessAt": "2026-10-15T20:28:24.415Z",
-    "lastRunStatus": "checked-0-posts"
+    "lastCheckedAt": "2026-10-15T23:14:13.717Z",
+    "lastSuccessAt": "2026-10-15T23:14:13.717Z",
+    "lastRunStatus": "checked-3-posts"
   },
   "latestObservedPost": {
-    "id": "2110750421367287996",
-    "text": "Day 11/\n\nWe've landed a series of changes and more compute to very significantly decrease the occurrence of the disruptive \"Selected model is at capacity. Please try a different model\". When it does happen, it should also eventually just continue by itself and not just block on it.\n\nLet us know if you still see it out there in the wild and we'll take a look.",
-    "url": "https://x.com/thsottiaux/status/2110750421367287996",
-    "postCreatedAt": "2026-10-15T15:11:30.000Z"
+    "id": "2110868151688912976",
+    "text": "@_simonsmith Spot on",
+    "url": "https://x.com/thsottiaux/status/2110868151688912976",
+    "postCreatedAt": "2026-10-15T22:59:20.000Z"
   },
   "latest": {
     "reset": null,

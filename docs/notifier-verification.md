@@ -28,3 +28,4 @@ Soar 源码/文档及两份飞书配置共 59 个文件做前后 SHA-256 对照�
 - [云端 CI](https://github.com/StephenChen1108/codex-reset-notifier/actions/runs/38697148791)：测试、类型检查、页面校验、构建、Cloudflare bundle/scheduler dry-run 全通过；后两者仅打包验证，没有部署 Cloudflare 服务。
 - 本地一次、云端一次，共发出两条清楚标记的模拟消息；第二次云端复测无新增消息。正式监控不发送这些模拟事件。
 - 定时表达式已启用，云端手动触发已验证；不将手动运行当成定时实际触发或严格五分钟延迟证据。运行依赖 GitHub/FxEmbed/飞书及 Secrets，不依赖本地电脑或 Soar 进程。
+- 最终代码版本 `45ad02f309a9c9706c57c3163fb67d7f17361bb9` 的 [云端 CI](https://github.com/StephenChen1108/codex-reset-notifier/actions/runs/38697541316) 全部通过（111 项测试）；[不带模拟测试的普通监控](https://github.com/StephenChen1108/codex-reset-notifier/actions/runs/38697554455) 成功，于 15:16:57 检查完成，checked-0-posts、0 pending，状态提交 `ec2c0df`。工作流 API 状态为 active。此轮包含 runner 依赖准备等待，进一步说明不能把检查间隔当成送达时限。

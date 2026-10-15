@@ -3,7 +3,7 @@
 ## 已完成的本地验证
 
 - 复用基线：AllenXiao95/codex-reset-signal，MIT，提交 `ed339d044d439de6920fb0f983416796edad2d08`。2026-09-12 为所克隆分支最新提交日期，不能据此承诺未来维护。
-- `npm test -- --reporter=dot`：14 个文件、110 项测试全部通过。新增飞书策略/传输/持久化测试覆盖预告、完成、储备券、有效期、普通周期恢复、猜测/否定、错误作者、HTTP 200 业务失败、缺失回执、认证失败、429、错误 JSON、超时稳定 UUID、跨运行去重、首次历史静默、outbox 重试。
+- 最终 `npm test -- --reporter=json --outputFile=outputs/test-results.json`：14 个文件、111 项测试全部通过。新增飞书策略/传输/持久化测试覆盖预告、完成、储备券、有效期、普通周期恢复、猜测/否定、错误作者、HTTP 200 业务失败、缺失回执、认证失败、429、错误 JSON、超时稳定 UUID、跨运行去重、首次历史静默、outbox 重试。“可以使用储备券”的提示不算新券发放。
 - `npm run typecheck`：通过。`git diff --check`：通过。
 - 真实飞书模拟测试：使用只读加载的 Soar 应用与原收件人，发送一条明确标记模拟的消息，`code=0` 且有 message_id；随后 GET 回读确认内容，重复调用未再 POST。消息与原文链接均清楚标记为测试样例，无真实重置公告含义。具体回执只保留本地被 Git 忽略的 outputs 中。
 - 真实采集：FxEmbed 成功读取 @thsottiaux，首次运行结果 `bootstrapped; 0 pending`；无历史通知发送。
@@ -12,12 +12,19 @@
 
 - 本机默认代理端口不可连接，最初 Git clone/gh 检查失败；仅对本次相关命令绕过代理后成功，不修改系统代理或 Soar 配置。
 - 首次 npm 安装进程异常退出，清除该子进程的代理环境后重新 npm ci 成功。
-- 首轮新增测试两项失败：一项对上游 now 时间状态的预期不符，一项复用了已消费的 Response mock。修正测试预期与 mock 后，110 项通过；未改变上游采集/解析来迎合测试。
+- 首轮新增测试两项失败：一项对上游 now 时间状态的预期不符，一项复用了已消费的 Response mock。修正后 110 项通过，再新增储备券使用提示反例后最终 111 项通过；未改变上游采集/解析来迎合测试。
 
 ## 验收边界
 
 自动分类是保守规则，不保证理解所有未来措辞；未知内容不伪装正式公告。真实客户端是否已阅读需要用户观察，API 回读不能代替客户端观察。尚未遇到开发之后新发布的真实重置公告，不声称验证了未来公告的真实自动推送。
 
-Soar 源码及两份飞书配置均做前后 SHA-256 对照；数据库不打开、不运行 Soar 命令或测试。不能把运行中的其他进程造成的数据变化归因于本项目。
+Soar 源码/文档及两份飞书配置共 59 个文件做前后 SHA-256 对照，变化数为 0；数据库不打开、不运行 Soar 命令或测试。不能把运行中的其他进程造成的数据变化归因于本项目。发布前扫描全部 81 个可发布文件，未发现当前飞书 App ID、Secret 或收件人原值。
 
-云端运行编号、最终文件核对与部署结果由本次部署后补充。
+## 已完成的云端部署与验证
+
+- 独立公开仓库：[StephenChen1108/codex-reset-notifier](https://github.com/StephenChen1108/codex-reset-notifier)，main 默认分支，monitor-state 独立运行状态，MONITOR_ENABLED=true。四项飞书配置已通过 stdin 安全上传为 Repository Secrets。
+- [首次云端运行](https://github.com/StephenChen1108/codex-reset-notifier/actions/runs/38697168504)：2026-10-15 15:12，北京时间；Feishu 云端模拟步骤成功、API 回读成功、POST 数 1，真实 FxEmbed 采集 bootstrapped、0 pending，runtime 提交成功。
+- [第二次新 runner 运行](https://github.com/StephenChen1108/codex-reset-notifier/actions/runs/38697271548)：15:13；同一模拟事件 API 回读成功、POST 数 0，真实采集 checked-0-posts、0 pending，runtime 提交成功。证明去重跨 runner 生效，不依赖电脑中的本地文件。
+- [云端 CI](https://github.com/StephenChen1108/codex-reset-notifier/actions/runs/38697148791)：测试、类型检查、页面校验、构建、Cloudflare bundle/scheduler dry-run 全通过；后两者仅打包验证，没有部署 Cloudflare 服务。
+- 本地一次、云端一次，共发出两条清楚标记的模拟消息；第二次云端复测无新增消息。正式监控不发送这些模拟事件。
+- 定时表达式已启用，云端手动触发已验证；不将手动运行当成定时实际触发或严格五分钟延迟证据。运行依赖 GitHub/FxEmbed/飞书及 Secrets，不依赖本地电脑或 Soar 进程。

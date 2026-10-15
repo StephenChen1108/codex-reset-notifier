@@ -35,6 +35,7 @@ describe("Feishu notification policy", () => {
     "Can we get a global reset?", "Reset your password now.",
     "My Codex limits have reset.", "Codex limits reset automatically every five hours.",
     "Your Codex limits will reset in two hours.", "The database will reset for everyone.",
+    "You can use your banked reset credit now.",
   ])("does not push ordinary or uncertain text: %s", (text) => {
     const p = post(text); expect(officialEvents(p, extractEvents(p))).toEqual([]);
   });

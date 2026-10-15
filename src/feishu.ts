@@ -56,16 +56,16 @@ export function loadFeishuConfig(env: NodeJS.ProcessEnv, statePath: string): Fei
 
 /** Apply notification policy without changing upstream detection or projections. */
 export function officialEvents(post: XPost, events: ResetEvent[]): ResetEvent[] {
-  if (!new RegExp(`^https://x\\.com/thsottiaux/status/${post.id}$`, "i").test(post.url) ||
-      !/^\d+$/.test(post.id)) return [];
+  if (!/^\d+$/.test(post.id) ||
+      !new RegExp(`^https://x\\.com/thsottiaux/status/${post.id}$`, "i").test(post.url)) return [];
   return events.filter((event) => {
     if (event.type === "mention" || event.status === "uncertain") return false;
     const evidence = event.evidence;
     if (/\b(?:my|mine|personally|automatically|daily|weekly|every\s+\d|password|router|database|factory)\b|\b(?:5|five)[ -]hour\b/i.test(evidence)) return false;
     if (event.type === "reset")
-      return /\b(?:global|everyone|everybody|all\s+(?:paid|users|subscriptions|usage|limits|quotas|accounts|reset)|reset\s+all)\b/i.test(evidence);
+      return /\b(?:global|everyone|everybody|all\s+(?:codex\s+)?(?:paid|users|subscriptions|usage|limits|quotas|accounts|reset)|reset\s+all)\b/i.test(evidence);
     if (event.type === "bank_credit")
-      return /\b(?:credit(?:ed)?|grant(?:ed)?|add(?:ed|ing)?|giv(?:e|en|ing)|issu(?:e|ed|ing)|roll(?:ing)?\s+out)\b/i.test(evidence);
+      return /\b(?:credited|grant(?:ed|ing)?|add(?:ed|ing)?|giv(?:e|en|ing)|issu(?:e|ed|ing)|roll(?:ing)?\s+out)\b/i.test(evidence);
     return /\b(?:expir\w*|valid|available|usable|for|over)\b/i.test(evidence);
   });
 }

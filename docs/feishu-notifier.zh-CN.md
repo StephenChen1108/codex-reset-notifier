@@ -35,6 +35,8 @@ Node.js 22 或更新版本。`npm ci` 安装本项目依赖；`npm test`、`npm 
 4. Actions 启用工作流，手动运行 **Monitor X for reset**。首次静默建立基线，不补发历史消息。之后按每小时 2、7、12……57 分检查。`MONITOR_ENABLED=false` 可暂停定时检查，手动触发仍可用。无须 X token 或 Cookie，默认使用公共 FxEmbed；第三方接口故障会失败并保留游标，无自动付费回退。
 5. 检查运行日志、GitHub Summary、monitor-state 分支和 outbox。`failed-*` 不代表没有公告。未配置飞书 Secrets 会直接失败，不会仅凭 GitHub Summary 假装飞书通知已启用。
 
+手动运行时可选 `test_notification=true`，会进行清楚标记的云端模拟发送和 API 回读。测试收据在独立 `feishu-smoke-deliveries.json` 中持久化；第二个 runner 再跑不会重复发送同一模拟事件。定时运行默认不进行模拟测试。
+
 标准 Linux runner 的公开仓库 Actions 免费；私有仓库 GitHub Free 通常只有每月 2,000 分钟。每 5 分钟约 288 次/天、30 天约 8,640 次，若每次计 1 分钟约 8,640 分钟；这只是估算，启动、依赖安装和分页可能增加用时。实际额度以账号账单为准。[GitHub 计费](https://docs.github.com/en/billing/concepts/product-billing/github-actions)、[套餐额度](https://docs.github.com/en/billing/reference/product-usage-included)。
 
 理想发现延迟约 0–5 分钟，加上启动、源站缓存与执行耗时；GitHub 调度高峰可延迟甚至丢弃任务，没有实时 SLA。公开仓库长期无活动可能在 60 天后停用定时任务；不要假设状态分支提交一定避免此限制，需定期检查 Actions 的实际运行。[官方调度限制](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule)。

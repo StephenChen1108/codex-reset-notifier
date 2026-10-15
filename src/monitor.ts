@@ -2,7 +2,7 @@ import { createHash } from "node:crypto";
 import { mkdir, open, unlink } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import type { AppConfig, MatchRecord, MonitorState, XPost } from "./types";
-import { extractEvents } from "./events";
+import { announcementEvents, announcementKey, collectContext, CONTEXT_VERSION } from "./announcement-context";
 import { containsKeyword } from "./matcher";
 import { createTargets, type NotificationTarget } from "./notifications";
 import { readState, writeState } from "./state";
@@ -13,7 +13,7 @@ import {
   writePublicStatus,
 } from "./public-status";
 
-const EVENT_PARSER_VERSION = 5;
+const EVENT_PARSER_VERSION = 6;
 
 type Dependencies = {
   source?: PostSource;
@@ -25,7 +25,8 @@ type Dependencies = {
 
 export const postVersion = (post: XPost) =>
   createHash("sha256")
-    .update(JSON.stringify([post.canonicalId ?? post.id, post.text, post.createdAt, post.media]))
+    .update(JSON.stringify([post.canonicalId ?? post.id, post.text, post.createdAt, post.media,
+      ...(post.replyToId || post.quotedPostId ? [post.replyToId, post.quotedPostId] : [])]))
     .digest("hex");
 
 async function persist(config: AppConfig, state: MonitorState, now: () => Date): Promise<void> {
@@ -50,9 +51,9 @@ function detectedRecord(
   return { version, ...post, detectedAt, events, channels: [] };
 }
 
-function eventsForPost(post: XPost, config: AppConfig): MatchRecord["events"] {
+function eventsForPost(post: XPost, config: AppConfig, context: Record<string, XPost> = {}): MatchRecord["events"] {
   return config.keyword.toLowerCase() === "reset"
-    ? extractEvents(post, config.sourceTimezone).filter(
+    ? announcementEvents(post, context, config.sourceTimezone).filter(
         (event) => config.includeMentions || event.type !== "mention",
       )
     : containsKeyword(post.text, config.keyword)
@@ -98,8 +99,11 @@ function reprojectSavedMatches(state: MonitorState, config: AppConfig): void {
         createdAt: match.createdAt,
         url: match.url,
         media: match.media,
+        authorUsername: match.authorUsername,
+        replyToId: match.replyToId,
+        quotedPostId: match.quotedPostId,
       };
-      return { ...match, events: eventsForPost(post, config) };
+      return { ...match, events: eventsForPost(post, config, state.contextPosts) };
     })
     .filter((match) => match.events.length > 0);
   // Pending notifications intentionally keep the event payload captured when they
@@ -138,6 +142,7 @@ async function runLocked(config: AppConfig, deps: Dependencies): Promise<Monitor
   state.seen ??= {};
   state.latestObservedPost ??= null;
   state.lastSuccessAt ??= state.lastCheckedAt;
+  state.announcementSeen ??= {};
   const parserChanged = state.eventParserVersion !== EVENT_PARSER_VERSION;
   reprojectSavedMatches(state, config);
   if (parserChanged && state.matches.length) await persist(config, state, now);
@@ -154,12 +159,31 @@ async function runLocked(config: AppConfig, deps: Dependencies): Promise<Monitor
       excludeReplies: config.excludeReplies,
       bootstrap,
     });
+    state.contextPosts = await collectContext(state.contextPosts ?? {},
+      [...(fetched.contextPosts ?? []), ...fetched.posts], client, config.username, state.userId);
   } catch {
+    fetched = undefined;
     errors.push(`${config.sourceProvider} collection failed; cursor not advanced`);
   }
 
   if (fetched) {
     const { posts, newestId } = fetched;
+    if (state.contextVersion !== CONTEXT_VERSION) {
+      // Baseline only already-checkpointed nodes; genuinely new posts may notify.
+      for (const old of Object.values(state.contextPosts ?? {})) {
+        if (state.sinceId && BigInt(old.id) <= BigInt(state.sinceId)) {
+          for (const event of eventsForPost(old, config, state.contextPosts)) {
+            const key = announcementKey(event);
+            if (key) {
+              state.announcementSeen[key] = true;
+              if (event.status === "completed") state.announcementSeen[key.replace(/:completed$/, ":preview")] = true;
+            }
+          }
+        }
+      }
+      state.contextVersion = CONTEXT_VERSION;
+      console.log("Announcement context baseline ready; existing cursor preserved.");
+    }
     updateLatestObservedPost(
       state,
       fetched.latestObservedPost ?? newestPost(posts),
@@ -170,7 +194,11 @@ async function runLocked(config: AppConfig, deps: Dependencies): Promise<Monitor
       const version = postVersion(post);
       if (state.seen[identity] === version) continue;
       state.seen[identity] = version;
-      const events = eventsForPost(post, config);
+      const events = eventsForPost(post, config, state.contextPosts);
+      const notifyEvents = events.filter(event => {
+        const key = announcementKey(event);
+        return !key || !state.announcementSeen![key];
+      });
 
       if (events.length) {
         if (!state.matches.some((match) => match.version === version)) {
@@ -183,15 +211,23 @@ async function runLocked(config: AppConfig, deps: Dependencies): Promise<Monitor
         // notifications remain opt-in to prevent a noisy first deployment.
         if (
           (!bootstrap || config.bootstrapNotify) &&
+          notifyEvents.length &&
           !state.outbox.some((item) => item.key === version)
         ) {
           state.outbox.push({
             key: version,
             post,
-            events,
+            events: notifyEvents,
             targets: targets.map((target) => target.id),
             delivered: [],
           });
+        }
+        for (const event of events) {
+          const key = announcementKey(event);
+          if (key) {
+            state.announcementSeen[key] = true;
+            if (event.status === "completed") state.announcementSeen[key.replace(/:completed$/, ":preview")] = true;
+          }
         }
       }
     }

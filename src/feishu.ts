@@ -7,6 +7,7 @@ import { DateTime } from "luxon";
 import { formatTime, type ResetEvent } from "./events";
 import type { NotificationTarget } from "./notifications";
 import type { PendingNotification, XPost } from "./types";
+import { isTiboPost } from "./announcement-context";
 
 export type FeishuConfig = {
   appId: string;
@@ -60,12 +61,13 @@ export function officialEvents(post: XPost, events: ResetEvent[]): ResetEvent[] 
       !new RegExp(`^https://x\\.com/thsottiaux/status/${post.id}$`, "i").test(post.url)) return [];
   return events.filter((event) => {
     if (event.type === "mention" || event.status === "uncertain") return false;
+    if (event.rootPostId && event.sources?.some(p => p.id === event.rootPostId && isTiboPost(p))) return true;
     const evidence = event.evidence;
     if (/\b(?:my|mine|personally|automatically|daily|weekly|every\s+\d|password|router|database|factory)\b|\b(?:5|five)[ -]hour\b/i.test(evidence)) return false;
     if (event.type === "reset")
       return /\b(?:global|everyone|everybody|all\s+(?:codex\s+)?(?:paid|users|subscriptions|usage|limits|quotas|accounts|reset)|reset\s+all)\b/i.test(evidence);
     if (event.type === "bank_credit")
-      return /\b(?:credited|grant(?:ed|ing)?|add(?:ed|ing)?|giv(?:e|en|ing)|issu(?:e|ed|ing)|roll(?:ing)?\s+out)\b/i.test(evidence);
+      return /\b(?:loading|loaded|credited|grant(?:ed|ing)?|add(?:ed|ing)?|giv(?:e|en|ing)|issu(?:e|ed|ing)|roll(?:ing)?\s+out)\b/i.test(evidence);
     return /\b(?:expir\w*|valid|available|usable|for|over)\b/i.test(evidence);
   });
 }
@@ -83,6 +85,8 @@ export function renderFeishu(post: XPost, event: ResetEvent): string {
     formatTime(event.time, "Asia/Shanghai"),
     ...(preview ? ["", "💡 建议暂缓使用 Banked Reset。"] : []),
     "", `原文依据：${event.evidence.slice(0, 1800)}`,
+    ...(event.sources ? event.sources.filter(p => p.id !== post.id).flatMap(p =>
+      ["", `关联原文：${p.text.slice(0, 1200)}`, `🔗 ${p.url}`]) : []),
     "", `🔗 原始公告：${post.url}`].join("\n");
 }
 
@@ -142,7 +146,7 @@ export class FeishuNotifier implements NotificationTarget {
       // Stable across edits/parser upgrades; allow a later completion of the same post.
       const phase = event.type === "reset" ? event.status === "completed" ? "completed" : "preview"
         : event.type === "bank_expiry" ? JSON.stringify([event.time, event.evidence]) : "grant";
-      const key = hash(`${this.id}:${item.post.canonicalId ?? item.post.id}:${event.type}:${phase}`);
+      const key = hash(`${this.id}:${event.rootPostId ?? item.post.canonicalId ?? item.post.id}:${event.type}:${phase}`);
       if (ledger[key]?.status === "sent") continue;
       for (let attempt = 0; attempt < 3; attempt++) {
         const previous = ledger[key];

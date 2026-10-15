@@ -9,7 +9,7 @@ const numericId = (value: unknown): value is string =>
 const optionalString = (value: unknown): string | null =>
   typeof value === "string" ? value : null;
 
-function normalizePost(raw: JsonObject, username: string): XPost {
+function normalizePost(raw: JsonObject, username: string, depth = 0): XPost {
   // raw_text contains the original Note Tweet text. Do not concatenate quotes,
   // conversation ancestors, author bios, or translated text into the signal.
   const text = object(raw.raw_text) && typeof raw.raw_text.text === "string"
@@ -38,6 +38,12 @@ function normalizePost(raw: JsonObject, username: string): XPost {
       });
     }
   }
+  const reply = object(raw.replying_to) ? raw.replying_to : null;
+  const replyId = reply?.status ?? (typeof raw.replying_to === "string" && raw.replying_to.toLowerCase() === username.toLowerCase() ? raw.replying_to_status : undefined);
+  const ownQuote = object(raw.quote) && object(raw.quote.author) &&
+    object(raw.author) && raw.quote.author.id === raw.author.id &&
+    String(raw.quote.author.screen_name).toLowerCase() === username.toLowerCase()
+    ? raw.quote : undefined;
   return {
     id: raw.id,
     canonicalId: raw.id,
@@ -45,11 +51,25 @@ function normalizePost(raw: JsonObject, username: string): XPost {
     createdAt: date.toISOString(),
     url: `https://x.com/${username}/status/${raw.id}`,
     media,
+    authorUsername: username,
+    ...(numericId(replyId) && (!reply?.screen_name || String(reply.screen_name).toLowerCase() === username.toLowerCase()) ? { replyToId: replyId } : {}),
+    ...(ownQuote && numericId(ownQuote.id) ? { quotedPostId: ownQuote.id,
+      ...(depth < 3 ? { quotedPost: normalizePost(ownQuote, username, depth + 1) } : {}) } : {}),
   };
 }
 
 export class FxEmbedClient implements PostSource {
   constructor(private readonly fetcher: typeof fetch = fetch) {}
+
+  async getPost(id: string, username: string, userId: string): Promise<XPost> {
+    if (!numericId(id)) throw new Error("Invalid FxEmbed reference");
+    const body = await this.request(new URL(`https://api.fxtwitter.com/${encodeURIComponent(username)}/status/${id}`));
+    const raw = body.tweet;
+    if (!object(raw) || raw.id !== id || !object(raw.author) || raw.author.id !== userId ||
+        String(raw.author.screen_name).toLowerCase() !== username.toLowerCase())
+      throw new Error("FxEmbed reference author mismatch");
+    return normalizePost(raw, username);
+  }
 
   private async request(url: URL): Promise<JsonObject> {
     let response: Response;
@@ -88,6 +108,7 @@ export class FxEmbedClient implements PostSource {
     posts: XPost[];
     newestId: string | null;
     latestObservedPost: XPost | null;
+    contextPosts?: XPost[];
   }> {
     if (!numericId(options.userId) || (options.sinceId != null && !numericId(options.sinceId)))
       throw new Error("Invalid FxEmbed checkpoint");
@@ -95,6 +116,7 @@ export class FxEmbedClient implements PostSource {
     url.searchParams.set("count", "100");
     if (!options.excludeReplies) url.searchParams.set("with_replies", "1");
     const posts = new Map<string, XPost>();
+    const context = new Map<string, XPost>();
     const cursors = new Set<string>();
     let newestId: string | null = null;
     let latestObservedPost: XPost | null = null;
@@ -118,6 +140,7 @@ export class FxEmbedClient implements PostSource {
         // behind the durable cursor. This keeps source health visible without
         // rewinding sinceId or reprocessing historical posts.
         const post = normalizePost(raw, options.username);
+        context.set(post.id, post);
         if (!latestObservedPost || BigInt(post.id) > BigInt(latestObservedPost.id))
           latestObservedPost = post;
 
@@ -130,7 +153,8 @@ export class FxEmbedClient implements PostSource {
       const next = body.cursor.bottom;
       // Return only after the batch is complete; runMonitor commits atomically.
       if (options.bootstrap || reachedBoundary || !next)
-        return { posts: [...posts.values()], newestId, latestObservedPost };
+        return { posts: [...posts.values()], newestId, latestObservedPost,
+          ...(context.size ? { contextPosts: [...context.values()] } : {}) };
       if (cursors.has(next)) throw new Error("FxEmbed pagination repeated; cursor not advanced");
       cursors.add(next);
       url.searchParams.set("cursor", next);

@@ -1,4 +1,4 @@
-import type { XMedia, XPost } from "./types";
+import type { XPost } from "./types";
 
 type RawUserResponse = {
   data?: { id: string; username: string };
@@ -22,12 +22,13 @@ type RawPost = {
   note_tweet?: { text?: string };
   edit_history_tweet_ids?: string[];
   author_id?: string;
+  referenced_tweets?: { type: string; id: string }[];
 };
 
 type RawPostsResponse = {
   data?: RawPost[];
   errors?: unknown[];
-  includes?: { media?: RawMedia[] };
+  includes?: { media?: RawMedia[]; tweets?: RawPost[] };
   meta?: { newest_id?: string; next_token?: string; result_count?: number };
   detail?: string;
   title?: string;
@@ -38,6 +39,37 @@ export class XClient {
     private readonly bearerToken: string,
     private readonly fetcher: typeof fetch = fetch,
   ) {}
+
+  private normalize(post: RawPost, username: string, userId: string,
+    includes: RawPostsResponse["includes"], depth = 0): XPost {
+    const parent = post.referenced_tweets?.find(r => r.type === "replied_to");
+    const quote = post.referenced_tweets?.find(r => r.type === "quoted");
+    const related = (id: string | undefined) => includes?.tweets?.find(t => t.id === id);
+    const own = (id: string | undefined) => id && (!related(id) || related(id)!.author_id === userId);
+    const media = includes?.media ?? [];
+    return { id: post.id, canonicalId: post.edit_history_tweet_ids?.[0] ?? post.id,
+      text: post.note_tweet?.text || post.text, createdAt: post.created_at ?? null,
+      url: `https://x.com/${username}/status/${post.id}`, authorUsername: username,
+      media: (post.attachments?.media_keys ?? []).flatMap(key => {
+        const item = media.find(m => m.media_key === key);
+        return item ? [{ mediaKey: item.media_key, type: item.type, url: item.url ?? null,
+          previewImageUrl: item.preview_image_url ?? null, altText: item.alt_text ?? null }] : [];
+      }),
+      ...(own(parent?.id) ? { replyToId: parent!.id } : {}),
+      ...(own(quote?.id) ? { quotedPostId: quote!.id,
+        ...(related(quote!.id) && depth < 3 ? { quotedPost: this.normalize(related(quote!.id)!, username, userId, includes, depth + 1) } : {}) } : {}) };
+  }
+
+  async getPost(id: string, username: string, userId: string): Promise<XPost> {
+    if (!/^\d+$/.test(id)) throw new Error("Invalid X reference");
+    const url = new URL(`https://api.x.com/2/tweets/${id}`);
+    url.searchParams.set("tweet.fields", "created_at,text,author_id,note_tweet,referenced_tweets");
+    url.searchParams.set("expansions", "referenced_tweets.id");
+    const body = await this.request<{ data?: RawPost; errors?: unknown[]; includes?: RawPostsResponse["includes"] }>(url);
+    if (body.errors?.length || body.data?.id !== id || body.data.author_id !== userId)
+      throw new Error("X reference missing or author mismatch");
+    return this.normalize(body.data, username, userId, body.includes);
+  }
 
   private async request<T>(url: URL): Promise<T> {
     const response = await this.fetcher(url, {
@@ -80,9 +112,9 @@ export class XClient {
     url.searchParams.set("max_results", "100");
     url.searchParams.set(
       "tweet.fields",
-      "attachments,created_at,note_tweet,text,author_id,edit_history_tweet_ids",
+      "attachments,created_at,note_tweet,text,author_id,edit_history_tweet_ids,referenced_tweets",
     );
-    url.searchParams.set("expansions", "attachments.media_keys");
+    url.searchParams.set("expansions", "attachments.media_keys,referenced_tweets.id");
     url.searchParams.set(
       "media.fields",
       "media_key,type,url,preview_image_url,alt_text",
@@ -104,30 +136,10 @@ export class XClient {
         );
       if (!Array.isArray(body.data) && body.meta?.result_count !== 0)
         throw new Error("Invalid X timeline response");
-      const mediaByKey = new Map<string, XMedia>();
-      for (const item of body.includes?.media ?? []) {
-        mediaByKey.set(item.media_key, {
-          mediaKey: item.media_key,
-          type: item.type,
-          url: item.url ?? null,
-          previewImageUrl: item.preview_image_url ?? null,
-          altText: item.alt_text ?? null,
-        });
-      }
-
       const posts = (body.data ?? [])
         .filter((post) => !post.author_id || post.author_id === options.userId)
         .map(
-          (post): XPost => ({
-            canonicalId: post.edit_history_tweet_ids?.[0] ?? post.id,
-            id: post.id,
-            text: post.note_tweet?.text || post.text,
-            createdAt: post.created_at ?? null,
-            url: `https://x.com/${options.username}/status/${post.id}`,
-            media: (post.attachments?.media_keys ?? [])
-              .map((key) => mediaByKey.get(key))
-              .filter((item): item is XMedia => Boolean(item)),
-          }),
+          (post): XPost => this.normalize(post, options.username, options.userId, body.includes),
         );
 
       for (const post of posts) {

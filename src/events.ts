@@ -10,6 +10,8 @@ export type EventTime = {
   note?: string;
 };
 export type ResetEvent = {
+  rootPostId?: string;
+  sources?: XPost[];
   type: "reset" | "bank_credit" | "bank_expiry" | "mention";
   status: "scheduled" | "completed" | "announced" | "uncertain";
   evidence: string;
@@ -21,7 +23,7 @@ type ResetAssertion = "uncertain" | "completed" | "committed" | "mention";
 const uncertainAssertion =
   /\?|\b(?:wish|hope|maybe|might|could|would|should|unless|if|may|please|not|never|won't|isn't|aren't|can't|cannot|don't|didn't|pending|waiting|failed|failing)\b|\bno\s+(?:schedule|plan|reset|confirmation)\b/i;
 const completedAssertion =
-  /\b(?:have|has|just|already)\s+(?:been\s+)?reset\b|\blimits?\s+(?:are|is|were|was)\s+(?:now\s+)?(?:fully\s+)?reset\b|\ball\s+(?:usage\s+)?reset\b|\breset(?:s|ting)?\b[^.!?]{0,80}\b(?:complete(?:d)?|done|finished|propagated|applied|landed)\b/i;
+  /\b(?:have|has|just|already)\s+(?:been\s+)?reset\b|\blimits?\s+(?:are|is|were|was)\s+(?:now\s+)?(?:fully\s+)?reset\b|\ball\s+(?:usage\s+)?reset\b|\breset(?:s|ting)?\b[^.!?]{0,80}\b(?:complete(?:d)?|done|finished|propagated|applied|landed|processed)\b/i;
 const committedAssertion =
   /\b(?:will|going\s+to|plan(?:ned|ning)?\s+to)\b[^.!?]{0,120}\breset(?:s|ting)?\b|\b(?:scheduled|expected)\b[^.!?]{0,40}\breset(?:s|ting)?\b|\breset(?:s|ting)?\b[^.!?]{0,120}\b(?:will|lands?|landing|scheduled|expected|propagating|rolling\s+out)\b|\bresetting\b|\breset(?:s|ting)?\b\s+(?:in|within|at|around|by|today|tonight|tomorrow)\b/i;
 
@@ -66,6 +68,8 @@ export function parseEventTime(
   const ref = createdAt ? DateTime.fromISO(createdAt, { setZone: true }) : null;
   if (!ref?.isValid || !/(?:Z|[+-]\d{2}:?\d{2})$/i.test(createdAt!))
     return unknown(text, "缺少有效的发帖时间");
+  if (/\bEOD\b/i.test(text))
+    return unknown(text, `原文称当日结束前（${text.match(/\b(?:PST|PDT|PT)\b/i)?.[0] ?? sourceTimezone ?? "未指定时区"}）；未给出准确时刻，不推算精确生效时间`);
   if (
     /\bor\b/i.test(text) ||
     [
@@ -309,7 +313,7 @@ export function extractEvents(
     // Preserve bank behavior: this refactor is intentionally scoped to reset assertions.
     const actionable =
       completed ||
-      /\b(?:will|resetting|now|lands?|landing|credit|credited|adding|added|grant|granted|expire|expires)\b/i.test(
+      /\b(?:will|resetting|now|lands?|landing|loading|loaded|credit|credited|adding|added|grant|granted|expire|expires)\b/i.test(
         clause,
       ) ||
       time.kind !== "unknown";

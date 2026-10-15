@@ -15,15 +15,14 @@ export type XPost = {
   url: string;
   media: XMedia[];
   canonicalId?: string;
+  authorUsername?: string;
+  replyToId?: string;
+  quotedPostId?: string;
+  quotedPost?: XPost;
 };
 
-export type MatchRecord = {
+export type MatchRecord = XPost & {
   version: string;
-  id: string;
-  text: string;
-  createdAt: string | null;
-  url: string;
-  media: XMedia[];
   detectedAt: string;
   events: ResetEvent[];
   notifiedAt?: string;
@@ -39,6 +38,9 @@ export type PendingNotification = {
 };
 
 export type MonitorState = {
+  contextVersion?: number;
+  contextPosts?: Record<string, XPost>;
+  announcementSeen?: Record<string, true>;
   version?: 2;
   eventParserVersion?: number;
   outbox?: PendingNotification[];

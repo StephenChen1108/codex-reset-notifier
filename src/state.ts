@@ -26,6 +26,7 @@ function migrateMatch(match: Record<string, unknown>): MatchRecord {
   const notifiedAt =
     typeof match.notifiedAt === "string" ? match.notifiedAt : undefined;
   return {
+    ...migrateObservedPost(match),
     version:
       typeof match.version === "string"
         ? match.version
@@ -63,6 +64,9 @@ function migrateObservedPost(value: unknown): XPost | null {
   return {
     id: raw.id,
     canonicalId: typeof raw.canonicalId === "string" ? raw.canonicalId : undefined,
+    authorUsername: typeof raw.authorUsername === "string" ? raw.authorUsername : undefined,
+    replyToId: typeof raw.replyToId === "string" && /^\d+$/.test(raw.replyToId) ? raw.replyToId : undefined,
+    quotedPostId: typeof raw.quotedPostId === "string" && /^\d+$/.test(raw.quotedPostId) ? raw.quotedPostId : undefined,
     text: raw.text,
     createdAt: raw.createdAt as string | null,
     url: raw.url,

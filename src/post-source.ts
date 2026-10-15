@@ -11,11 +11,13 @@ export type GetPostsOptions = {
 };
 
 export interface PostSource {
+  getPost?(id: string, username: string, userId: string): Promise<XPost>;
   resolveUserId(username: string): Promise<string>;
   getPosts(options: GetPostsOptions): Promise<{
     posts: XPost[];
     newestId: string | null;
     latestObservedPost?: XPost | null;
+    contextPosts?: XPost[];
   }>;
 }
 

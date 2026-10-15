@@ -4,8 +4,8 @@
   "keyword": "reset",
   "userId": "1953337039510003712",
   "sinceId": "2110624335463584028",
-  "lastCheckedAt": "2026-10-15T07:16:57.783Z",
-  "lastSuccessAt": "2026-10-15T07:16:57.783Z",
+  "lastCheckedAt": "2026-10-15T07:50:47.560Z",
+  "lastSuccessAt": "2026-10-15T07:50:47.560Z",
   "lastRunStatus": "checked-0-posts",
   "postsScanned": 18,
   "matches": [],
@@ -36,7 +36,200 @@
     "text": "@theo Nice. Will fix",
     "createdAt": "2026-10-15T06:50:29.000Z",
     "url": "https://x.com/thsottiaux/status/2110624335463584028",
-    "media": []
+    "media": [],
+    "authorUsername": "thsottiaux"
   },
-  "eventParserVersion": 5
+  "eventParserVersion": 6,
+  "announcementSeen": {
+    "2109812360596865224:reset:preview": true,
+    "2109812360596865224:reset:completed": true,
+    "2110595484180214059:reset:preview": true,
+    "2110595484180214059:reset:completed": true
+  },
+  "contextPosts": {
+    "2109812360596865224": {
+      "id": "2109812360596865224",
+      "canonicalId": "2109812360596865224",
+      "text": "Global reset landing by EOD PST time. Enjoy",
+      "createdAt": "2026-10-13T01:03:59.000Z",
+      "url": "https://x.com/thsottiaux/status/2109812360596865224",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2109832541956194798": {
+      "id": "2109832541956194798",
+      "canonicalId": "2109832541956194798",
+      "text": "@aliansarinik @hark_labs @OpenAI Nice",
+      "createdAt": "2026-10-13T02:24:11.000Z",
+      "url": "https://x.com/thsottiaux/status/2109832541956194798",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2109864370465628584": {
+      "id": "2109864370465628584",
+      "canonicalId": "2109864370465628584",
+      "text": "@theo How much did they pay you",
+      "createdAt": "2026-10-13T04:30:39.000Z",
+      "url": "https://x.com/thsottiaux/status/2109864370465628584",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2109865627628507222": {
+      "id": "2109865627628507222",
+      "canonicalId": "2109865627628507222",
+      "text": "@OfficialLoganK Carrot",
+      "createdAt": "2026-10-13T04:35:39.000Z",
+      "url": "https://x.com/thsottiaux/status/2109865627628507222",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2109873287853707513": {
+      "id": "2109873287853707513",
+      "canonicalId": "2109873287853707513",
+      "text": "What would you like with your side of reset? It's done.",
+      "createdAt": "2026-10-13T05:06:06.000Z",
+      "url": "https://x.com/thsottiaux/status/2109873287853707513",
+      "media": [],
+      "authorUsername": "thsottiaux",
+      "quotedPostId": "2109812360596865224"
+    },
+    "2109873307722121591": {
+      "id": "2109873307722121591",
+      "canonicalId": "2109873307722121591",
+      "text": "Mashed @poteto on the house.",
+      "createdAt": "2026-10-13T05:06:10.000Z",
+      "url": "https://x.com/thsottiaux/status/2109873307722121591",
+      "media": [],
+      "authorUsername": "thsottiaux",
+      "replyToId": "2109873287853707513"
+    },
+    "2109892247580000595": {
+      "id": "2109892247580000595",
+      "canonicalId": "2109892247580000595",
+      "text": "Good plans are simple. I have one that should result in significantly more usage for everyone. Hope to get it done soon.",
+      "createdAt": "2026-10-13T06:21:26.000Z",
+      "url": "https://x.com/thsottiaux/status/2109892247580000595",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2110151780478927344": {
+      "id": "2110151780478927344",
+      "canonicalId": "2110151780478927344",
+      "text": "Day 9/\n\nWe've rolled out optimizations to how we store state on disk for the chatgpt &amp; codex desktop app that should reduce the amount stored on disk by 60%. Small ship but we've heard enough feedback about power users running out of disk space.",
+      "createdAt": "2026-10-13T23:32:43.000Z",
+      "url": "https://x.com/thsottiaux/status/2110151780478927344",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2110152344029778279": {
+      "id": "2110152344029778279",
+      "canonicalId": "2110152344029778279",
+      "text": "@StefanoGPT Legit how I look like. Must have trained on my face data",
+      "createdAt": "2026-10-13T23:34:58.000Z",
+      "url": "https://x.com/thsottiaux/status/2110152344029778279",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2110167061632819447": {
+      "id": "2110167061632819447",
+      "canonicalId": "2110167061632819447",
+      "text": "@argofowl 👁️tibo👁️",
+      "createdAt": "2026-10-14T00:33:27.000Z",
+      "url": "https://x.com/thsottiaux/status/2110167061632819447",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2110188326422819047": {
+      "id": "2110188326422819047",
+      "canonicalId": "2110188326422819047",
+      "text": "@charliermarsh 😅",
+      "createdAt": "2026-10-14T01:57:57.000Z",
+      "url": "https://x.com/thsottiaux/status/2110188326422819047",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2110589470911418414": {
+      "id": "2110589470911418414",
+      "canonicalId": "2110589470911418414",
+      "text": "@theo Sometimes I do need to work",
+      "createdAt": "2026-10-15T04:31:57.000Z",
+      "url": "https://x.com/thsottiaux/status/2110589470911418414",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2110591392691159317": {
+      "id": "2110591392691159317",
+      "canonicalId": "2110591392691159317",
+      "text": "@poteto @theo I made it alive https://t.co/FjnywxZiLC",
+      "createdAt": "2026-10-15T04:39:35.000Z",
+      "url": "https://x.com/thsottiaux/status/2110591392691159317",
+      "media": [
+        {
+          "mediaKey": "2110591377675612160",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUpTrPRbcAAVR5R.jpg?name=orig",
+          "previewImageUrl": null,
+          "altText": null
+        }
+      ],
+      "authorUsername": "thsottiaux"
+    },
+    "2110595484180214059": {
+      "id": "2110595484180214059",
+      "canonicalId": "2110595484180214059",
+      "text": "The reports of my reset button being lost are greatly exaggerated\n\nDay 10/ Reset",
+      "createdAt": "2026-10-15T04:55:51.000Z",
+      "url": "https://x.com/thsottiaux/status/2110595484180214059",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2110595554036400151": {
+      "id": "2110595554036400151",
+      "canonicalId": "2110595554036400151",
+      "text": "Landing within the next 2 hours",
+      "createdAt": "2026-10-15T04:56:07.000Z",
+      "url": "https://x.com/thsottiaux/status/2110595554036400151",
+      "media": [],
+      "authorUsername": "thsottiaux",
+      "replyToId": "2110595484180214059"
+    },
+    "2110595987542868381": {
+      "id": "2110595987542868381",
+      "canonicalId": "2110595987542868381",
+      "text": "@amorriscode @poteto @theo If you’re not a bit afraid of your army, it’s not a good army",
+      "createdAt": "2026-10-15T04:57:51.000Z",
+      "url": "https://x.com/thsottiaux/status/2110595987542868381",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2110612268962779352": {
+      "id": "2110612268962779352",
+      "canonicalId": "2110612268962779352",
+      "text": "@ZryMiller @bot @theo Oh Zach, let’s improve this. You look rad today",
+      "createdAt": "2026-10-15T06:02:32.000Z",
+      "url": "https://x.com/thsottiaux/status/2110612268962779352",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2110618732666257557": {
+      "id": "2110618732666257557",
+      "canonicalId": "2110618732666257557",
+      "text": "Done and dusted",
+      "createdAt": "2026-10-15T06:28:13.000Z",
+      "url": "https://x.com/thsottiaux/status/2110618732666257557",
+      "media": [],
+      "authorUsername": "thsottiaux",
+      "quotedPostId": "2110595554036400151"
+    },
+    "2110624335463584028": {
+      "id": "2110624335463584028",
+      "canonicalId": "2110624335463584028",
+      "text": "@theo Nice. Will fix",
+      "createdAt": "2026-10-15T06:50:29.000Z",
+      "url": "https://x.com/thsottiaux/status/2110624335463584028",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    }
+  },
+  "contextVersion": 1
 }

@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2110868151688912976",
-  "lastCheckedAt": "2026-10-16T01:29:09.769Z",
-  "lastSuccessAt": "2026-10-16T01:29:09.769Z",
-  "lastRunStatus": "checked-0-posts",
-  "postsScanned": 22,
+  "sinceId": "2110971985417441512",
+  "lastCheckedAt": "2026-10-16T06:18:20.525Z",
+  "lastSuccessAt": "2026-10-16T06:18:20.525Z",
+  "lastRunStatus": "checked-3-posts",
+  "postsScanned": 25,
   "matches": [],
   "outbox": [],
   "seen": {
@@ -32,14 +32,17 @@
     "2110750421367287996": "9ab399408adb8eb52756a9a678e0deee64aeb1a7a41f97881af9a56eb96cd563",
     "2110864606088593672": "aa29d9505c89a120101741f8542598b27678e81f2764b469378d7bb205839856",
     "2110864861119045840": "def2299d9b705162add737ee22fbca4e462aa1dbd168d1e4c5c09eef61c713c9",
-    "2110868151688912976": "d0f703759921ebb86fb9b42b879f0e424d9cafa69f4e9f3902432ab3c021a5be"
+    "2110868151688912976": "d0f703759921ebb86fb9b42b879f0e424d9cafa69f4e9f3902432ab3c021a5be",
+    "2110951220508819773": "426982ae1809c8441a67444bd1e377d7d360f7bef01ced722981265758966b2a",
+    "2110951585983631505": "7548d7bae97822dd136be48ff9233498b82a757b3eafd8e0784bb3540589d8d2",
+    "2110971985417441512": "18f651de9935a3e009b2ed6a61e364b0691de4a400d87513ee3be7be30b8500c"
   },
   "latestObservedPost": {
-    "id": "2110868151688912976",
-    "canonicalId": "2110868151688912976",
-    "text": "@_simonsmith Spot on",
-    "createdAt": "2026-10-15T22:59:20.000Z",
-    "url": "https://x.com/thsottiaux/status/2110868151688912976",
+    "id": "2110971985417441512",
+    "canonicalId": "2110971985417441512",
+    "text": "Either we are out of ideas or we are cooking. Time will tell",
+    "createdAt": "2026-10-16T05:51:55.000Z",
+    "url": "https://x.com/thsottiaux/status/2110971985417441512",
     "media": [],
     "authorUsername": "thsottiaux"
   },
@@ -196,7 +199,8 @@
       "createdAt": "2026-10-13T01:03:59.000Z",
       "url": "https://x.com/thsottiaux/status/2109812360596865224",
       "media": [],
-      "authorUsername": "thsottiaux"
+      "authorUsername": "thsottiaux",
+      "replyToId": "2109812216212099456"
     },
     "2109819027912798611": {
       "id": "2109819027912798611",
@@ -442,6 +446,33 @@
       "text": "@_simonsmith Spot on",
       "createdAt": "2026-10-15T22:59:20.000Z",
       "url": "https://x.com/thsottiaux/status/2110868151688912976",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2110951220508819773": {
+      "id": "2110951220508819773",
+      "canonicalId": "2110951220508819773",
+      "text": "@charlierguo ?",
+      "createdAt": "2026-10-16T04:29:25.000Z",
+      "url": "https://x.com/thsottiaux/status/2110951220508819773",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2110951585983631505": {
+      "id": "2110951585983631505",
+      "canonicalId": "2110951585983631505",
+      "text": "@maria_rcks Can’t argue with that, Let’s break the cycle.",
+      "createdAt": "2026-10-16T04:30:52.000Z",
+      "url": "https://x.com/thsottiaux/status/2110951585983631505",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2110971985417441512": {
+      "id": "2110971985417441512",
+      "canonicalId": "2110971985417441512",
+      "text": "Either we are out of ideas or we are cooking. Time will tell",
+      "createdAt": "2026-10-16T05:51:55.000Z",
+      "url": "https://x.com/thsottiaux/status/2110971985417441512",
       "media": [],
       "authorUsername": "thsottiaux"
     }

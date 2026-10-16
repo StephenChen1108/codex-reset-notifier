@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-16T01:29:09.772Z",
+  "updatedAt": "2026-10-16T06:18:20.529Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-10-16T01:29:09.769Z",
-    "lastSuccessAt": "2026-10-16T01:29:09.769Z",
-    "lastRunStatus": "checked-0-posts"
+    "lastCheckedAt": "2026-10-16T06:18:20.525Z",
+    "lastSuccessAt": "2026-10-16T06:18:20.525Z",
+    "lastRunStatus": "checked-3-posts"
   },
   "latestObservedPost": {
-    "id": "2110868151688912976",
-    "text": "@_simonsmith Spot on",
-    "url": "https://x.com/thsottiaux/status/2110868151688912976",
-    "postCreatedAt": "2026-10-15T22:59:20.000Z"
+    "id": "2110971985417441512",
+    "text": "Either we are out of ideas or we are cooking. Time will tell",
+    "url": "https://x.com/thsottiaux/status/2110971985417441512",
+    "postCreatedAt": "2026-10-16T05:51:55.000Z"
   },
   "latest": {
     "reset": null,

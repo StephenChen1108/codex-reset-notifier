@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2111341888322314672",
-  "lastCheckedAt": "2026-10-17T15:57:31.917Z",
-  "lastSuccessAt": "2026-10-17T15:57:31.917Z",
-  "lastRunStatus": "checked-0-posts",
-  "postsScanned": 39,
+  "sinceId": "2111522308666077527",
+  "lastCheckedAt": "2026-10-17T18:23:02.621Z",
+  "lastSuccessAt": "2026-10-17T18:23:02.621Z",
+  "lastRunStatus": "checked-9-posts",
+  "postsScanned": 48,
   "matches": [],
   "outbox": [],
   "seen": {
@@ -49,14 +49,23 @@
     "2111337472349343856": "f52ebbfaae21f307ac2e0227ea2003f4f22c54df7b38cabbf6253eb0a43b5853",
     "2111338115667509490": "616cb939eb104d1682317d5373b11ab56e88cc67a70fba52eee33cbfba0eaf3c",
     "2111339932614861298": "82b1dae819e850b94dcea0128e148c52677f1aa0191579b83462bc0c38d889fb",
-    "2111341888322314672": "d2681eabf4574cce53ac494363055b5dc1f5c0877985cace0da168e8526acd73"
+    "2111341888322314672": "d2681eabf4574cce53ac494363055b5dc1f5c0877985cace0da168e8526acd73",
+    "2111491105120547265": "26773c25c2b35ed67f86af4c0f2e363c32ba29c7edb689aee2c28627ad30fc88",
+    "2111492028177723532": "ee4691b223bce3bdd0e4ca6fd45d1f925b368acff7694542b8a3427fad12d64a",
+    "2111492673890824348": "39697103a29962d0c82d2cdfeaaf3f169356770f892850e6d9e558a2f17d57d7",
+    "2111492738025959922": "1ed88acfd4d66a759bc18976f905409fb7848458dba8c8a3d9ca5e4c5aa9f6f8",
+    "2111493076850229733": "be56a8690a86a95c9eb5f83ddd8a246c079828d4320ede5942fcc152779f9e9c",
+    "2111495392559067199": "9ecb634bd92e9578282dbbc5b78614c3d46e757fc4e81b6e5a78f3821a0c3489",
+    "2111495569806065883": "e3af21cf8ad4f03c93abf616c2b18b90c37e2775b604dc61d5c50ea9e5ce5ebe",
+    "2111519953564368960": "7a901ede6bf23f3b34e824c4367989f5d6e9e3091e3aa0044dd91aa5b76d47e1",
+    "2111522308666077527": "8af3a5a77e4ea528b67b31a77a2d2516c81cbbeb74e9017eb5a2d9850729ad08"
   },
   "latestObservedPost": {
-    "id": "2111341888322314672",
-    "canonicalId": "2111341888322314672",
-    "text": "@steipete 💀",
-    "createdAt": "2026-10-17T06:21:47.000Z",
-    "url": "https://x.com/thsottiaux/status/2111341888322314672",
+    "id": "2111522308666077527",
+    "canonicalId": "2111522308666077527",
+    "text": "@jkeatn Let’s pump those numbers up",
+    "createdAt": "2026-10-17T18:18:43.000Z",
+    "url": "https://x.com/thsottiaux/status/2111522308666077527",
     "media": [],
     "authorUsername": "thsottiaux"
   },
@@ -631,6 +640,96 @@
       "text": "@steipete 💀",
       "createdAt": "2026-10-17T06:21:47.000Z",
       "url": "https://x.com/thsottiaux/status/2111341888322314672",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2111491105120547265": {
+      "id": "2111491105120547265",
+      "canonicalId": "2111491105120547265",
+      "text": "@poteto Close, but it's missing the gpt",
+      "createdAt": "2026-10-17T16:14:43.000Z",
+      "url": "https://x.com/thsottiaux/status/2111491105120547265",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2111492028177723532": {
+      "id": "2111492028177723532",
+      "canonicalId": "2111492028177723532",
+      "text": "Is it just me or was @ajambrosino nerfed today",
+      "createdAt": "2026-10-17T16:18:23.000Z",
+      "url": "https://x.com/thsottiaux/status/2111492028177723532",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2111492673890824348": {
+      "id": "2111492673890824348",
+      "canonicalId": "2111492673890824348",
+      "text": "Day 13/ Le limit reset https://t.co/zXd2DIH5xf",
+      "createdAt": "2026-10-17T16:20:57.000Z",
+      "url": "https://x.com/thsottiaux/status/2111492673890824348",
+      "media": [
+        {
+          "mediaKey": "2111492634128920576",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HU2HXRMbsAAqviR.jpg?name=orig",
+          "previewImageUrl": null,
+          "altText": null
+        }
+      ],
+      "authorUsername": "thsottiaux"
+    },
+    "2111492738025959922": {
+      "id": "2111492738025959922",
+      "canonicalId": "2111492738025959922",
+      "text": "Landing sometime today by EOD PST",
+      "createdAt": "2026-10-17T16:21:13.000Z",
+      "url": "https://x.com/thsottiaux/status/2111492738025959922",
+      "media": [],
+      "authorUsername": "thsottiaux",
+      "replyToId": "2111492673890824348"
+    },
+    "2111493076850229733": {
+      "id": "2111493076850229733",
+      "canonicalId": "2111493076850229733",
+      "text": "@ajambrosino 2+2?",
+      "createdAt": "2026-10-17T16:22:33.000Z",
+      "url": "https://x.com/thsottiaux/status/2111493076850229733",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2111495392559067199": {
+      "id": "2111495392559067199",
+      "canonicalId": "2111495392559067199",
+      "text": "My work dot \"Burger\" coordinated with my personal dot \"Dorito\" over email at my personal dots request to get documents, which then coordinated with with my CPA in order to file some tax stuff. Took 20 minutes. We're still so early.",
+      "createdAt": "2026-10-17T16:31:45.000Z",
+      "url": "https://x.com/thsottiaux/status/2111495392559067199",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2111495569806065883": {
+      "id": "2111495569806065883",
+      "canonicalId": "2111495569806065883",
+      "text": "@ajambrosino @ah20im start a ghost in the machine tactical squad, we've got a degradation",
+      "createdAt": "2026-10-17T16:32:28.000Z",
+      "url": "https://x.com/thsottiaux/status/2111495569806065883",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2111519953564368960": {
+      "id": "2111519953564368960",
+      "canonicalId": "2111519953564368960",
+      "text": "@charliermarsh @ajambrosino Checks out, he was half his usual size today",
+      "createdAt": "2026-10-17T18:09:21.000Z",
+      "url": "https://x.com/thsottiaux/status/2111519953564368960",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2111522308666077527": {
+      "id": "2111522308666077527",
+      "canonicalId": "2111522308666077527",
+      "text": "@jkeatn Let’s pump those numbers up",
+      "createdAt": "2026-10-17T18:18:43.000Z",
+      "url": "https://x.com/thsottiaux/status/2111522308666077527",
       "media": [],
       "authorUsername": "thsottiaux"
     }

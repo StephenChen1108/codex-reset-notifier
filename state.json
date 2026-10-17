@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2111249810502353152",
-  "lastCheckedAt": "2026-10-17T04:47:48.942Z",
-  "lastSuccessAt": "2026-10-17T04:47:48.942Z",
-  "lastRunStatus": "checked-0-posts",
-  "postsScanned": 33,
+  "sinceId": "2111341888322314672",
+  "lastCheckedAt": "2026-10-17T08:52:45.427Z",
+  "lastSuccessAt": "2026-10-17T08:52:45.427Z",
+  "lastRunStatus": "checked-6-posts",
+  "postsScanned": 39,
   "matches": [],
   "outbox": [],
   "seen": {
@@ -43,17 +43,22 @@
     "2111245772645896573": "582f5f59af613a51a4823d9e8a3426a1fb936c34191ef10bcdb5ffbcaf5d1abe",
     "2111246098207813946": "97e39979c6f80ae33e79c33a2dee82e978e348a788c192779a35ef0181b3bcb4",
     "2111249534072529256": "9e9e2e739dde85b7186c93e33f5cc5bb14e297e69817fa0df2521ecad6769a32",
-    "2111249810502353152": "8e0ee7901b614f98561afb80cfdcb381799eab3128dd1f4a31dfa4a2a10ae59e"
+    "2111249810502353152": "8e0ee7901b614f98561afb80cfdcb381799eab3128dd1f4a31dfa4a2a10ae59e",
+    "2111323620471632217": "24802e6a2f67ba0bf1b55842e2f57995f55efff9ec8c7f026dda0a632779e248",
+    "2111336070248026489": "a59c70cf725d2c5946bce38e440813be8c5ff2a26b93a600559c2904e0d75329",
+    "2111337472349343856": "f52ebbfaae21f307ac2e0227ea2003f4f22c54df7b38cabbf6253eb0a43b5853",
+    "2111338115667509490": "616cb939eb104d1682317d5373b11ab56e88cc67a70fba52eee33cbfba0eaf3c",
+    "2111339932614861298": "82b1dae819e850b94dcea0128e148c52677f1aa0191579b83462bc0c38d889fb",
+    "2111341888322314672": "d2681eabf4574cce53ac494363055b5dc1f5c0877985cace0da168e8526acd73"
   },
   "latestObservedPost": {
-    "id": "2111249810502353152",
-    "canonicalId": "2111249810502353152",
-    "text": "Also we just added slides support yesterday, try it out. Currently available in Pro, Business and Enterprise while we learn from your feedback.",
-    "createdAt": "2026-10-17T00:15:54.000Z",
-    "url": "https://x.com/thsottiaux/status/2111249810502353152",
+    "id": "2111341888322314672",
+    "canonicalId": "2111341888322314672",
+    "text": "@steipete 💀",
+    "createdAt": "2026-10-17T06:21:47.000Z",
+    "url": "https://x.com/thsottiaux/status/2111341888322314672",
     "media": [],
-    "authorUsername": "thsottiaux",
-    "replyToId": "2111249534072529256"
+    "authorUsername": "thsottiaux"
   },
   "eventParserVersion": 6,
   "announcementSeen": {
@@ -208,8 +213,7 @@
       "createdAt": "2026-10-13T01:03:59.000Z",
       "url": "https://x.com/thsottiaux/status/2109812360596865224",
       "media": [],
-      "authorUsername": "thsottiaux",
-      "replyToId": "2109812216212099456"
+      "authorUsername": "thsottiaux"
     },
     "2109819027912798611": {
       "id": "2109819027912798611",
@@ -381,7 +385,8 @@
       "createdAt": "2026-10-15T04:56:07.000Z",
       "url": "https://x.com/thsottiaux/status/2110595554036400151",
       "media": [],
-      "authorUsername": "thsottiaux"
+      "authorUsername": "thsottiaux",
+      "replyToId": "2110595484180214059"
     },
     "2110595987542868381": {
       "id": "2110595987542868381",
@@ -566,6 +571,68 @@
       "media": [],
       "authorUsername": "thsottiaux",
       "replyToId": "2111249534072529256"
+    },
+    "2111323620471632217": {
+      "id": "2111323620471632217",
+      "canonicalId": "2111323620471632217",
+      "text": "@StefanoGPT @OpenAI https://t.co/Qyskzehl84",
+      "createdAt": "2026-10-17T05:09:12.000Z",
+      "url": "https://x.com/thsottiaux/status/2111323620471632217",
+      "media": [
+        {
+          "mediaKey": "2111323606030725120",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUztoidbsAARrGF.jpg?name=orig",
+          "previewImageUrl": null,
+          "altText": null
+        }
+      ],
+      "authorUsername": "thsottiaux"
+    },
+    "2111336070248026489": {
+      "id": "2111336070248026489",
+      "canonicalId": "2111336070248026489",
+      "text": "@_simonsmith Getting there",
+      "createdAt": "2026-10-17T05:58:40.000Z",
+      "url": "https://x.com/thsottiaux/status/2111336070248026489",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2111337472349343856": {
+      "id": "2111337472349343856",
+      "canonicalId": "2111337472349343856",
+      "text": "@poteto @bot Small @poteto speaks big facts",
+      "createdAt": "2026-10-17T06:04:14.000Z",
+      "url": "https://x.com/thsottiaux/status/2111337472349343856",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2111338115667509490": {
+      "id": "2111338115667509490",
+      "canonicalId": "2111338115667509490",
+      "text": "@steipete is locked in",
+      "createdAt": "2026-10-17T06:06:48.000Z",
+      "url": "https://x.com/thsottiaux/status/2111338115667509490",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2111339932614861298": {
+      "id": "2111339932614861298",
+      "canonicalId": "2111339932614861298",
+      "text": "@ai_funss Working on two of these",
+      "createdAt": "2026-10-17T06:14:01.000Z",
+      "url": "https://x.com/thsottiaux/status/2111339932614861298",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2111341888322314672": {
+      "id": "2111341888322314672",
+      "canonicalId": "2111341888322314672",
+      "text": "@steipete 💀",
+      "createdAt": "2026-10-17T06:21:47.000Z",
+      "url": "https://x.com/thsottiaux/status/2111341888322314672",
+      "media": [],
+      "authorUsername": "thsottiaux"
     }
   },
   "contextVersion": 1

@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2111523665817047359",
-  "lastCheckedAt": "2026-10-17T20:48:18.469Z",
-  "lastSuccessAt": "2026-10-17T20:48:18.469Z",
+  "sinceId": "2111583927156760690",
+  "lastCheckedAt": "2026-10-17T22:43:26.664Z",
+  "lastSuccessAt": "2026-10-17T22:43:26.664Z",
   "lastRunStatus": "checked-2-posts",
-  "postsScanned": 50,
+  "postsScanned": 52,
   "matches": [],
   "outbox": [],
   "seen": {
@@ -60,14 +60,16 @@
     "2111519953564368960": "7a901ede6bf23f3b34e824c4367989f5d6e9e3091e3aa0044dd91aa5b76d47e1",
     "2111522308666077527": "8af3a5a77e4ea528b67b31a77a2d2516c81cbbeb74e9017eb5a2d9850729ad08",
     "2111523462372372942": "73086ce52d13dd10922257a2d876e906765e756e5ded47ecc14726a0fd9252b1",
-    "2111523665817047359": "9031dd49c146b84a7852da204b66db81d7208655b84fe4fcfafdcdaa5063b76b"
+    "2111523665817047359": "9031dd49c146b84a7852da204b66db81d7208655b84fe4fcfafdcdaa5063b76b",
+    "2111566005684289735": "662492203a07fa50cee8c75513f204eb0198c9cc079c6fa486f3c9443b32aab5",
+    "2111583927156760690": "a8bd68d5cb406c9d31c31480d73fdcdbe1fb6c4964c7d1f2c209198ee06db4fb"
   },
   "latestObservedPost": {
-    "id": "2111523665817047359",
-    "canonicalId": "2111523665817047359",
-    "text": "@ajambrosino @petergyang @amorriscode 🍺👌",
-    "createdAt": "2026-10-17T18:24:06.000Z",
-    "url": "https://x.com/thsottiaux/status/2111523665817047359",
+    "id": "2111583927156760690",
+    "canonicalId": "2111583927156760690",
+    "text": "@ananyairl Pot committed",
+    "createdAt": "2026-10-17T22:23:34.000Z",
+    "url": "https://x.com/thsottiaux/status/2111583927156760690",
     "media": [],
     "authorUsername": "thsottiaux"
   },
@@ -750,6 +752,24 @@
       "text": "@ajambrosino @petergyang @amorriscode 🍺👌",
       "createdAt": "2026-10-17T18:24:06.000Z",
       "url": "https://x.com/thsottiaux/status/2111523665817047359",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2111566005684289735": {
+      "id": "2111566005684289735",
+      "canonicalId": "2111566005684289735",
+      "text": "Done",
+      "createdAt": "2026-10-17T21:12:21.000Z",
+      "url": "https://x.com/thsottiaux/status/2111566005684289735",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2111583927156760690": {
+      "id": "2111583927156760690",
+      "canonicalId": "2111583927156760690",
+      "text": "@ananyairl Pot committed",
+      "createdAt": "2026-10-17T22:23:34.000Z",
+      "url": "https://x.com/thsottiaux/status/2111583927156760690",
       "media": [],
       "authorUsername": "thsottiaux"
     }

@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2111522308666077527",
-  "lastCheckedAt": "2026-10-17T18:23:02.621Z",
-  "lastSuccessAt": "2026-10-17T18:23:02.621Z",
-  "lastRunStatus": "checked-9-posts",
-  "postsScanned": 48,
+  "sinceId": "2111523665817047359",
+  "lastCheckedAt": "2026-10-17T20:48:18.469Z",
+  "lastSuccessAt": "2026-10-17T20:48:18.469Z",
+  "lastRunStatus": "checked-2-posts",
+  "postsScanned": 50,
   "matches": [],
   "outbox": [],
   "seen": {
@@ -58,14 +58,16 @@
     "2111495392559067199": "9ecb634bd92e9578282dbbc5b78614c3d46e757fc4e81b6e5a78f3821a0c3489",
     "2111495569806065883": "e3af21cf8ad4f03c93abf616c2b18b90c37e2775b604dc61d5c50ea9e5ce5ebe",
     "2111519953564368960": "7a901ede6bf23f3b34e824c4367989f5d6e9e3091e3aa0044dd91aa5b76d47e1",
-    "2111522308666077527": "8af3a5a77e4ea528b67b31a77a2d2516c81cbbeb74e9017eb5a2d9850729ad08"
+    "2111522308666077527": "8af3a5a77e4ea528b67b31a77a2d2516c81cbbeb74e9017eb5a2d9850729ad08",
+    "2111523462372372942": "73086ce52d13dd10922257a2d876e906765e756e5ded47ecc14726a0fd9252b1",
+    "2111523665817047359": "9031dd49c146b84a7852da204b66db81d7208655b84fe4fcfafdcdaa5063b76b"
   },
   "latestObservedPost": {
-    "id": "2111522308666077527",
-    "canonicalId": "2111522308666077527",
-    "text": "@jkeatn Let’s pump those numbers up",
-    "createdAt": "2026-10-17T18:18:43.000Z",
-    "url": "https://x.com/thsottiaux/status/2111522308666077527",
+    "id": "2111523665817047359",
+    "canonicalId": "2111523665817047359",
+    "text": "@ajambrosino @petergyang @amorriscode 🍺👌",
+    "createdAt": "2026-10-17T18:24:06.000Z",
+    "url": "https://x.com/thsottiaux/status/2111523665817047359",
     "media": [],
     "authorUsername": "thsottiaux"
   },
@@ -730,6 +732,24 @@
       "text": "@jkeatn Let’s pump those numbers up",
       "createdAt": "2026-10-17T18:18:43.000Z",
       "url": "https://x.com/thsottiaux/status/2111522308666077527",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2111523462372372942": {
+      "id": "2111523462372372942",
+      "canonicalId": "2111523462372372942",
+      "text": "@gabrielchua Bit blurry",
+      "createdAt": "2026-10-17T18:23:18.000Z",
+      "url": "https://x.com/thsottiaux/status/2111523462372372942",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2111523665817047359": {
+      "id": "2111523665817047359",
+      "canonicalId": "2111523665817047359",
+      "text": "@ajambrosino @petergyang @amorriscode 🍺👌",
+      "createdAt": "2026-10-17T18:24:06.000Z",
+      "url": "https://x.com/thsottiaux/status/2111523665817047359",
       "media": [],
       "authorUsername": "thsottiaux"
     }

@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2110971985417441512",
-  "lastCheckedAt": "2026-10-16T22:01:37.442Z",
-  "lastSuccessAt": "2026-10-16T22:01:37.442Z",
-  "lastRunStatus": "checked-0-posts",
-  "postsScanned": 25,
+  "sinceId": "2111249810502353152",
+  "lastCheckedAt": "2026-10-17T00:22:27.316Z",
+  "lastSuccessAt": "2026-10-17T00:22:27.316Z",
+  "lastRunStatus": "checked-8-posts",
+  "postsScanned": 33,
   "matches": [],
   "outbox": [],
   "seen": {
@@ -35,16 +35,25 @@
     "2110868151688912976": "d0f703759921ebb86fb9b42b879f0e424d9cafa69f4e9f3902432ab3c021a5be",
     "2110951220508819773": "426982ae1809c8441a67444bd1e377d7d360f7bef01ced722981265758966b2a",
     "2110951585983631505": "7548d7bae97822dd136be48ff9233498b82a757b3eafd8e0784bb3540589d8d2",
-    "2110971985417441512": "18f651de9935a3e009b2ed6a61e364b0691de4a400d87513ee3be7be30b8500c"
+    "2110971985417441512": "18f651de9935a3e009b2ed6a61e364b0691de4a400d87513ee3be7be30b8500c",
+    "2111244596131111253": "8ba50e859e93cdb74d3fe1ffa1efe553781dd7060ab036fe90d25230a9957eef",
+    "2111244957851984181": "e83b1aca94c21fdf44d24f3bd75706768150a32ee76fea28eb6a7bb9c2ac7128",
+    "2111245052513259606": "e9d8d26e56875f453bd984a4fe16f0660194cb3ba5683cfcca1d5c6368e654d7",
+    "2111245443917385980": "fd5d531faa999a0404f669d71e2118bea98db1645575f464d0f9ae7ac19e71f5",
+    "2111245772645896573": "582f5f59af613a51a4823d9e8a3426a1fb936c34191ef10bcdb5ffbcaf5d1abe",
+    "2111246098207813946": "97e39979c6f80ae33e79c33a2dee82e978e348a788c192779a35ef0181b3bcb4",
+    "2111249534072529256": "9e9e2e739dde85b7186c93e33f5cc5bb14e297e69817fa0df2521ecad6769a32",
+    "2111249810502353152": "8e0ee7901b614f98561afb80cfdcb381799eab3128dd1f4a31dfa4a2a10ae59e"
   },
   "latestObservedPost": {
-    "id": "2110971985417441512",
-    "canonicalId": "2110971985417441512",
-    "text": "Either we are out of ideas or we are cooking. Time will tell",
-    "createdAt": "2026-10-16T05:51:55.000Z",
-    "url": "https://x.com/thsottiaux/status/2110971985417441512",
+    "id": "2111249810502353152",
+    "canonicalId": "2111249810502353152",
+    "text": "Also we just added slides support yesterday, try it out. Currently available in Pro, Business and Enterprise while we learn from your feedback.",
+    "createdAt": "2026-10-17T00:15:54.000Z",
+    "url": "https://x.com/thsottiaux/status/2111249810502353152",
     "media": [],
-    "authorUsername": "thsottiaux"
+    "authorUsername": "thsottiaux",
+    "replyToId": "2111249534072529256"
   },
   "eventParserVersion": 6,
   "announcementSeen": {
@@ -475,6 +484,89 @@
       "url": "https://x.com/thsottiaux/status/2110971985417441512",
       "media": [],
       "authorUsername": "thsottiaux"
+    },
+    "2111244596131111253": {
+      "id": "2111244596131111253",
+      "canonicalId": "2111244596131111253",
+      "text": "Day 12/\n\nWe’ve made improvements to Codex &amp; Work that increase the effective usage you get. We achieved this by reusing context across subagents, keeping context cached longer, and improved request routing that allows us to increase cache hits.",
+      "createdAt": "2026-10-16T23:55:11.000Z",
+      "url": "https://x.com/thsottiaux/status/2111244596131111253",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2111244957851984181": {
+      "id": "2111244957851984181",
+      "canonicalId": "2111244957851984181",
+      "text": "We also significantly improved GPT-6 Pro for all pro users\n\nhttps://t.co/XE28U4S359",
+      "createdAt": "2026-10-16T23:56:37.000Z",
+      "url": "https://x.com/thsottiaux/status/2111244957851984181",
+      "media": [],
+      "authorUsername": "thsottiaux",
+      "replyToId": "2111244596131111253"
+    },
+    "2111245052513259606": {
+      "id": "2111245052513259606",
+      "canonicalId": "2111245052513259606",
+      "text": "And update your app to enjoy this gem\n\nhttps://t.co/oMWhw3ETZ6",
+      "createdAt": "2026-10-16T23:57:00.000Z",
+      "url": "https://x.com/thsottiaux/status/2111245052513259606",
+      "media": [],
+      "authorUsername": "thsottiaux",
+      "replyToId": "2111244596131111253"
+    },
+    "2111245443917385980": {
+      "id": "2111245443917385980",
+      "canonicalId": "2111245443917385980",
+      "text": "@koltregaskes Thanks Kol!",
+      "createdAt": "2026-10-16T23:58:33.000Z",
+      "url": "https://x.com/thsottiaux/status/2111245443917385980",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2111245772645896573": {
+      "id": "2111245772645896573",
+      "canonicalId": "2111245772645896573",
+      "text": "@theo How many packs do you smoke per day?",
+      "createdAt": "2026-10-16T23:59:51.000Z",
+      "url": "https://x.com/thsottiaux/status/2111245772645896573",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2111246098207813946": {
+      "id": "2111246098207813946",
+      "canonicalId": "2111246098207813946",
+      "text": "@codex_resets Mehga ghud",
+      "createdAt": "2026-10-17T00:01:09.000Z",
+      "url": "https://x.com/thsottiaux/status/2111246098207813946",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2111249534072529256": {
+      "id": "2111249534072529256",
+      "canonicalId": "2111249534072529256",
+      "text": "What is ChatGPT Space, that is the question. Endearingly awkward at times because it's the actual team working on it. What would you like to see next? https://t.co/CYjAOAlCpR",
+      "createdAt": "2026-10-17T00:14:48.000Z",
+      "url": "https://x.com/thsottiaux/status/2111249534072529256",
+      "media": [
+        {
+          "mediaKey": "2111248450419605504",
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2111248450419605504/vid/avc1/1920x1080/qkGkwhzhuvVfKtYO.mp4?tag=29",
+          "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2111248450419605504/img/waf1nIBlUAZdbXKv.jpg",
+          "altText": null
+        }
+      ],
+      "authorUsername": "thsottiaux"
+    },
+    "2111249810502353152": {
+      "id": "2111249810502353152",
+      "canonicalId": "2111249810502353152",
+      "text": "Also we just added slides support yesterday, try it out. Currently available in Pro, Business and Enterprise while we learn from your feedback.",
+      "createdAt": "2026-10-17T00:15:54.000Z",
+      "url": "https://x.com/thsottiaux/status/2111249810502353152",
+      "media": [],
+      "authorUsername": "thsottiaux",
+      "replyToId": "2111249534072529256"
     }
   },
   "contextVersion": 1

@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-16T22:01:37.446Z",
+  "updatedAt": "2026-10-17T00:22:27.319Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-10-16T22:01:37.442Z",
-    "lastSuccessAt": "2026-10-16T22:01:37.442Z",
-    "lastRunStatus": "checked-0-posts"
+    "lastCheckedAt": "2026-10-17T00:22:27.316Z",
+    "lastSuccessAt": "2026-10-17T00:22:27.316Z",
+    "lastRunStatus": "checked-8-posts"
   },
   "latestObservedPost": {
-    "id": "2110971985417441512",
-    "text": "Either we are out of ideas or we are cooking. Time will tell",
-    "url": "https://x.com/thsottiaux/status/2110971985417441512",
-    "postCreatedAt": "2026-10-16T05:51:55.000Z"
+    "id": "2111249810502353152",
+    "text": "Also we just added slides support yesterday, try it out. Currently available in Pro, Business and Enterprise while we learn from your feedback.",
+    "url": "https://x.com/thsottiaux/status/2111249810502353152",
+    "postCreatedAt": "2026-10-17T00:15:54.000Z"
   },
   "latest": {
     "reset": null,

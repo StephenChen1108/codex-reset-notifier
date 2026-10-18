@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-18T04:59:53.013Z",
+  "updatedAt": "2026-10-18T09:28:52.533Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-10-18T04:59:53.009Z",
-    "lastSuccessAt": "2026-10-18T04:59:53.009Z",
-    "lastRunStatus": "checked-0-posts"
+    "lastCheckedAt": "2026-10-18T09:28:52.524Z",
+    "lastSuccessAt": "2026-10-18T09:28:52.524Z",
+    "lastRunStatus": "checked-1-posts"
   },
   "latestObservedPost": {
-    "id": "2111583927156760690",
-    "text": "@ananyairl Pot committed",
-    "url": "https://x.com/thsottiaux/status/2111583927156760690",
-    "postCreatedAt": "2026-10-17T22:23:34.000Z"
+    "id": "2111687989328011357",
+    "text": "@rl_env Quick to jump to conclusion. This is my OpenAI work dot coordinating with my personal dot. Two entirely separate accounts.",
+    "url": "https://x.com/thsottiaux/status/2111687989328011357",
+    "postCreatedAt": "2026-10-18T05:17:04.000Z"
   },
   "latest": {
     "reset": null,

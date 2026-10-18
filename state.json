@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2111583927156760690",
-  "lastCheckedAt": "2026-10-18T04:59:53.009Z",
-  "lastSuccessAt": "2026-10-18T04:59:53.009Z",
-  "lastRunStatus": "checked-0-posts",
-  "postsScanned": 52,
+  "sinceId": "2111687989328011357",
+  "lastCheckedAt": "2026-10-18T09:28:52.524Z",
+  "lastSuccessAt": "2026-10-18T09:28:52.524Z",
+  "lastRunStatus": "checked-1-posts",
+  "postsScanned": 53,
   "matches": [],
   "outbox": [],
   "seen": {
@@ -62,14 +62,15 @@
     "2111523462372372942": "73086ce52d13dd10922257a2d876e906765e756e5ded47ecc14726a0fd9252b1",
     "2111523665817047359": "9031dd49c146b84a7852da204b66db81d7208655b84fe4fcfafdcdaa5063b76b",
     "2111566005684289735": "662492203a07fa50cee8c75513f204eb0198c9cc079c6fa486f3c9443b32aab5",
-    "2111583927156760690": "a8bd68d5cb406c9d31c31480d73fdcdbe1fb6c4964c7d1f2c209198ee06db4fb"
+    "2111583927156760690": "a8bd68d5cb406c9d31c31480d73fdcdbe1fb6c4964c7d1f2c209198ee06db4fb",
+    "2111687989328011357": "882386b897990d20e3ff22181637a13aa8b273552318504bfa4dce5004f2c6de"
   },
   "latestObservedPost": {
-    "id": "2111583927156760690",
-    "canonicalId": "2111583927156760690",
-    "text": "@ananyairl Pot committed",
-    "createdAt": "2026-10-17T22:23:34.000Z",
-    "url": "https://x.com/thsottiaux/status/2111583927156760690",
+    "id": "2111687989328011357",
+    "canonicalId": "2111687989328011357",
+    "text": "@rl_env Quick to jump to conclusion. This is my OpenAI work dot coordinating with my personal dot. Two entirely separate accounts.",
+    "createdAt": "2026-10-18T05:17:04.000Z",
+    "url": "https://x.com/thsottiaux/status/2111687989328011357",
     "media": [],
     "authorUsername": "thsottiaux"
   },
@@ -398,8 +399,7 @@
       "createdAt": "2026-10-15T04:56:07.000Z",
       "url": "https://x.com/thsottiaux/status/2110595554036400151",
       "media": [],
-      "authorUsername": "thsottiaux",
-      "replyToId": "2110595484180214059"
+      "authorUsername": "thsottiaux"
     },
     "2110595987542868381": {
       "id": "2110595987542868381",
@@ -770,6 +770,15 @@
       "text": "@ananyairl Pot committed",
       "createdAt": "2026-10-17T22:23:34.000Z",
       "url": "https://x.com/thsottiaux/status/2111583927156760690",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2111687989328011357": {
+      "id": "2111687989328011357",
+      "canonicalId": "2111687989328011357",
+      "text": "@rl_env Quick to jump to conclusion. This is my OpenAI work dot coordinating with my personal dot. Two entirely separate accounts.",
+      "createdAt": "2026-10-18T05:17:04.000Z",
+      "url": "https://x.com/thsottiaux/status/2111687989328011357",
       "media": [],
       "authorUsername": "thsottiaux"
     }

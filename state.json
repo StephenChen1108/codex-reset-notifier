@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2111849858374177222",
-  "lastCheckedAt": "2026-10-18T19:03:38.436Z",
-  "lastSuccessAt": "2026-10-18T19:03:38.436Z",
-  "lastRunStatus": "checked-0-posts",
-  "postsScanned": 55,
+  "sinceId": "2111918768733753664",
+  "lastCheckedAt": "2026-10-18T21:27:44.496Z",
+  "lastSuccessAt": "2026-10-18T21:27:44.496Z",
+  "lastRunStatus": "checked-2-posts",
+  "postsScanned": 57,
   "matches": [],
   "outbox": [],
   "seen": {
@@ -65,14 +65,16 @@
     "2111583927156760690": "a8bd68d5cb406c9d31c31480d73fdcdbe1fb6c4964c7d1f2c209198ee06db4fb",
     "2111687989328011357": "882386b897990d20e3ff22181637a13aa8b273552318504bfa4dce5004f2c6de",
     "2111832959842161136": "9fb2b75f1050510272022d5802c4b077e29e189949faf137937f7998786e2310",
-    "2111849858374177222": "08a4c29a8b6f58c56bfe084be81b128ca6957337bb8cb4d4207eb4ca4062c74a"
+    "2111849858374177222": "08a4c29a8b6f58c56bfe084be81b128ca6957337bb8cb4d4207eb4ca4062c74a",
+    "2111918635849801739": "5de74bed76286972541eb1f7676ead6096a46e1d22532eb68658d32ba0a38edc",
+    "2111918768733753664": "f7a9422b6a050344dbc8758d9fc575a4cb52ebca200291e6ef9bbe222fe2119d"
   },
   "latestObservedPost": {
-    "id": "2111849858374177222",
-    "canonicalId": "2111849858374177222",
-    "text": "What’s cooking today",
-    "createdAt": "2026-10-18T16:00:17.000Z",
-    "url": "https://x.com/thsottiaux/status/2111849858374177222",
+    "id": "2111918768733753664",
+    "canonicalId": "2111918768733753664",
+    "text": "People have escaped the TL and are asking me for resets on the street now. I’ll make little cards to hand out",
+    "createdAt": "2026-10-18T20:34:06.000Z",
+    "url": "https://x.com/thsottiaux/status/2111918768733753664",
     "media": [],
     "authorUsername": "thsottiaux"
   },
@@ -799,6 +801,24 @@
       "text": "What’s cooking today",
       "createdAt": "2026-10-18T16:00:17.000Z",
       "url": "https://x.com/thsottiaux/status/2111849858374177222",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2111918635849801739": {
+      "id": "2111918635849801739",
+      "canonicalId": "2111918635849801739",
+      "text": "@littlelion_love We’ll see",
+      "createdAt": "2026-10-18T20:33:34.000Z",
+      "url": "https://x.com/thsottiaux/status/2111918635849801739",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2111918768733753664": {
+      "id": "2111918768733753664",
+      "canonicalId": "2111918768733753664",
+      "text": "People have escaped the TL and are asking me for resets on the street now. I’ll make little cards to hand out",
+      "createdAt": "2026-10-18T20:34:06.000Z",
+      "url": "https://x.com/thsottiaux/status/2111918768733753664",
       "media": [],
       "authorUsername": "thsottiaux"
     }

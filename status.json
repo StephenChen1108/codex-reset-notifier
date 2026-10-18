@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-18T19:03:38.438Z",
+  "updatedAt": "2026-10-18T21:27:44.501Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-10-18T19:03:38.436Z",
-    "lastSuccessAt": "2026-10-18T19:03:38.436Z",
-    "lastRunStatus": "checked-0-posts"
+    "lastCheckedAt": "2026-10-18T21:27:44.496Z",
+    "lastSuccessAt": "2026-10-18T21:27:44.496Z",
+    "lastRunStatus": "checked-2-posts"
   },
   "latestObservedPost": {
-    "id": "2111849858374177222",
-    "text": "What’s cooking today",
-    "url": "https://x.com/thsottiaux/status/2111849858374177222",
-    "postCreatedAt": "2026-10-18T16:00:17.000Z"
+    "id": "2111918768733753664",
+    "text": "People have escaped the TL and are asking me for resets on the street now. I’ll make little cards to hand out",
+    "url": "https://x.com/thsottiaux/status/2111918768733753664",
+    "postCreatedAt": "2026-10-18T20:34:06.000Z"
   },
   "latest": {
     "reset": null,

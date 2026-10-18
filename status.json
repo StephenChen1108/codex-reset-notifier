@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-18T21:27:44.501Z",
+  "updatedAt": "2026-10-18T23:35:07.769Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-10-18T21:27:44.496Z",
-    "lastSuccessAt": "2026-10-18T21:27:44.496Z",
+    "lastCheckedAt": "2026-10-18T23:35:07.709Z",
+    "lastSuccessAt": "2026-10-18T23:35:07.709Z",
     "lastRunStatus": "checked-2-posts"
   },
   "latestObservedPost": {
-    "id": "2111918768733753664",
-    "text": "People have escaped the TL and are asking me for resets on the street now. I’ll make little cards to hand out",
-    "url": "https://x.com/thsottiaux/status/2111918768733753664",
-    "postCreatedAt": "2026-10-18T20:34:06.000Z"
+    "id": "2111945355596353823",
+    "text": "@theo Journalism with additional Theo steps",
+    "url": "https://x.com/thsottiaux/status/2111945355596353823",
+    "postCreatedAt": "2026-10-18T22:19:45.000Z"
   },
   "latest": {
     "reset": null,

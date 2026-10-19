@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-19T14:23:38.343Z",
+  "updatedAt": "2026-10-19T20:04:57.635Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-10-19T14:23:38.339Z",
-    "lastSuccessAt": "2026-10-19T14:23:38.339Z",
-    "lastRunStatus": "checked-0-posts"
+    "lastCheckedAt": "2026-10-19T20:04:57.630Z",
+    "lastSuccessAt": "2026-10-19T20:04:57.630Z",
+    "lastRunStatus": "checked-1-posts"
   },
   "latestObservedPost": {
-    "id": "2112049026636103954",
-    "text": "@jxnlco Didn’t know Batman worked at OpenAI",
-    "url": "https://x.com/thsottiaux/status/2112049026636103954",
-    "postCreatedAt": "2026-10-19T05:11:42.000Z"
+    "id": "2112268918681485431",
+    "text": "Day 15/ We're cooked",
+    "url": "https://x.com/thsottiaux/status/2112268918681485431",
+    "postCreatedAt": "2026-10-19T19:45:28.000Z"
   },
   "latest": {
     "reset": null,

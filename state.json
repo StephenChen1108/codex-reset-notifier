@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2112049026636103954",
-  "lastCheckedAt": "2026-10-19T14:23:38.339Z",
-  "lastSuccessAt": "2026-10-19T14:23:38.339Z",
-  "lastRunStatus": "checked-0-posts",
-  "postsScanned": 67,
+  "sinceId": "2112268918681485431",
+  "lastCheckedAt": "2026-10-19T20:04:57.630Z",
+  "lastSuccessAt": "2026-10-19T20:04:57.630Z",
+  "lastRunStatus": "checked-1-posts",
+  "postsScanned": 68,
   "matches": [],
   "outbox": [],
   "seen": {
@@ -77,14 +77,15 @@
     "2112039275344941371": "1cdd5e32b872f833c1a0b13551d2ea2f6b5cc7a6e31b428e2c9343821021d3e7",
     "2112039554538770846": "4f30ebd45f5ada44704eec76ff8404ca9d1d0eea210318b8dec2cfae4b8e0b44",
     "2112039750999986304": "70a8b441c7ef7239d25b6f2291f2e4c8a3b5993553ebb5ac5ec1f6bae251d8d0",
-    "2112049026636103954": "08d82ba4e2a4f7b1c30d992f1ffe675114fc10bc930ab6b43acf34cc0c77dbd6"
+    "2112049026636103954": "08d82ba4e2a4f7b1c30d992f1ffe675114fc10bc930ab6b43acf34cc0c77dbd6",
+    "2112268918681485431": "3390a0a2210d233b64f62423c7e1185d081f5e490745ed9ccbda9a7921be25c8"
   },
   "latestObservedPost": {
-    "id": "2112049026636103954",
-    "canonicalId": "2112049026636103954",
-    "text": "@jxnlco Didn’t know Batman worked at OpenAI",
-    "createdAt": "2026-10-19T05:11:42.000Z",
-    "url": "https://x.com/thsottiaux/status/2112049026636103954",
+    "id": "2112268918681485431",
+    "canonicalId": "2112268918681485431",
+    "text": "Day 15/ We're cooked",
+    "createdAt": "2026-10-19T19:45:28.000Z",
+    "url": "https://x.com/thsottiaux/status/2112268918681485431",
     "media": [],
     "authorUsername": "thsottiaux"
   },
@@ -920,6 +921,15 @@
       "text": "@jxnlco Didn’t know Batman worked at OpenAI",
       "createdAt": "2026-10-19T05:11:42.000Z",
       "url": "https://x.com/thsottiaux/status/2112049026636103954",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2112268918681485431": {
+      "id": "2112268918681485431",
+      "canonicalId": "2112268918681485431",
+      "text": "Day 15/ We're cooked",
+      "createdAt": "2026-10-19T19:45:28.000Z",
+      "url": "https://x.com/thsottiaux/status/2112268918681485431",
       "media": [],
       "authorUsername": "thsottiaux"
     }

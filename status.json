@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-18T23:35:07.769Z",
+  "updatedAt": "2026-10-19T01:40:13.295Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-10-18T23:35:07.709Z",
-    "lastSuccessAt": "2026-10-18T23:35:07.709Z",
+    "lastCheckedAt": "2026-10-19T01:40:13.287Z",
+    "lastSuccessAt": "2026-10-19T01:40:13.287Z",
     "lastRunStatus": "checked-2-posts"
   },
   "latestObservedPost": {
-    "id": "2111945355596353823",
-    "text": "@theo Journalism with additional Theo steps",
-    "url": "https://x.com/thsottiaux/status/2111945355596353823",
-    "postCreatedAt": "2026-10-18T22:19:45.000Z"
+    "id": "2111994295364571327",
+    "text": "@JamesStewau0y5 Registers as time travel",
+    "url": "https://x.com/thsottiaux/status/2111994295364571327",
+    "postCreatedAt": "2026-10-19T01:34:13.000Z"
   },
   "latest": {
     "reset": null,

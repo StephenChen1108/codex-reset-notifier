@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-19T01:40:13.295Z",
+  "updatedAt": "2026-10-19T06:54:14.882Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-10-19T01:40:13.287Z",
-    "lastSuccessAt": "2026-10-19T01:40:13.287Z",
-    "lastRunStatus": "checked-2-posts"
+    "lastCheckedAt": "2026-10-19T06:54:14.878Z",
+    "lastSuccessAt": "2026-10-19T06:54:14.878Z",
+    "lastRunStatus": "checked-6-posts"
   },
   "latestObservedPost": {
-    "id": "2111994295364571327",
-    "text": "@JamesStewau0y5 Registers as time travel",
-    "url": "https://x.com/thsottiaux/status/2111994295364571327",
-    "postCreatedAt": "2026-10-19T01:34:13.000Z"
+    "id": "2112049026636103954",
+    "text": "@jxnlco Didn’t know Batman worked at OpenAI",
+    "url": "https://x.com/thsottiaux/status/2112049026636103954",
+    "postCreatedAt": "2026-10-19T05:11:42.000Z"
   },
   "latest": {
     "reset": null,

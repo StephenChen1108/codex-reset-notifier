@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2111994295364571327",
-  "lastCheckedAt": "2026-10-19T01:40:13.287Z",
-  "lastSuccessAt": "2026-10-19T01:40:13.287Z",
-  "lastRunStatus": "checked-2-posts",
-  "postsScanned": 61,
+  "sinceId": "2112049026636103954",
+  "lastCheckedAt": "2026-10-19T06:54:14.878Z",
+  "lastSuccessAt": "2026-10-19T06:54:14.878Z",
+  "lastRunStatus": "checked-6-posts",
+  "postsScanned": 67,
   "matches": [],
   "outbox": [],
   "seen": {
@@ -71,14 +71,20 @@
     "2111941223187710114": "d1bbc0514b67356130f56873fa86a15e6579491fdb15c2e8225345ea0cb241d5",
     "2111945355596353823": "9b603d79c383a25419d6c14b3bfcb15a90a2f99dc3f12489f042f4055f77fea4",
     "2111990254408434095": "2e052ebf59ee204716c6915da8de50f8f379da529dcfb8e6272f7841619941bb",
-    "2111994295364571327": "c542bbb2d8c07d5c41d49fa9083b2c37ebbe9a489e9216c8256767de7a80a00a"
+    "2111994295364571327": "c542bbb2d8c07d5c41d49fa9083b2c37ebbe9a489e9216c8256767de7a80a00a",
+    "2112034063934742720": "cbfe757fe1b65c20f1f8e4b2e148d8bdde38af6f94bb19e35cbf46fd74ce4ade",
+    "2112034328549216593": "37c45a6e97ceb97d1f568d6158bdcc1a31106ebce507944f1552bd728977c337",
+    "2112039275344941371": "1cdd5e32b872f833c1a0b13551d2ea2f6b5cc7a6e31b428e2c9343821021d3e7",
+    "2112039554538770846": "4f30ebd45f5ada44704eec76ff8404ca9d1d0eea210318b8dec2cfae4b8e0b44",
+    "2112039750999986304": "70a8b441c7ef7239d25b6f2291f2e4c8a3b5993553ebb5ac5ec1f6bae251d8d0",
+    "2112049026636103954": "08d82ba4e2a4f7b1c30d992f1ffe675114fc10bc930ab6b43acf34cc0c77dbd6"
   },
   "latestObservedPost": {
-    "id": "2111994295364571327",
-    "canonicalId": "2111994295364571327",
-    "text": "@JamesStewau0y5 Registers as time travel",
-    "createdAt": "2026-10-19T01:34:13.000Z",
-    "url": "https://x.com/thsottiaux/status/2111994295364571327",
+    "id": "2112049026636103954",
+    "canonicalId": "2112049026636103954",
+    "text": "@jxnlco Didn’t know Batman worked at OpenAI",
+    "createdAt": "2026-10-19T05:11:42.000Z",
+    "url": "https://x.com/thsottiaux/status/2112049026636103954",
     "media": [],
     "authorUsername": "thsottiaux"
   },
@@ -859,6 +865,61 @@
       "text": "@JamesStewau0y5 Registers as time travel",
       "createdAt": "2026-10-19T01:34:13.000Z",
       "url": "https://x.com/thsottiaux/status/2111994295364571327",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2112034063934742720": {
+      "id": "2112034063934742720",
+      "canonicalId": "2112034063934742720",
+      "text": "Our team worked with OpenCode to have their users who are also OpenAI API customers back in business and any credits refunded which would have been drawn in the attack.\n\nAlso, you can request Daybreak Blue access to use our cyber permissive setup for defense. Do not wait until you have to deal with an incident. We’re here to help.",
+      "createdAt": "2026-10-19T04:12:15.000Z",
+      "url": "https://x.com/thsottiaux/status/2112034063934742720",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2112034328549216593": {
+      "id": "2112034328549216593",
+      "canonicalId": "2112034328549216593",
+      "text": "https://t.co/kjNgDoLCWz",
+      "createdAt": "2026-10-19T04:13:18.000Z",
+      "url": "https://x.com/thsottiaux/status/2112034328549216593",
+      "media": [],
+      "authorUsername": "thsottiaux",
+      "replyToId": "2112034063934742720"
+    },
+    "2112039275344941371": {
+      "id": "2112039275344941371",
+      "canonicalId": "2112039275344941371",
+      "text": "I bought a new domain and I’m very excited for it. Very",
+      "createdAt": "2026-10-19T04:32:57.000Z",
+      "url": "https://x.com/thsottiaux/status/2112039275344941371",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2112039554538770846": {
+      "id": "2112039554538770846",
+      "canonicalId": "2112039554538770846",
+      "text": "@xiangning0 You wish",
+      "createdAt": "2026-10-19T04:34:04.000Z",
+      "url": "https://x.com/thsottiaux/status/2112039554538770846",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2112039750999986304": {
+      "id": "2112039750999986304",
+      "canonicalId": "2112039750999986304",
+      "text": "@codeglitch @hqmank Sorry",
+      "createdAt": "2026-10-19T04:34:51.000Z",
+      "url": "https://x.com/thsottiaux/status/2112039750999986304",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2112049026636103954": {
+      "id": "2112049026636103954",
+      "canonicalId": "2112049026636103954",
+      "text": "@jxnlco Didn’t know Batman worked at OpenAI",
+      "createdAt": "2026-10-19T05:11:42.000Z",
+      "url": "https://x.com/thsottiaux/status/2112049026636103954",
       "media": [],
       "authorUsername": "thsottiaux"
     }

@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2112268918681485431",
-  "lastCheckedAt": "2026-10-20T02:04:28.668Z",
-  "lastSuccessAt": "2026-10-20T02:04:28.668Z",
-  "lastRunStatus": "checked-0-posts",
-  "postsScanned": 68,
+  "sinceId": "2112432076767289678",
+  "lastCheckedAt": "2026-10-20T07:28:28.893Z",
+  "lastSuccessAt": "2026-10-20T07:28:28.893Z",
+  "lastRunStatus": "checked-2-posts",
+  "postsScanned": 70,
   "matches": [],
   "outbox": [],
   "seen": {
@@ -78,16 +78,28 @@
     "2112039554538770846": "4f30ebd45f5ada44704eec76ff8404ca9d1d0eea210318b8dec2cfae4b8e0b44",
     "2112039750999986304": "70a8b441c7ef7239d25b6f2291f2e4c8a3b5993553ebb5ac5ec1f6bae251d8d0",
     "2112049026636103954": "08d82ba4e2a4f7b1c30d992f1ffe675114fc10bc930ab6b43acf34cc0c77dbd6",
-    "2112268918681485431": "3390a0a2210d233b64f62423c7e1185d081f5e490745ed9ccbda9a7921be25c8"
+    "2112268918681485431": "3390a0a2210d233b64f62423c7e1185d081f5e490745ed9ccbda9a7921be25c8",
+    "2112426606870585551": "d09f4ebf49f91217eb4373f658179ae2ac17da1fb929edfb2f59aa7dd46bf136",
+    "2112432076767289678": "3719231c409659d5ac105c194fa349df95ab54690a47f08d45214ca707cb956f"
   },
   "latestObservedPost": {
-    "id": "2112268918681485431",
-    "canonicalId": "2112268918681485431",
-    "text": "Day 15/ We're cooked",
-    "createdAt": "2026-10-19T19:45:28.000Z",
-    "url": "https://x.com/thsottiaux/status/2112268918681485431",
+    "id": "2112432076767289678",
+    "canonicalId": "2112432076767289678",
+    "text": "Day 15/ Nevermind, we're still cooking... and reset. Enjoy.",
+    "createdAt": "2026-10-20T06:33:48.000Z",
+    "url": "https://x.com/thsottiaux/status/2112432076767289678",
     "media": [],
-    "authorUsername": "thsottiaux"
+    "authorUsername": "thsottiaux",
+    "quotedPostId": "2112268918681485431",
+    "quotedPost": {
+      "id": "2112268918681485431",
+      "canonicalId": "2112268918681485431",
+      "text": "Day 15/ We're cooked",
+      "createdAt": "2026-10-19T19:45:28.000Z",
+      "url": "https://x.com/thsottiaux/status/2112268918681485431",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    }
   },
   "eventParserVersion": 6,
   "announcementSeen": {
@@ -932,6 +944,25 @@
       "url": "https://x.com/thsottiaux/status/2112268918681485431",
       "media": [],
       "authorUsername": "thsottiaux"
+    },
+    "2112426606870585551": {
+      "id": "2112426606870585551",
+      "canonicalId": "2112426606870585551",
+      "text": "@theo Instead\n\n1) Buy a Pro 100 sub\n2) ???\n3) Enjoy T3Code",
+      "createdAt": "2026-10-20T06:12:04.000Z",
+      "url": "https://x.com/thsottiaux/status/2112426606870585551",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2112432076767289678": {
+      "id": "2112432076767289678",
+      "canonicalId": "2112432076767289678",
+      "text": "Day 15/ Nevermind, we're still cooking... and reset. Enjoy.",
+      "createdAt": "2026-10-20T06:33:48.000Z",
+      "url": "https://x.com/thsottiaux/status/2112432076767289678",
+      "media": [],
+      "authorUsername": "thsottiaux",
+      "quotedPostId": "2112268918681485431"
     }
   },
   "contextVersion": 1

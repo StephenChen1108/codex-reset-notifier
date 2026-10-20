@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-20T02:04:28.671Z",
+  "updatedAt": "2026-10-20T07:28:28.897Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-10-20T02:04:28.668Z",
-    "lastSuccessAt": "2026-10-20T02:04:28.668Z",
-    "lastRunStatus": "checked-0-posts"
+    "lastCheckedAt": "2026-10-20T07:28:28.893Z",
+    "lastSuccessAt": "2026-10-20T07:28:28.893Z",
+    "lastRunStatus": "checked-2-posts"
   },
   "latestObservedPost": {
-    "id": "2112268918681485431",
-    "text": "Day 15/ We're cooked",
-    "url": "https://x.com/thsottiaux/status/2112268918681485431",
-    "postCreatedAt": "2026-10-19T19:45:28.000Z"
+    "id": "2112432076767289678",
+    "text": "Day 15/ Nevermind, we're still cooking... and reset. Enjoy.",
+    "url": "https://x.com/thsottiaux/status/2112432076767289678",
+    "postCreatedAt": "2026-10-20T06:33:48.000Z"
   },
   "latest": {
     "reset": null,

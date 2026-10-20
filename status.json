@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-20T12:55:43.698Z",
+  "updatedAt": "2026-10-20T17:50:59.613Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-10-20T12:55:43.695Z",
-    "lastSuccessAt": "2026-10-20T12:55:43.695Z",
-    "lastRunStatus": "checked-0-posts"
+    "lastCheckedAt": "2026-10-20T17:50:59.524Z",
+    "lastSuccessAt": "2026-10-20T17:50:59.524Z",
+    "lastRunStatus": "checked-1-posts"
   },
   "latestObservedPost": {
-    "id": "2112432076767289678",
-    "text": "Day 15/ Nevermind, we're still cooking... and reset. Enjoy.",
-    "url": "https://x.com/thsottiaux/status/2112432076767289678",
-    "postCreatedAt": "2026-10-20T06:33:48.000Z"
+    "id": "2112592264686149749",
+    "text": "There were reports of usage draining faster than anticipated for some users over the weekend. We've identified approximately 40,000 accounts that had an inconsistency on which usage limits where the actual usage that was applied did not correspond to their actual selected plan. We are reaching out individually to all these users and have corrected the issue. If this affected you, we'll add credits to your account. Sorry we got this wrong.",
+    "url": "https://x.com/thsottiaux/status/2112592264686149749",
+    "postCreatedAt": "2026-10-20T17:10:20.000Z"
   },
   "latest": {
     "reset": null,

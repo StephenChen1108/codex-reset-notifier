@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T13:15:35.979Z",
+  "updatedAt": "2026-10-21T18:07:42.215Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-10-21T13:15:35.976Z",
-    "lastSuccessAt": "2026-10-21T13:15:35.976Z",
-    "lastRunStatus": "checked-0-posts"
+    "lastCheckedAt": "2026-10-21T18:07:42.210Z",
+    "lastSuccessAt": "2026-10-21T18:07:42.210Z",
+    "lastRunStatus": "checked-1-posts"
   },
   "latestObservedPost": {
-    "id": "2112798407928713717",
-    "text": "@theo I demand a reset",
-    "url": "https://x.com/thsottiaux/status/2112798407928713717",
-    "postCreatedAt": "2026-10-21T06:49:29.000Z"
+    "id": "2112906496736641416",
+    "text": "@JustLingonberry @sama is this true",
+    "url": "https://x.com/thsottiaux/status/2112906496736641416",
+    "postCreatedAt": "2026-10-21T13:58:59.000Z"
   },
   "latest": {
     "reset": null,

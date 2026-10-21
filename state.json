@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2112798407928713717",
-  "lastCheckedAt": "2026-10-21T13:15:35.976Z",
-  "lastSuccessAt": "2026-10-21T13:15:35.976Z",
-  "lastRunStatus": "checked-0-posts",
-  "postsScanned": 73,
+  "sinceId": "2112906496736641416",
+  "lastCheckedAt": "2026-10-21T18:07:42.210Z",
+  "lastSuccessAt": "2026-10-21T18:07:42.210Z",
+  "lastRunStatus": "checked-1-posts",
+  "postsScanned": 74,
   "matches": [],
   "outbox": [],
   "seen": {
@@ -83,14 +83,15 @@
     "2112432076767289678": "3719231c409659d5ac105c194fa349df95ab54690a47f08d45214ca707cb956f",
     "2112592264686149749": "4d0758138da1a41962f2763f95f8e233606ca8df66c7214543ce330fd87bb55a",
     "2112712984644784534": "f9199e8badb9a717dc59cd50f4202483af414fba15eb6bc94027bb5920f3a3c7",
-    "2112798407928713717": "ed5d41aa8bfe4c73cc891ac09420b29bbe0115dd803c2ce9430be134be21cf44"
+    "2112798407928713717": "ed5d41aa8bfe4c73cc891ac09420b29bbe0115dd803c2ce9430be134be21cf44",
+    "2112906496736641416": "9a61d0f1e4b654ee2c5e6aec4b1a933ac416671c19e1559a52b1e5c025e4245e"
   },
   "latestObservedPost": {
-    "id": "2112798407928713717",
-    "canonicalId": "2112798407928713717",
-    "text": "@theo I demand a reset",
-    "createdAt": "2026-10-21T06:49:29.000Z",
-    "url": "https://x.com/thsottiaux/status/2112798407928713717",
+    "id": "2112906496736641416",
+    "canonicalId": "2112906496736641416",
+    "text": "@JustLingonberry @sama is this true",
+    "createdAt": "2026-10-21T13:58:59.000Z",
+    "url": "https://x.com/thsottiaux/status/2112906496736641416",
     "media": [],
     "authorUsername": "thsottiaux"
   },
@@ -981,6 +982,15 @@
       "text": "@theo I demand a reset",
       "createdAt": "2026-10-21T06:49:29.000Z",
       "url": "https://x.com/thsottiaux/status/2112798407928713717",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2112906496736641416": {
+      "id": "2112906496736641416",
+      "canonicalId": "2112906496736641416",
+      "text": "@JustLingonberry @sama is this true",
+      "createdAt": "2026-10-21T13:58:59.000Z",
+      "url": "https://x.com/thsottiaux/status/2112906496736641416",
       "media": [],
       "authorUsername": "thsottiaux"
     }

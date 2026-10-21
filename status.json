@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-20T23:49:21.807Z",
+  "updatedAt": "2026-10-21T02:10:02.954Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-10-20T23:49:21.798Z",
-    "lastSuccessAt": "2026-10-20T23:49:21.798Z",
-    "lastRunStatus": "checked-0-posts"
+    "lastCheckedAt": "2026-10-21T02:10:02.950Z",
+    "lastSuccessAt": "2026-10-21T02:10:02.950Z",
+    "lastRunStatus": "checked-1-posts"
   },
   "latestObservedPost": {
-    "id": "2112592264686149749",
-    "text": "There were reports of usage draining faster than anticipated for some users over the weekend. We've identified approximately 40,000 accounts that had an inconsistency on which usage limits where the actual usage that was applied did not correspond to their actual selected plan. We are reaching out individually to all these users and have corrected the issue. If this affected you, we'll add credits to your account. Sorry we got this wrong.",
-    "url": "https://x.com/thsottiaux/status/2112592264686149749",
-    "postCreatedAt": "2026-10-20T17:10:20.000Z"
+    "id": "2112712984644784534",
+    "text": "Day 16/\n\nYou can now cache for 12h in the API and for logged in users across Codex &amp; Work we keep cache forever and you don’t have any penalty for coming back to an old conversation or resuming after a few hours and are now guaranteed to hit the cache.",
+    "url": "https://x.com/thsottiaux/status/2112712984644784534",
+    "postCreatedAt": "2026-10-21T01:10:02.000Z"
   },
   "latest": {
     "reset": null,

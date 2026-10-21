@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2112592264686149749",
-  "lastCheckedAt": "2026-10-20T23:49:21.798Z",
-  "lastSuccessAt": "2026-10-20T23:49:21.798Z",
-  "lastRunStatus": "checked-0-posts",
-  "postsScanned": 71,
+  "sinceId": "2112712984644784534",
+  "lastCheckedAt": "2026-10-21T02:10:02.950Z",
+  "lastSuccessAt": "2026-10-21T02:10:02.950Z",
+  "lastRunStatus": "checked-1-posts",
+  "postsScanned": 72,
   "matches": [],
   "outbox": [],
   "seen": {
@@ -81,14 +81,15 @@
     "2112268918681485431": "3390a0a2210d233b64f62423c7e1185d081f5e490745ed9ccbda9a7921be25c8",
     "2112426606870585551": "d09f4ebf49f91217eb4373f658179ae2ac17da1fb929edfb2f59aa7dd46bf136",
     "2112432076767289678": "3719231c409659d5ac105c194fa349df95ab54690a47f08d45214ca707cb956f",
-    "2112592264686149749": "4d0758138da1a41962f2763f95f8e233606ca8df66c7214543ce330fd87bb55a"
+    "2112592264686149749": "4d0758138da1a41962f2763f95f8e233606ca8df66c7214543ce330fd87bb55a",
+    "2112712984644784534": "f9199e8badb9a717dc59cd50f4202483af414fba15eb6bc94027bb5920f3a3c7"
   },
   "latestObservedPost": {
-    "id": "2112592264686149749",
-    "canonicalId": "2112592264686149749",
-    "text": "There were reports of usage draining faster than anticipated for some users over the weekend. We've identified approximately 40,000 accounts that had an inconsistency on which usage limits where the actual usage that was applied did not correspond to their actual selected plan. We are reaching out individually to all these users and have corrected the issue. If this affected you, we'll add credits to your account. Sorry we got this wrong.",
-    "createdAt": "2026-10-20T17:10:20.000Z",
-    "url": "https://x.com/thsottiaux/status/2112592264686149749",
+    "id": "2112712984644784534",
+    "canonicalId": "2112712984644784534",
+    "text": "Day 16/\n\nYou can now cache for 12h in the API and for logged in users across Codex &amp; Work we keep cache forever and you don’t have any penalty for coming back to an old conversation or resuming after a few hours and are now guaranteed to hit the cache.",
+    "createdAt": "2026-10-21T01:10:02.000Z",
+    "url": "https://x.com/thsottiaux/status/2112712984644784534",
     "media": [],
     "authorUsername": "thsottiaux"
   },
@@ -961,6 +962,15 @@
       "text": "There were reports of usage draining faster than anticipated for some users over the weekend. We've identified approximately 40,000 accounts that had an inconsistency on which usage limits where the actual usage that was applied did not correspond to their actual selected plan. We are reaching out individually to all these users and have corrected the issue. If this affected you, we'll add credits to your account. Sorry we got this wrong.",
       "createdAt": "2026-10-20T17:10:20.000Z",
       "url": "https://x.com/thsottiaux/status/2112592264686149749",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2112712984644784534": {
+      "id": "2112712984644784534",
+      "canonicalId": "2112712984644784534",
+      "text": "Day 16/\n\nYou can now cache for 12h in the API and for logged in users across Codex &amp; Work we keep cache forever and you don’t have any penalty for coming back to an old conversation or resuming after a few hours and are now guaranteed to hit the cache.",
+      "createdAt": "2026-10-21T01:10:02.000Z",
+      "url": "https://x.com/thsottiaux/status/2112712984644784534",
       "media": [],
       "authorUsername": "thsottiaux"
     }

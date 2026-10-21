@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2112906496736641416",
-  "lastCheckedAt": "2026-10-21T18:07:42.210Z",
-  "lastSuccessAt": "2026-10-21T18:07:42.210Z",
-  "lastRunStatus": "checked-1-posts",
-  "postsScanned": 74,
+  "sinceId": "2113009945134379213",
+  "lastCheckedAt": "2026-10-21T21:41:32.944Z",
+  "lastSuccessAt": "2026-10-21T21:41:32.944Z",
+  "lastRunStatus": "checked-2-posts",
+  "postsScanned": 76,
   "matches": [],
   "outbox": [],
   "seen": {
@@ -84,14 +84,16 @@
     "2112592264686149749": "4d0758138da1a41962f2763f95f8e233606ca8df66c7214543ce330fd87bb55a",
     "2112712984644784534": "f9199e8badb9a717dc59cd50f4202483af414fba15eb6bc94027bb5920f3a3c7",
     "2112798407928713717": "ed5d41aa8bfe4c73cc891ac09420b29bbe0115dd803c2ce9430be134be21cf44",
-    "2112906496736641416": "9a61d0f1e4b654ee2c5e6aec4b1a933ac416671c19e1559a52b1e5c025e4245e"
+    "2112906496736641416": "9a61d0f1e4b654ee2c5e6aec4b1a933ac416671c19e1559a52b1e5c025e4245e",
+    "2112992042465009736": "b28df03af70dece6d272b1def36c48353b48cb0c31978a91891fe75636a9784f",
+    "2113009945134379213": "113b460f6a15498062c666335ad2542d45315a465476766d4ed3c5e024c8c7a6"
   },
   "latestObservedPost": {
-    "id": "2112906496736641416",
-    "canonicalId": "2112906496736641416",
-    "text": "@JustLingonberry @sama is this true",
-    "createdAt": "2026-10-21T13:58:59.000Z",
-    "url": "https://x.com/thsottiaux/status/2112906496736641416",
+    "id": "2113009945134379213",
+    "canonicalId": "2113009945134379213",
+    "text": "@theo Congrats",
+    "createdAt": "2026-10-21T20:50:03.000Z",
+    "url": "https://x.com/thsottiaux/status/2113009945134379213",
     "media": [],
     "authorUsername": "thsottiaux"
   },
@@ -991,6 +993,24 @@
       "text": "@JustLingonberry @sama is this true",
       "createdAt": "2026-10-21T13:58:59.000Z",
       "url": "https://x.com/thsottiaux/status/2112906496736641416",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2112992042465009736": {
+      "id": "2112992042465009736",
+      "canonicalId": "2112992042465009736",
+      "text": "@claudeai Dot, meet Duet. Duet, meet Dot. Be nice to each other.",
+      "createdAt": "2026-10-21T19:38:55.000Z",
+      "url": "https://x.com/thsottiaux/status/2112992042465009736",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2113009945134379213": {
+      "id": "2113009945134379213",
+      "canonicalId": "2113009945134379213",
+      "text": "@theo Congrats",
+      "createdAt": "2026-10-21T20:50:03.000Z",
+      "url": "https://x.com/thsottiaux/status/2113009945134379213",
       "media": [],
       "authorUsername": "thsottiaux"
     }

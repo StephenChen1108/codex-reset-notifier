@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2113029854417600834",
-  "lastCheckedAt": "2026-10-22T05:03:11.563Z",
-  "lastSuccessAt": "2026-10-22T05:03:11.563Z",
-  "lastRunStatus": "checked-0-posts",
-  "postsScanned": 78,
+  "sinceId": "2113163458867032238",
+  "lastCheckedAt": "2026-10-22T10:05:43.439Z",
+  "lastSuccessAt": "2026-10-22T10:05:43.439Z",
+  "lastRunStatus": "checked-3-posts",
+  "postsScanned": 81,
   "matches": [],
   "outbox": [],
   "seen": {
@@ -88,17 +88,19 @@
     "2112992042465009736": "b28df03af70dece6d272b1def36c48353b48cb0c31978a91891fe75636a9784f",
     "2113009945134379213": "113b460f6a15498062c666335ad2542d45315a465476766d4ed3c5e024c8c7a6",
     "2113029655095836957": "86a2ce6087357bf459cb2675a1e3f4b69ca461da3173a17951a00e9343d5a446",
-    "2113029854417600834": "225f437480f00a335c5b9a4c3ae335e4130530bd5651ecc8289ab016c1269bb3"
+    "2113029854417600834": "225f437480f00a335c5b9a4c3ae335e4130530bd5651ecc8289ab016c1269bb3",
+    "2113162277688070445": "2417cdb9e6c0e6c4846af3702c3c24fb721ec4961912d951745e526999497bd1",
+    "2113162413008884099": "a85b01bf40ce52775ff7410fe56bba93f1e492d0b85bb51282ab75735c79b0b9",
+    "2113163458867032238": "b96faa0c618f38a1fec25fa5c7efd622263ccda78f6e9099c58c31b069753100"
   },
   "latestObservedPost": {
-    "id": "2113029854417600834",
-    "canonicalId": "2113029854417600834",
-    "text": "Fully included in the Pro plan, doesn't draw on your weekly usage.",
-    "createdAt": "2026-10-21T22:09:10.000Z",
-    "url": "https://x.com/thsottiaux/status/2113029854417600834",
+    "id": "2113163458867032238",
+    "canonicalId": "2113163458867032238",
+    "text": "@ebloch Hefty",
+    "createdAt": "2026-10-22T07:00:03.000Z",
+    "url": "https://x.com/thsottiaux/status/2113163458867032238",
     "media": [],
-    "authorUsername": "thsottiaux",
-    "replyToId": "2113029655095836957"
+    "authorUsername": "thsottiaux"
   },
   "eventParserVersion": 6,
   "announcementSeen": {
@@ -1035,6 +1037,34 @@
       "media": [],
       "authorUsername": "thsottiaux",
       "replyToId": "2113029655095836957"
+    },
+    "2113162277688070445": {
+      "id": "2113162277688070445",
+      "canonicalId": "2113162277688070445",
+      "text": "Day 17/ Bet you thought we forgot, but no, it’s reset day today.\n\nAlso good time to remind you to get Daybreak Blue access, it only takes 15 mins and you don’t want to have to do it in the middle of an incident.",
+      "createdAt": "2026-10-22T06:55:22.000Z",
+      "url": "https://x.com/thsottiaux/status/2113162277688070445",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2113162413008884099": {
+      "id": "2113162413008884099",
+      "canonicalId": "2113162413008884099",
+      "text": "Lands tomorrow before 10am PST.",
+      "createdAt": "2026-10-22T06:55:54.000Z",
+      "url": "https://x.com/thsottiaux/status/2113162413008884099",
+      "media": [],
+      "authorUsername": "thsottiaux",
+      "replyToId": "2113162277688070445"
+    },
+    "2113163458867032238": {
+      "id": "2113163458867032238",
+      "canonicalId": "2113163458867032238",
+      "text": "@ebloch Hefty",
+      "createdAt": "2026-10-22T07:00:03.000Z",
+      "url": "https://x.com/thsottiaux/status/2113163458867032238",
+      "media": [],
+      "authorUsername": "thsottiaux"
     }
   },
   "contextVersion": 1

@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2113009945134379213",
-  "lastCheckedAt": "2026-10-21T21:41:32.944Z",
-  "lastSuccessAt": "2026-10-21T21:41:32.944Z",
+  "sinceId": "2113029854417600834",
+  "lastCheckedAt": "2026-10-22T00:15:49.783Z",
+  "lastSuccessAt": "2026-10-22T00:15:49.783Z",
   "lastRunStatus": "checked-2-posts",
-  "postsScanned": 76,
+  "postsScanned": 78,
   "matches": [],
   "outbox": [],
   "seen": {
@@ -86,16 +86,19 @@
     "2112798407928713717": "ed5d41aa8bfe4c73cc891ac09420b29bbe0115dd803c2ce9430be134be21cf44",
     "2112906496736641416": "9a61d0f1e4b654ee2c5e6aec4b1a933ac416671c19e1559a52b1e5c025e4245e",
     "2112992042465009736": "b28df03af70dece6d272b1def36c48353b48cb0c31978a91891fe75636a9784f",
-    "2113009945134379213": "113b460f6a15498062c666335ad2542d45315a465476766d4ed3c5e024c8c7a6"
+    "2113009945134379213": "113b460f6a15498062c666335ad2542d45315a465476766d4ed3c5e024c8c7a6",
+    "2113029655095836957": "86a2ce6087357bf459cb2675a1e3f4b69ca461da3173a17951a00e9343d5a446",
+    "2113029854417600834": "225f437480f00a335c5b9a4c3ae335e4130530bd5651ecc8289ab016c1269bb3"
   },
   "latestObservedPost": {
-    "id": "2113009945134379213",
-    "canonicalId": "2113009945134379213",
-    "text": "@theo Congrats",
-    "createdAt": "2026-10-21T20:50:03.000Z",
-    "url": "https://x.com/thsottiaux/status/2113009945134379213",
+    "id": "2113029854417600834",
+    "canonicalId": "2113029854417600834",
+    "text": "Fully included in the Pro plan, doesn't draw on your weekly usage.",
+    "createdAt": "2026-10-21T22:09:10.000Z",
+    "url": "https://x.com/thsottiaux/status/2113029854417600834",
     "media": [],
-    "authorUsername": "thsottiaux"
+    "authorUsername": "thsottiaux",
+    "replyToId": "2113029655095836957"
   },
   "eventParserVersion": 6,
   "announcementSeen": {
@@ -1013,6 +1016,25 @@
       "url": "https://x.com/thsottiaux/status/2113009945134379213",
       "media": [],
       "authorUsername": "thsottiaux"
+    },
+    "2113029655095836957": {
+      "id": "2113029655095836957",
+      "canonicalId": "2113029655095836957",
+      "text": "Dot, Dotter, Dottest",
+      "createdAt": "2026-10-21T22:08:22.000Z",
+      "url": "https://x.com/thsottiaux/status/2113029655095836957",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2113029854417600834": {
+      "id": "2113029854417600834",
+      "canonicalId": "2113029854417600834",
+      "text": "Fully included in the Pro plan, doesn't draw on your weekly usage.",
+      "createdAt": "2026-10-21T22:09:10.000Z",
+      "url": "https://x.com/thsottiaux/status/2113029854417600834",
+      "media": [],
+      "authorUsername": "thsottiaux",
+      "replyToId": "2113029655095836957"
     }
   },
   "contextVersion": 1

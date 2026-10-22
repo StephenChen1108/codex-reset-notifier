@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T21:41:32.950Z",
+  "updatedAt": "2026-10-22T00:15:49.787Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-10-21T21:41:32.944Z",
-    "lastSuccessAt": "2026-10-21T21:41:32.944Z",
+    "lastCheckedAt": "2026-10-22T00:15:49.783Z",
+    "lastSuccessAt": "2026-10-22T00:15:49.783Z",
     "lastRunStatus": "checked-2-posts"
   },
   "latestObservedPost": {
-    "id": "2113009945134379213",
-    "text": "@theo Congrats",
-    "url": "https://x.com/thsottiaux/status/2113009945134379213",
-    "postCreatedAt": "2026-10-21T20:50:03.000Z"
+    "id": "2113029854417600834",
+    "text": "Fully included in the Pro plan, doesn't draw on your weekly usage.",
+    "url": "https://x.com/thsottiaux/status/2113029854417600834",
+    "postCreatedAt": "2026-10-21T22:09:10.000Z"
   },
   "latest": {
     "reset": null,

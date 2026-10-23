@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2113404560853397516",
-  "lastCheckedAt": "2026-10-23T00:53:08.097Z",
-  "lastSuccessAt": "2026-10-23T00:53:08.097Z",
-  "lastRunStatus": "checked-1-posts",
-  "postsScanned": 82,
+  "sinceId": "2113492502355562875",
+  "lastCheckedAt": "2026-10-23T05:43:00.173Z",
+  "lastSuccessAt": "2026-10-23T05:43:00.173Z",
+  "lastRunStatus": "checked-2-posts",
+  "postsScanned": 84,
   "matches": [],
   "outbox": [],
   "seen": {
@@ -92,16 +92,19 @@
     "2113162277688070445": "2417cdb9e6c0e6c4846af3702c3c24fb721ec4961912d951745e526999497bd1",
     "2113162413008884099": "a85b01bf40ce52775ff7410fe56bba93f1e492d0b85bb51282ab75735c79b0b9",
     "2113163458867032238": "b96faa0c618f38a1fec25fa5c7efd622263ccda78f6e9099c58c31b069753100",
-    "2113404560853397516": "094234bf77531732137280e460e1c03f684109c0a3d3a396593febeaa13af781"
+    "2113404560853397516": "094234bf77531732137280e460e1c03f684109c0a3d3a396593febeaa13af781",
+    "2113492187770175603": "84e83973968a4c109d3e23f1603ecf6dbb16af8820693e625bd2006eebeccbfb",
+    "2113492502355562875": "650ed66e16e71dda4f36bbc4bfab2d5c68aa49d38a5a0984d47a40d5d5cb0bbe"
   },
   "latestObservedPost": {
-    "id": "2113404560853397516",
-    "canonicalId": "2113404560853397516",
-    "text": "@romainhuet Very baguette of you",
-    "createdAt": "2026-10-22T22:58:07.000Z",
-    "url": "https://x.com/thsottiaux/status/2113404560853397516",
+    "id": "2113492502355562875",
+    "canonicalId": "2113492502355562875",
+    "text": "Landing tomorrow before 10am PST together with a small ship.",
+    "createdAt": "2026-10-23T04:47:34.000Z",
+    "url": "https://x.com/thsottiaux/status/2113492502355562875",
     "media": [],
-    "authorUsername": "thsottiaux"
+    "authorUsername": "thsottiaux",
+    "replyToId": "2113492187770175603"
   },
   "eventParserVersion": 6,
   "announcementSeen": {
@@ -1075,6 +1078,25 @@
       "url": "https://x.com/thsottiaux/status/2113404560853397516",
       "media": [],
       "authorUsername": "thsottiaux"
+    },
+    "2113492187770175603": {
+      "id": "2113492187770175603",
+      "canonicalId": "2113492187770175603",
+      "text": "Day 18/ Decisions API is GA, OpenResponses joined the Linux Foundation, we shipped some performance improvements and Uber is going all-in on codex &amp; work. But yes… that’s a reset!",
+      "createdAt": "2026-10-23T04:46:19.000Z",
+      "url": "https://x.com/thsottiaux/status/2113492187770175603",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2113492502355562875": {
+      "id": "2113492502355562875",
+      "canonicalId": "2113492502355562875",
+      "text": "Landing tomorrow before 10am PST together with a small ship.",
+      "createdAt": "2026-10-23T04:47:34.000Z",
+      "url": "https://x.com/thsottiaux/status/2113492502355562875",
+      "media": [],
+      "authorUsername": "thsottiaux",
+      "replyToId": "2113492187770175603"
     }
   },
   "contextVersion": 1

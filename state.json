@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2113163458867032238",
-  "lastCheckedAt": "2026-10-22T22:28:53.780Z",
-  "lastSuccessAt": "2026-10-22T22:28:53.780Z",
-  "lastRunStatus": "checked-0-posts",
-  "postsScanned": 81,
+  "sinceId": "2113404560853397516",
+  "lastCheckedAt": "2026-10-23T00:53:08.097Z",
+  "lastSuccessAt": "2026-10-23T00:53:08.097Z",
+  "lastRunStatus": "checked-1-posts",
+  "postsScanned": 82,
   "matches": [],
   "outbox": [],
   "seen": {
@@ -91,14 +91,15 @@
     "2113029854417600834": "225f437480f00a335c5b9a4c3ae335e4130530bd5651ecc8289ab016c1269bb3",
     "2113162277688070445": "2417cdb9e6c0e6c4846af3702c3c24fb721ec4961912d951745e526999497bd1",
     "2113162413008884099": "a85b01bf40ce52775ff7410fe56bba93f1e492d0b85bb51282ab75735c79b0b9",
-    "2113163458867032238": "b96faa0c618f38a1fec25fa5c7efd622263ccda78f6e9099c58c31b069753100"
+    "2113163458867032238": "b96faa0c618f38a1fec25fa5c7efd622263ccda78f6e9099c58c31b069753100",
+    "2113404560853397516": "094234bf77531732137280e460e1c03f684109c0a3d3a396593febeaa13af781"
   },
   "latestObservedPost": {
-    "id": "2113163458867032238",
-    "canonicalId": "2113163458867032238",
-    "text": "@ebloch Hefty",
-    "createdAt": "2026-10-22T07:00:03.000Z",
-    "url": "https://x.com/thsottiaux/status/2113163458867032238",
+    "id": "2113404560853397516",
+    "canonicalId": "2113404560853397516",
+    "text": "@romainhuet Very baguette of you",
+    "createdAt": "2026-10-22T22:58:07.000Z",
+    "url": "https://x.com/thsottiaux/status/2113404560853397516",
     "media": [],
     "authorUsername": "thsottiaux"
   },
@@ -1063,6 +1064,15 @@
       "text": "@ebloch Hefty",
       "createdAt": "2026-10-22T07:00:03.000Z",
       "url": "https://x.com/thsottiaux/status/2113163458867032238",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2113404560853397516": {
+      "id": "2113404560853397516",
+      "canonicalId": "2113404560853397516",
+      "text": "@romainhuet Very baguette of you",
+      "createdAt": "2026-10-22T22:58:07.000Z",
+      "url": "https://x.com/thsottiaux/status/2113404560853397516",
       "media": [],
       "authorUsername": "thsottiaux"
     }

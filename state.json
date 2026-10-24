@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2113771215433392478",
-  "lastCheckedAt": "2026-10-24T01:03:44.354Z",
-  "lastSuccessAt": "2026-10-24T01:03:44.354Z",
-  "lastRunStatus": "checked-3-posts",
-  "postsScanned": 87,
+  "sinceId": "2113838156193894447",
+  "lastCheckedAt": "2026-10-24T05:45:42.358Z",
+  "lastSuccessAt": "2026-10-24T05:45:42.358Z",
+  "lastRunStatus": "checked-1-posts",
+  "postsScanned": 88,
   "matches": [],
   "outbox": [],
   "seen": {
@@ -97,14 +97,15 @@
     "2113492502355562875": "650ed66e16e71dda4f36bbc4bfab2d5c68aa49d38a5a0984d47a40d5d5cb0bbe",
     "2113770573994299544": "bf703ca68b6b9c4d775e1c590d2e7939f7b30464140a7266912c18f49ea3cee6",
     "2113770862860222611": "0042018a6adedd200517a7502ce839239453af8e251248c0f5e185af7f7192ea",
-    "2113771215433392478": "34fc728815b9f0ec36360230a3f6abc635b527f78b21a5af70543288a9ff6795"
+    "2113771215433392478": "34fc728815b9f0ec36360230a3f6abc635b527f78b21a5af70543288a9ff6795",
+    "2113838156193894447": "05dc0fb389d15d4ff59fdd7b233eaa00727e301a3a05a8d02897277fc69796eb"
   },
   "latestObservedPost": {
-    "id": "2113771215433392478",
-    "canonicalId": "2113771215433392478",
-    "text": "@playdropai @bcherny @alexandr_wang @poteto Fun game",
-    "createdAt": "2026-10-23T23:15:04.000Z",
-    "url": "https://x.com/thsottiaux/status/2113771215433392478",
+    "id": "2113838156193894447",
+    "canonicalId": "2113838156193894447",
+    "text": "The difference between having a tool and being a tool is subtle these days and it’s easy to accidentally build yourself into being a tool. Don’t be a tool.",
+    "createdAt": "2026-10-24T03:41:04.000Z",
+    "url": "https://x.com/thsottiaux/status/2113838156193894447",
     "media": [],
     "authorUsername": "thsottiaux"
   },
@@ -1125,6 +1126,15 @@
       "text": "@playdropai @bcherny @alexandr_wang @poteto Fun game",
       "createdAt": "2026-10-23T23:15:04.000Z",
       "url": "https://x.com/thsottiaux/status/2113771215433392478",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2113838156193894447": {
+      "id": "2113838156193894447",
+      "canonicalId": "2113838156193894447",
+      "text": "The difference between having a tool and being a tool is subtle these days and it’s easy to accidentally build yourself into being a tool. Don’t be a tool.",
+      "createdAt": "2026-10-24T03:41:04.000Z",
+      "url": "https://x.com/thsottiaux/status/2113838156193894447",
       "media": [],
       "authorUsername": "thsottiaux"
     }

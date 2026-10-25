@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2114125878804545940",
-  "lastCheckedAt": "2026-10-25T02:05:07.748Z",
-  "lastSuccessAt": "2026-10-25T02:05:07.748Z",
-  "lastRunStatus": "checked-0-posts",
-  "postsScanned": 96,
+  "sinceId": "2114237441250828563",
+  "lastCheckedAt": "2026-10-25T07:33:01.341Z",
+  "lastSuccessAt": "2026-10-25T07:33:01.341Z",
+  "lastRunStatus": "checked-7-posts",
+  "postsScanned": 103,
   "matches": [],
   "outbox": [],
   "seen": {
@@ -106,14 +106,21 @@
     "2114074885622501706": "5521d1024877be88cfb239eae896fb336b880e5126613718f3feff18284f5578",
     "2114086171907428846": "a342bb3b47c16b6ad528fcf765f7380babfc6ab3dcbf0d78adcb2b7dc5bf0fb8",
     "2114125293124542632": "4b6e06913bca8be3b5cd30c5fcda1375c778886723d43936f116a16df1adff74",
-    "2114125878804545940": "1f762be636e3eb7e8159aabb200fd144b41700aa9c5193897142231b4f4201ec"
+    "2114125878804545940": "1f762be636e3eb7e8159aabb200fd144b41700aa9c5193897142231b4f4201ec",
+    "2114199013176303641": "24ef83efe450d7b02ff9457cd244c707b5e90fcfc1ca7704c8f57f0a897dc902",
+    "2114200152701575656": "72f6ac530cb6d09cb0c957d3535c8768295542be3bfd44f88d1ecb0c18a872b4",
+    "2114200291319124163": "7470e5b1ed270e0c912cd21cd033cbb550fe74aaf5bba6e847f24a7cf3c7a9ed",
+    "2114228044072403055": "b9d449b7729cd88e67ea3d4e502de24abc9b87cbe3e939a8b0ef8c3126c5ce58",
+    "2114228445043691592": "8dbf1139cc31522a4bec626bbb697beabd39584ef74f629e5728244acbf21f04",
+    "2114237083652882932": "b4893c47e206a5532e63b9f34af81594a5bdb405948244b0310de60531c8b9eb",
+    "2114237441250828563": "95be22ce3395bad7c6df058728aa637d32831bf0793a0d3183ef566afb807461"
   },
   "latestObservedPost": {
-    "id": "2114125878804545940",
-    "canonicalId": "2114125878804545940",
-    "text": "@mitsuhiko I doubt they are on twitter",
-    "createdAt": "2026-10-24T22:44:22.000Z",
-    "url": "https://x.com/thsottiaux/status/2114125878804545940",
+    "id": "2114237441250828563",
+    "canonicalId": "2114237441250828563",
+    "text": "@ScriptedAlchemy .com",
+    "createdAt": "2026-10-25T06:07:41.000Z",
+    "url": "https://x.com/thsottiaux/status/2114237441250828563",
     "media": [],
     "authorUsername": "thsottiaux"
   },
@@ -1215,6 +1222,87 @@
       "text": "@mitsuhiko I doubt they are on twitter",
       "createdAt": "2026-10-24T22:44:22.000Z",
       "url": "https://x.com/thsottiaux/status/2114125878804545940",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2114199013176303641": {
+      "id": "2114199013176303641",
+      "canonicalId": "2114199013176303641",
+      "text": "@alexandr_wang Congrats, that’s not a butt",
+      "createdAt": "2026-10-25T03:34:59.000Z",
+      "url": "https://x.com/thsottiaux/status/2114199013176303641",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2114200152701575656": {
+      "id": "2114200152701575656",
+      "canonicalId": "2114200152701575656",
+      "text": "Day 20/ Rest and reset",
+      "createdAt": "2026-10-25T03:39:31.000Z",
+      "url": "https://x.com/thsottiaux/status/2114200152701575656",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2114200291319124163": {
+      "id": "2114200291319124163",
+      "canonicalId": "2114200291319124163",
+      "text": "By midnight PST",
+      "createdAt": "2026-10-25T03:40:04.000Z",
+      "url": "https://x.com/thsottiaux/status/2114200291319124163",
+      "media": [],
+      "authorUsername": "thsottiaux",
+      "replyToId": "2114200152701575656"
+    },
+    "2114228044072403055": {
+      "id": "2114228044072403055",
+      "canonicalId": "2114228044072403055",
+      "text": "@theo Not a real improvement, put the reset in the bag",
+      "createdAt": "2026-10-25T05:30:20.000Z",
+      "url": "https://x.com/thsottiaux/status/2114228044072403055",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2114228445043691592": {
+      "id": "2114228445043691592",
+      "canonicalId": "2114228445043691592",
+      "text": "@_jayyy18_13k https://t.co/cjuGQnsUgA",
+      "createdAt": "2026-10-25T05:31:56.000Z",
+      "url": "https://x.com/thsottiaux/status/2114228445043691592",
+      "media": [
+        {
+          "mediaKey": "2114228437917548544",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HVc_kAgawAAPNYb.jpg?name=orig",
+          "previewImageUrl": null,
+          "altText": null
+        }
+      ],
+      "authorUsername": "thsottiaux"
+    },
+    "2114237083652882932": {
+      "id": "2114237083652882932",
+      "canonicalId": "2114237083652882932",
+      "text": "It is all propagated. Enjoy some mad codexing tomorrow. Fun week ahead too. https://t.co/qOrzwSeIZZ",
+      "createdAt": "2026-10-25T06:06:16.000Z",
+      "url": "https://x.com/thsottiaux/status/2114237083652882932",
+      "media": [
+        {
+          "mediaKey": "2114236922713276416",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HVdHR41XAAANylJ.png?name=orig",
+          "previewImageUrl": null,
+          "altText": null
+        }
+      ],
+      "authorUsername": "thsottiaux",
+      "quotedPostId": "2114200291319124163"
+    },
+    "2114237441250828563": {
+      "id": "2114237441250828563",
+      "canonicalId": "2114237441250828563",
+      "text": "@ScriptedAlchemy .com",
+      "createdAt": "2026-10-25T06:07:41.000Z",
+      "url": "https://x.com/thsottiaux/status/2114237441250828563",
       "media": [],
       "authorUsername": "thsottiaux"
     }

@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2115148258372964831",
-  "lastCheckedAt": "2026-10-28T00:25:09.146Z",
-  "lastSuccessAt": "2026-10-28T00:25:09.146Z",
-  "lastRunStatus": "checked-0-posts",
-  "postsScanned": 116,
+  "sinceId": "2115299029294920189",
+  "lastCheckedAt": "2026-10-28T06:05:12.603Z",
+  "lastSuccessAt": "2026-10-28T06:05:12.603Z",
+  "lastRunStatus": "checked-8-posts",
+  "postsScanned": 124,
   "matches": [],
   "outbox": [],
   "seen": {
@@ -126,14 +126,22 @@
     "2114800277677092936": "1bf88207313e0d5f78647dbb937fcfa533caa2179ef322464f9cbbfd1d4416d2",
     "2114839845604667840": "00e13f770ea457666f8eca1e583fb11e25a7974b1d1accac1841029f3999758f",
     "2114922374978277786": "472c6c35b088a53861a2da98f07c8233774868924713f816f5642a0a784623e2",
-    "2115148258372964831": "279b88ab09bd67c0a117f18a57b542896019b3805a3cab9cdd78349f31e6ae53"
+    "2115148258372964831": "279b88ab09bd67c0a117f18a57b542896019b3805a3cab9cdd78349f31e6ae53",
+    "2115272201922572627": "d7a4309e06bddd420c92a4d127581eb2aa07f6f4537af5140b30feb9b0d5b317",
+    "2115273064481218829": "81aa0416a461f3aedd751e42cca996b60e3af36c5e8c7e391f5ef7d01ce6ef61",
+    "2115273253711409208": "59c1d59ad9b307bd5abbdda4c2a755e91cff0fff6568aa3a4718e84ac85edb92",
+    "2115289940233961584": "ac8de13f52c7de95a14499503e527e73dba679b2634b4f38d08a061ff88ce0a4",
+    "2115290111147712544": "7c8fe1b3f1edd06e5a3e2bfa5d922bd8a020bac22257b5fa321431945183f8c7",
+    "2115290318652444729": "0c87bd85be53ee5000a3c41d6c930da61c8a92fc292fd5402f0e0c08dc164f98",
+    "2115297093879472332": "348086deaaffe04f05f1c0a578218034b844eb460382f98ff4aefd329144af15",
+    "2115299029294920189": "2300a59f4f3c3c0f9fc6be5ec044510f8e7283fa29269d014398d3b08291dfff"
   },
   "latestObservedPost": {
-    "id": "2115148258372964831",
-    "canonicalId": "2115148258372964831",
-    "text": "@BrenBuilds A sign of great things to come",
-    "createdAt": "2026-10-27T18:26:57.000Z",
-    "url": "https://x.com/thsottiaux/status/2115148258372964831",
+    "id": "2115299029294920189",
+    "canonicalId": "2115299029294920189",
+    "text": "@mark_k @OpenAI Taking notes",
+    "createdAt": "2026-10-28T04:26:03.000Z",
+    "url": "https://x.com/thsottiaux/status/2115299029294920189",
     "media": [],
     "authorUsername": "thsottiaux"
   },
@@ -1449,6 +1457,79 @@
       "text": "@BrenBuilds A sign of great things to come",
       "createdAt": "2026-10-27T18:26:57.000Z",
       "url": "https://x.com/thsottiaux/status/2115148258372964831",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2115272201922572627": {
+      "id": "2115272201922572627",
+      "canonicalId": "2115272201922572627",
+      "text": "@Xanderwow_A What's going on",
+      "createdAt": "2026-10-28T02:39:27.000Z",
+      "url": "https://x.com/thsottiaux/status/2115272201922572627",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2115273064481218829": {
+      "id": "2115273064481218829",
+      "canonicalId": "2115273064481218829",
+      "text": "Day 23/ Much requested iCloud Main &amp; Calendar plugins. Just kidding, today is a reset. Still much requested though!",
+      "createdAt": "2026-10-28T02:42:53.000Z",
+      "url": "https://x.com/thsottiaux/status/2115273064481218829",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2115273253711409208": {
+      "id": "2115273253711409208",
+      "canonicalId": "2115273253711409208",
+      "text": "Lands by midnight PST.",
+      "createdAt": "2026-10-28T02:43:38.000Z",
+      "url": "https://x.com/thsottiaux/status/2115273253711409208",
+      "media": [],
+      "authorUsername": "thsottiaux",
+      "replyToId": "2115273064481218829"
+    },
+    "2115289940233961584": {
+      "id": "2115289940233961584",
+      "canonicalId": "2115289940233961584",
+      "text": "@TokenGremlin @poteto lend me some of your strength, there is still time",
+      "createdAt": "2026-10-28T03:49:56.000Z",
+      "url": "https://x.com/thsottiaux/status/2115289940233961584",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2115290111147712544": {
+      "id": "2115290111147712544",
+      "canonicalId": "2115290111147712544",
+      "text": "@matteing Hi Sergio",
+      "createdAt": "2026-10-28T03:50:37.000Z",
+      "url": "https://x.com/thsottiaux/status/2115290111147712544",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2115290318652444729": {
+      "id": "2115290318652444729",
+      "canonicalId": "2115290318652444729",
+      "text": "@AdamHoltererer Maybe it’s because I have bad long term memory.",
+      "createdAt": "2026-10-28T03:51:26.000Z",
+      "url": "https://x.com/thsottiaux/status/2115290318652444729",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2115297093879472332": {
+      "id": "2115297093879472332",
+      "canonicalId": "2115297093879472332",
+      "text": "https://t.co/Fgy0dBAHsJ has landed",
+      "createdAt": "2026-10-28T04:18:22.000Z",
+      "url": "https://x.com/thsottiaux/status/2115297093879472332",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2115299029294920189": {
+      "id": "2115299029294920189",
+      "canonicalId": "2115299029294920189",
+      "text": "@mark_k @OpenAI Taking notes",
+      "createdAt": "2026-10-28T04:26:03.000Z",
+      "url": "https://x.com/thsottiaux/status/2115299029294920189",
       "media": [],
       "authorUsername": "thsottiaux"
     }

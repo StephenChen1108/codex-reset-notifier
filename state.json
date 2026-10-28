@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2115330127886463244",
-  "lastCheckedAt": "2026-10-28T12:44:28.998Z",
-  "lastSuccessAt": "2026-10-28T12:44:28.998Z",
+  "sinceId": "2115473280677363810",
+  "lastCheckedAt": "2026-10-28T18:32:08.763Z",
+  "lastSuccessAt": "2026-10-28T18:32:08.763Z",
   "lastRunStatus": "checked-2-posts",
-  "postsScanned": 126,
+  "postsScanned": 128,
   "matches": [],
   "outbox": [],
   "seen": {
@@ -136,26 +136,18 @@
     "2115297093879472332": "348086deaaffe04f05f1c0a578218034b844eb460382f98ff4aefd329144af15",
     "2115299029294920189": "2300a59f4f3c3c0f9fc6be5ec044510f8e7283fa29269d014398d3b08291dfff",
     "2115329600897319076": "4e6b929e8003b3b57c9219338c38897363ff63d2ddd5053334ee396b376d0a98",
-    "2115330127886463244": "85cc1e62f48b59d0a8f8ba8ca10b179201265ebac6d5f951c754d97734ed627b"
+    "2115330127886463244": "85cc1e62f48b59d0a8f8ba8ca10b179201265ebac6d5f951c754d97734ed627b",
+    "2115473170279080149": "8b858edf81e0a102ea3fd6d2e563203a02b6d527cec6fe2c2d3f1fb781d3a8e0",
+    "2115473280677363810": "03c3670bfd06f6211699a841c5ea9277061ada237a3850f986d4810c0a14f656"
   },
   "latestObservedPost": {
-    "id": "2115330127886463244",
-    "canonicalId": "2115330127886463244",
-    "text": "And it's done. See you tomorrow for some good news.",
-    "createdAt": "2026-10-28T06:29:38.000Z",
-    "url": "https://x.com/thsottiaux/status/2115330127886463244",
+    "id": "2115473280677363810",
+    "canonicalId": "2115473280677363810",
+    "text": "@Ananth7e If only",
+    "createdAt": "2026-10-28T15:58:28.000Z",
+    "url": "https://x.com/thsottiaux/status/2115473280677363810",
     "media": [],
-    "authorUsername": "thsottiaux",
-    "quotedPostId": "2115273253711409208",
-    "quotedPost": {
-      "id": "2115273253711409208",
-      "canonicalId": "2115273253711409208",
-      "text": "Lands by midnight PST.",
-      "createdAt": "2026-10-28T02:43:38.000Z",
-      "url": "https://x.com/thsottiaux/status/2115273253711409208",
-      "media": [],
-      "authorUsername": "thsottiaux"
-    }
+    "authorUsername": "thsottiaux"
   },
   "eventParserVersion": 6,
   "announcementSeen": {
@@ -1497,7 +1489,8 @@
       "createdAt": "2026-10-28T02:43:38.000Z",
       "url": "https://x.com/thsottiaux/status/2115273253711409208",
       "media": [],
-      "authorUsername": "thsottiaux"
+      "authorUsername": "thsottiaux",
+      "replyToId": "2115273064481218829"
     },
     "2115289940233961584": {
       "id": "2115289940233961584",
@@ -1562,6 +1555,25 @@
       "media": [],
       "authorUsername": "thsottiaux",
       "quotedPostId": "2115273253711409208"
+    },
+    "2115473170279080149": {
+      "id": "2115473170279080149",
+      "canonicalId": "2115473170279080149",
+      "text": "Pretty wild that this site got 3M views.",
+      "createdAt": "2026-10-28T15:58:02.000Z",
+      "url": "https://x.com/thsottiaux/status/2115473170279080149",
+      "media": [],
+      "authorUsername": "thsottiaux",
+      "quotedPostId": "2115297093879472332"
+    },
+    "2115473280677363810": {
+      "id": "2115473280677363810",
+      "canonicalId": "2115473280677363810",
+      "text": "@Ananth7e If only",
+      "createdAt": "2026-10-28T15:58:28.000Z",
+      "url": "https://x.com/thsottiaux/status/2115473280677363810",
+      "media": [],
+      "authorUsername": "thsottiaux"
     }
   },
   "contextVersion": 1

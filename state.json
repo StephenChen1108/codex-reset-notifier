@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2115473280677363810",
-  "lastCheckedAt": "2026-10-28T22:49:57.925Z",
-  "lastSuccessAt": "2026-10-28T22:49:57.925Z",
-  "lastRunStatus": "checked-0-posts",
-  "postsScanned": 128,
+  "sinceId": "2115622002581188681",
+  "lastCheckedAt": "2026-10-29T02:00:00.114Z",
+  "lastSuccessAt": "2026-10-29T02:00:00.114Z",
+  "lastRunStatus": "checked-2-posts",
+  "postsScanned": 130,
   "matches": [],
   "outbox": [],
   "seen": {
@@ -138,14 +138,16 @@
     "2115329600897319076": "4e6b929e8003b3b57c9219338c38897363ff63d2ddd5053334ee396b376d0a98",
     "2115330127886463244": "85cc1e62f48b59d0a8f8ba8ca10b179201265ebac6d5f951c754d97734ed627b",
     "2115473170279080149": "8b858edf81e0a102ea3fd6d2e563203a02b6d527cec6fe2c2d3f1fb781d3a8e0",
-    "2115473280677363810": "03c3670bfd06f6211699a841c5ea9277061ada237a3850f986d4810c0a14f656"
+    "2115473280677363810": "03c3670bfd06f6211699a841c5ea9277061ada237a3850f986d4810c0a14f656",
+    "2115588390414581916": "114fb17887b7831d78ffc83f469f5f452463162654cfb2cbb291a0e5569fb19a",
+    "2115622002581188681": "3c9c86b377d54385c34f4b6323c16131f61e4541a9c3a63c6d26b9177e641357"
   },
   "latestObservedPost": {
-    "id": "2115473280677363810",
-    "canonicalId": "2115473280677363810",
-    "text": "@Ananth7e If only",
-    "createdAt": "2026-10-28T15:58:28.000Z",
-    "url": "https://x.com/thsottiaux/status/2115473280677363810",
+    "id": "2115622002581188681",
+    "canonicalId": "2115622002581188681",
+    "text": "Day 24/ Text your dot just like anyone else. Makes it super easy to share/forward things, leave it voice notes or you can even go creative with \"Hey Siri, text Iggy to &lt;INSERT WILD REQUEST&gt;\" and sit back and relax.",
+    "createdAt": "2026-10-29T01:49:26.000Z",
+    "url": "https://x.com/thsottiaux/status/2115622002581188681",
     "media": [],
     "authorUsername": "thsottiaux"
   },
@@ -1572,6 +1574,24 @@
       "text": "@Ananth7e If only",
       "createdAt": "2026-10-28T15:58:28.000Z",
       "url": "https://x.com/thsottiaux/status/2115473280677363810",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2115588390414581916": {
+      "id": "2115588390414581916",
+      "canonicalId": "2115588390414581916",
+      "text": "Team is working on this but it's not rolling out just yet, sorry for any confusion. Plan is to bring together best of both Chat / Work capabilities together at some point this year, but we're going to proceed carefully here and take our time.\n\nWe'll have more to share soon.",
+      "createdAt": "2026-10-28T23:35:52.000Z",
+      "url": "https://x.com/thsottiaux/status/2115588390414581916",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2115622002581188681": {
+      "id": "2115622002581188681",
+      "canonicalId": "2115622002581188681",
+      "text": "Day 24/ Text your dot just like anyone else. Makes it super easy to share/forward things, leave it voice notes or you can even go creative with \"Hey Siri, text Iggy to &lt;INSERT WILD REQUEST&gt;\" and sit back and relax.",
+      "createdAt": "2026-10-29T01:49:26.000Z",
+      "url": "https://x.com/thsottiaux/status/2115622002581188681",
       "media": [],
       "authorUsername": "thsottiaux"
     }

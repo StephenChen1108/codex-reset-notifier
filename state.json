@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2115622002581188681",
-  "lastCheckedAt": "2026-10-29T02:00:00.114Z",
-  "lastSuccessAt": "2026-10-29T02:00:00.114Z",
-  "lastRunStatus": "checked-2-posts",
-  "postsScanned": 130,
+  "sinceId": "2115649073302904875",
+  "lastCheckedAt": "2026-10-29T08:22:33.285Z",
+  "lastSuccessAt": "2026-10-29T08:22:33.285Z",
+  "lastRunStatus": "checked-3-posts",
+  "postsScanned": 133,
   "matches": [],
   "outbox": [],
   "seen": {
@@ -140,14 +140,17 @@
     "2115473170279080149": "8b858edf81e0a102ea3fd6d2e563203a02b6d527cec6fe2c2d3f1fb781d3a8e0",
     "2115473280677363810": "03c3670bfd06f6211699a841c5ea9277061ada237a3850f986d4810c0a14f656",
     "2115588390414581916": "114fb17887b7831d78ffc83f469f5f452463162654cfb2cbb291a0e5569fb19a",
-    "2115622002581188681": "3c9c86b377d54385c34f4b6323c16131f61e4541a9c3a63c6d26b9177e641357"
+    "2115622002581188681": "3c9c86b377d54385c34f4b6323c16131f61e4541a9c3a63c6d26b9177e641357",
+    "2115648685069742441": "b4f67c3649e0fe237a45865c442520eb6c50b9b4872ff9222ae167d3cf1f8e93",
+    "2115648938149818370": "7e8727cafd5281d4ce13219cdb700f86c5a59ab579d4175c0dfdf71d27c8c7da",
+    "2115649073302904875": "d8e2e9496e44860fd929f1e13659d0b8b84fbfdfb7143ea68105981aa2191f62"
   },
   "latestObservedPost": {
-    "id": "2115622002581188681",
-    "canonicalId": "2115622002581188681",
-    "text": "Day 24/ Text your dot just like anyone else. Makes it super easy to share/forward things, leave it voice notes or you can even go creative with \"Hey Siri, text Iggy to &lt;INSERT WILD REQUEST&gt;\" and sit back and relax.",
-    "createdAt": "2026-10-29T01:49:26.000Z",
-    "url": "https://x.com/thsottiaux/status/2115622002581188681",
+    "id": "2115649073302904875",
+    "canonicalId": "2115649073302904875",
+    "text": "@rezoundous Low, but not zero",
+    "createdAt": "2026-10-29T03:37:00.000Z",
+    "url": "https://x.com/thsottiaux/status/2115649073302904875",
     "media": [],
     "authorUsername": "thsottiaux"
   },
@@ -1592,6 +1595,34 @@
       "text": "Day 24/ Text your dot just like anyone else. Makes it super easy to share/forward things, leave it voice notes or you can even go creative with \"Hey Siri, text Iggy to &lt;INSERT WILD REQUEST&gt;\" and sit back and relax.",
       "createdAt": "2026-10-29T01:49:26.000Z",
       "url": "https://x.com/thsottiaux/status/2115622002581188681",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2115648685069742441": {
+      "id": "2115648685069742441",
+      "canonicalId": "2115648685069742441",
+      "text": "@alexandr_wang Muse couldn't build a website so the man just did a redirect",
+      "createdAt": "2026-10-29T03:35:28.000Z",
+      "url": "https://x.com/thsottiaux/status/2115648685069742441",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2115648938149818370": {
+      "id": "2115648938149818370",
+      "canonicalId": "2115648938149818370",
+      "text": "@alexandr_wang @alexandr_wang  DM me for a free trial of Pro",
+      "createdAt": "2026-10-29T03:36:28.000Z",
+      "url": "https://x.com/thsottiaux/status/2115648938149818370",
+      "media": [],
+      "authorUsername": "thsottiaux",
+      "replyToId": "2115648685069742441"
+    },
+    "2115649073302904875": {
+      "id": "2115649073302904875",
+      "canonicalId": "2115649073302904875",
+      "text": "@rezoundous Low, but not zero",
+      "createdAt": "2026-10-29T03:37:00.000Z",
+      "url": "https://x.com/thsottiaux/status/2115649073302904875",
       "media": [],
       "authorUsername": "thsottiaux"
     }

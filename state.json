@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2115649073302904875",
-  "lastCheckedAt": "2026-10-29T15:23:02.996Z",
-  "lastSuccessAt": "2026-10-29T15:23:02.996Z",
-  "lastRunStatus": "checked-0-posts",
-  "postsScanned": 133,
+  "sinceId": "2115890336107233347",
+  "lastCheckedAt": "2026-10-29T20:26:00.308Z",
+  "lastSuccessAt": "2026-10-29T20:26:00.308Z",
+  "lastRunStatus": "checked-6-posts",
+  "postsScanned": 139,
   "matches": [],
   "outbox": [],
   "seen": {
@@ -143,14 +143,20 @@
     "2115622002581188681": "3c9c86b377d54385c34f4b6323c16131f61e4541a9c3a63c6d26b9177e641357",
     "2115648685069742441": "b4f67c3649e0fe237a45865c442520eb6c50b9b4872ff9222ae167d3cf1f8e93",
     "2115648938149818370": "7e8727cafd5281d4ce13219cdb700f86c5a59ab579d4175c0dfdf71d27c8c7da",
-    "2115649073302904875": "d8e2e9496e44860fd929f1e13659d0b8b84fbfdfb7143ea68105981aa2191f62"
+    "2115649073302904875": "d8e2e9496e44860fd929f1e13659d0b8b84fbfdfb7143ea68105981aa2191f62",
+    "2115847315173069025": "e938869f6d32597f0664b3fe4e8c14d6eb82afc79294159aeadcbf979453b236",
+    "2115847364670030218": "841295eaa0d6e2a4f410e7e646a565f681e6284a174c0ce86c9674ffd77fe94c",
+    "2115850175868727621": "858d40140426f71c162979ade8a5a061f606c1f62b6e691532b0b5e3de17af2a",
+    "2115851621137784832": "ed2c89f5028e4f05831adaf272862d3ce48161e7a4462166745e3b7c4f11d93d",
+    "2115851811576053881": "3ffeeea7cb079ec71bd353a8f9e02ffb721a3defdabf165e194b1147a9f5372b",
+    "2115890336107233347": "5e3d0a9bda741770c71f62a45ed235e39a3628fea49660fb939a223090020621"
   },
   "latestObservedPost": {
-    "id": "2115649073302904875",
-    "canonicalId": "2115649073302904875",
-    "text": "@rezoundous Low, but not zero",
-    "createdAt": "2026-10-29T03:37:00.000Z",
-    "url": "https://x.com/thsottiaux/status/2115649073302904875",
+    "id": "2115890336107233347",
+    "canonicalId": "2115890336107233347",
+    "text": "Send your kind feedback to this person",
+    "createdAt": "2026-10-29T19:35:42.000Z",
+    "url": "https://x.com/thsottiaux/status/2115890336107233347",
     "media": [],
     "authorUsername": "thsottiaux"
   },
@@ -1280,8 +1286,7 @@
       "createdAt": "2026-10-25T03:40:04.000Z",
       "url": "https://x.com/thsottiaux/status/2114200291319124163",
       "media": [],
-      "authorUsername": "thsottiaux",
-      "replyToId": "2114200152701575656"
+      "authorUsername": "thsottiaux"
     },
     "2114228044072403055": {
       "id": "2114228044072403055",
@@ -1623,6 +1628,61 @@
       "text": "@rezoundous Low, but not zero",
       "createdAt": "2026-10-29T03:37:00.000Z",
       "url": "https://x.com/thsottiaux/status/2115649073302904875",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2115847315173069025": {
+      "id": "2115847315173069025",
+      "canonicalId": "2115847315173069025",
+      "text": "@theo Theo, is that you?",
+      "createdAt": "2026-10-29T16:44:45.000Z",
+      "url": "https://x.com/thsottiaux/status/2115847315173069025",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2115847364670030218": {
+      "id": "2115847364670030218",
+      "canonicalId": "2115847364670030218",
+      "text": "@poteto Bring it on",
+      "createdAt": "2026-10-29T16:44:56.000Z",
+      "url": "https://x.com/thsottiaux/status/2115847364670030218",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2115850175868727621": {
+      "id": "2115850175868727621",
+      "canonicalId": "2115850175868727621",
+      "text": "Day 25/\n\nWe are doubling all usage limits for all Pro 100/200/500 tiers and Business Premium, effective today.\n\nWe heard your kind feedback and won’t be reducing usage limits for Pro 200, so your Work and Codex usage will stay the same. We’re also going to continue offering extended limits for dots for now, and usage of your dot will still continue to be separate from your default usage.\n\nAnd we'll of course also keep shipping better models and other efficiency improvements that increase your effective usage over time.",
+      "createdAt": "2026-10-29T16:56:07.000Z",
+      "url": "https://x.com/thsottiaux/status/2115850175868727621",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2115851621137784832": {
+      "id": "2115851621137784832",
+      "canonicalId": "2115851621137784832",
+      "text": "Graduating from The Reset Company to The Token Company.",
+      "createdAt": "2026-10-29T17:01:51.000Z",
+      "url": "https://x.com/thsottiaux/status/2115851621137784832",
+      "media": [],
+      "authorUsername": "thsottiaux",
+      "replyToId": "2115850175868727621"
+    },
+    "2115851811576053881": {
+      "id": "2115851811576053881",
+      "canonicalId": "2115851811576053881",
+      "text": "@StefanoGPT Yes",
+      "createdAt": "2026-10-29T17:02:37.000Z",
+      "url": "https://x.com/thsottiaux/status/2115851811576053881",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2115890336107233347": {
+      "id": "2115890336107233347",
+      "canonicalId": "2115890336107233347",
+      "text": "Send your kind feedback to this person",
+      "createdAt": "2026-10-29T19:35:42.000Z",
+      "url": "https://x.com/thsottiaux/status/2115890336107233347",
       "media": [],
       "authorUsername": "thsottiaux"
     }

@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2116044153515815186",
-  "lastCheckedAt": "2026-10-30T05:50:09.226Z",
-  "lastSuccessAt": "2026-10-30T05:50:09.226Z",
-  "lastRunStatus": "checked-2-posts",
-  "postsScanned": 141,
+  "sinceId": "2116072117540417651",
+  "lastCheckedAt": "2026-10-30T11:49:27.379Z",
+  "lastSuccessAt": "2026-10-30T11:49:27.379Z",
+  "lastRunStatus": "checked-3-posts",
+  "postsScanned": 144,
   "matches": [],
   "outbox": [],
   "seen": {
@@ -151,14 +151,17 @@
     "2115851811576053881": "3ffeeea7cb079ec71bd353a8f9e02ffb721a3defdabf165e194b1147a9f5372b",
     "2115890336107233347": "5e3d0a9bda741770c71f62a45ed235e39a3628fea49660fb939a223090020621",
     "2115974268936712436": "eb03c93713f8ea348a0f441a4370808c8933b046e283754e0d0a80ff2c6db88b",
-    "2116044153515815186": "6cffdd7f9755a2d4cd1d9f8c71ffa5bb90a70e38e2185d73eab2c6ff768a37bd"
+    "2116044153515815186": "6cffdd7f9755a2d4cd1d9f8c71ffa5bb90a70e38e2185d73eab2c6ff768a37bd",
+    "2116045727642366367": "c94f3d825349d1c7e8bc572a69d177490010bf3d25d4c7fe250fd1a1b22c2500",
+    "2116046569963421719": "6a88b33a93f70a13d486c471dee8d4062e59bf27aa4fd6ac8348057a06799a67",
+    "2116072117540417651": "77ba71a592541136220d7a17bfb652515bc143f1335ac3803fcb4228a7f03911"
   },
   "latestObservedPost": {
-    "id": "2116044153515815186",
-    "canonicalId": "2116044153515815186",
-    "text": "@janus_of_DC Hi brother 👋",
-    "createdAt": "2026-10-30T05:46:55.000Z",
-    "url": "https://x.com/thsottiaux/status/2116044153515815186",
+    "id": "2116072117540417651",
+    "canonicalId": "2116072117540417651",
+    "text": "@ajambrosino No hype, just shipping",
+    "createdAt": "2026-10-30T07:38:02.000Z",
+    "url": "https://x.com/thsottiaux/status/2116072117540417651",
     "media": [],
     "authorUsername": "thsottiaux"
   },
@@ -1703,6 +1706,33 @@
       "text": "@janus_of_DC Hi brother 👋",
       "createdAt": "2026-10-30T05:46:55.000Z",
       "url": "https://x.com/thsottiaux/status/2116044153515815186",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2116045727642366367": {
+      "id": "2116045727642366367",
+      "canonicalId": "2116045727642366367",
+      "text": "@blueemi99 Good list",
+      "createdAt": "2026-10-30T05:53:10.000Z",
+      "url": "https://x.com/thsottiaux/status/2116045727642366367",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2116046569963421719": {
+      "id": "2116046569963421719",
+      "canonicalId": "2116046569963421719",
+      "text": "@Ananth7e Yep",
+      "createdAt": "2026-10-30T05:56:31.000Z",
+      "url": "https://x.com/thsottiaux/status/2116046569963421719",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2116072117540417651": {
+      "id": "2116072117540417651",
+      "canonicalId": "2116072117540417651",
+      "text": "@ajambrosino No hype, just shipping",
+      "createdAt": "2026-10-30T07:38:02.000Z",
+      "url": "https://x.com/thsottiaux/status/2116072117540417651",
       "media": [],
       "authorUsername": "thsottiaux"
     }

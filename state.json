@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2116072117540417651",
-  "lastCheckedAt": "2026-10-30T17:18:43.507Z",
-  "lastSuccessAt": "2026-10-30T17:18:43.507Z",
-  "lastRunStatus": "checked-0-posts",
-  "postsScanned": 144,
+  "sinceId": "2116256600436641887",
+  "lastCheckedAt": "2026-10-30T21:37:12.438Z",
+  "lastSuccessAt": "2026-10-30T21:37:12.438Z",
+  "lastRunStatus": "checked-1-posts",
+  "postsScanned": 145,
   "matches": [],
   "outbox": [],
   "seen": {
@@ -154,14 +154,15 @@
     "2116044153515815186": "6cffdd7f9755a2d4cd1d9f8c71ffa5bb90a70e38e2185d73eab2c6ff768a37bd",
     "2116045727642366367": "c94f3d825349d1c7e8bc572a69d177490010bf3d25d4c7fe250fd1a1b22c2500",
     "2116046569963421719": "6a88b33a93f70a13d486c471dee8d4062e59bf27aa4fd6ac8348057a06799a67",
-    "2116072117540417651": "77ba71a592541136220d7a17bfb652515bc143f1335ac3803fcb4228a7f03911"
+    "2116072117540417651": "77ba71a592541136220d7a17bfb652515bc143f1335ac3803fcb4228a7f03911",
+    "2116256600436641887": "42d1e792306fc62d5d3a8413bd25a38fb4c9ab5d530f62bb7e39a9179dfffb0a"
   },
   "latestObservedPost": {
-    "id": "2116072117540417651",
-    "canonicalId": "2116072117540417651",
-    "text": "@ajambrosino No hype, just shipping",
-    "createdAt": "2026-10-30T07:38:02.000Z",
-    "url": "https://x.com/thsottiaux/status/2116072117540417651",
+    "id": "2116256600436641887",
+    "canonicalId": "2116256600436641887",
+    "text": "@claudeai Better announce 28 days of reset",
+    "createdAt": "2026-10-30T19:51:06.000Z",
+    "url": "https://x.com/thsottiaux/status/2116256600436641887",
     "media": [],
     "authorUsername": "thsottiaux"
   },
@@ -1504,7 +1505,8 @@
       "createdAt": "2026-10-28T02:43:38.000Z",
       "url": "https://x.com/thsottiaux/status/2115273253711409208",
       "media": [],
-      "authorUsername": "thsottiaux"
+      "authorUsername": "thsottiaux",
+      "replyToId": "2115273064481218829"
     },
     "2115289940233961584": {
       "id": "2115289940233961584",
@@ -1732,6 +1734,15 @@
       "text": "@ajambrosino No hype, just shipping",
       "createdAt": "2026-10-30T07:38:02.000Z",
       "url": "https://x.com/thsottiaux/status/2116072117540417651",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2116256600436641887": {
+      "id": "2116256600436641887",
+      "canonicalId": "2116256600436641887",
+      "text": "@claudeai Better announce 28 days of reset",
+      "createdAt": "2026-10-30T19:51:06.000Z",
+      "url": "https://x.com/thsottiaux/status/2116256600436641887",
       "media": [],
       "authorUsername": "thsottiaux"
     }

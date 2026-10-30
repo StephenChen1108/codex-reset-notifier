@@ -4,9 +4,9 @@
   "keyword": "reset",
   "userId": "1953337039510003712",
   "sinceId": "2115890336107233347",
-  "lastCheckedAt": "2026-10-29T20:26:00.308Z",
-  "lastSuccessAt": "2026-10-29T20:26:00.308Z",
-  "lastRunStatus": "checked-6-posts",
+  "lastCheckedAt": "2026-10-30T00:09:25.664Z",
+  "lastSuccessAt": "2026-10-30T00:09:25.664Z",
+  "lastRunStatus": "checked-0-posts",
   "postsScanned": 139,
   "matches": [],
   "outbox": [],
@@ -1499,8 +1499,7 @@
       "createdAt": "2026-10-28T02:43:38.000Z",
       "url": "https://x.com/thsottiaux/status/2115273253711409208",
       "media": [],
-      "authorUsername": "thsottiaux",
-      "replyToId": "2115273064481218829"
+      "authorUsername": "thsottiaux"
     },
     "2115289940233961584": {
       "id": "2115289940233961584",

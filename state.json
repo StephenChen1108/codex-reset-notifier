@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2115890336107233347",
-  "lastCheckedAt": "2026-10-30T00:09:25.664Z",
-  "lastSuccessAt": "2026-10-30T00:09:25.664Z",
-  "lastRunStatus": "checked-0-posts",
-  "postsScanned": 139,
+  "sinceId": "2116044153515815186",
+  "lastCheckedAt": "2026-10-30T05:50:09.226Z",
+  "lastSuccessAt": "2026-10-30T05:50:09.226Z",
+  "lastRunStatus": "checked-2-posts",
+  "postsScanned": 141,
   "matches": [],
   "outbox": [],
   "seen": {
@@ -149,14 +149,16 @@
     "2115850175868727621": "858d40140426f71c162979ade8a5a061f606c1f62b6e691532b0b5e3de17af2a",
     "2115851621137784832": "ed2c89f5028e4f05831adaf272862d3ce48161e7a4462166745e3b7c4f11d93d",
     "2115851811576053881": "3ffeeea7cb079ec71bd353a8f9e02ffb721a3defdabf165e194b1147a9f5372b",
-    "2115890336107233347": "5e3d0a9bda741770c71f62a45ed235e39a3628fea49660fb939a223090020621"
+    "2115890336107233347": "5e3d0a9bda741770c71f62a45ed235e39a3628fea49660fb939a223090020621",
+    "2115974268936712436": "eb03c93713f8ea348a0f441a4370808c8933b046e283754e0d0a80ff2c6db88b",
+    "2116044153515815186": "6cffdd7f9755a2d4cd1d9f8c71ffa5bb90a70e38e2185d73eab2c6ff768a37bd"
   },
   "latestObservedPost": {
-    "id": "2115890336107233347",
-    "canonicalId": "2115890336107233347",
-    "text": "Send your kind feedback to this person",
-    "createdAt": "2026-10-29T19:35:42.000Z",
-    "url": "https://x.com/thsottiaux/status/2115890336107233347",
+    "id": "2116044153515815186",
+    "canonicalId": "2116044153515815186",
+    "text": "@janus_of_DC Hi brother 👋",
+    "createdAt": "2026-10-30T05:46:55.000Z",
+    "url": "https://x.com/thsottiaux/status/2116044153515815186",
     "media": [],
     "authorUsername": "thsottiaux"
   },
@@ -1499,7 +1501,8 @@
       "createdAt": "2026-10-28T02:43:38.000Z",
       "url": "https://x.com/thsottiaux/status/2115273253711409208",
       "media": [],
-      "authorUsername": "thsottiaux"
+      "authorUsername": "thsottiaux",
+      "replyToId": "2115273064481218829"
     },
     "2115289940233961584": {
       "id": "2115289940233961584",
@@ -1682,6 +1685,24 @@
       "text": "Send your kind feedback to this person",
       "createdAt": "2026-10-29T19:35:42.000Z",
       "url": "https://x.com/thsottiaux/status/2115890336107233347",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2115974268936712436": {
+      "id": "2115974268936712436",
+      "canonicalId": "2115974268936712436",
+      "text": "@ajambrosino You merge, I split",
+      "createdAt": "2026-10-30T01:09:13.000Z",
+      "url": "https://x.com/thsottiaux/status/2115974268936712436",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2116044153515815186": {
+      "id": "2116044153515815186",
+      "canonicalId": "2116044153515815186",
+      "text": "@janus_of_DC Hi brother 👋",
+      "createdAt": "2026-10-30T05:46:55.000Z",
+      "url": "https://x.com/thsottiaux/status/2116044153515815186",
       "media": [],
       "authorUsername": "thsottiaux"
     }

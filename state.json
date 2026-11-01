@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2116692827459747906",
-  "lastCheckedAt": "2026-11-01T12:45:10.363Z",
-  "lastSuccessAt": "2026-11-01T12:45:10.363Z",
-  "lastRunStatus": "checked-0-posts",
-  "postsScanned": 151,
+  "sinceId": "2116942192497533418",
+  "lastCheckedAt": "2026-11-01T18:09:24.443Z",
+  "lastSuccessAt": "2026-11-01T18:09:24.443Z",
+  "lastRunStatus": "checked-6-posts",
+  "postsScanned": 157,
   "matches": [],
   "outbox": [],
   "seen": {
@@ -161,14 +161,20 @@
     "2116408135930069347": "91189de77a6c7210e882e060b46bbdc0192c9e152b76a69c4ffab477578eecba",
     "2116692529970311254": "97be25c182cc5b46a07b2275790b658d4efacef590b5924b52f100b69dbfcbb4",
     "2116692730877522349": "c716185a71444dcf8fac7ae4701a25e26cede050ba72b9b9e4fb2acf9cebb33d",
-    "2116692827459747906": "971d62e5808f3b03a0fa67b2235d7c1d0fa6b4585a4289fa59b01602552e6043"
+    "2116692827459747906": "971d62e5808f3b03a0fa67b2235d7c1d0fa6b4585a4289fa59b01602552e6043",
+    "2116935471976919340": "fe405d4fdadab85f03516eea5fee2a0cad0cb054df6ce284b46851a95345a007",
+    "2116935650511585696": "851f48318381eff68bc7bc350316c75c7dd2e8295f61188527fa0b3107c8b678",
+    "2116935821534380166": "31e10f3482493562e3db8fae26a1278267d39edafbc7b45aca70a679051b0280",
+    "2116936031866077423": "182f61b86caf7972160cd609969b88bd7ae477f47f512003f037513ca44a26e9",
+    "2116936205623611781": "090cdf1d5215c7a27cb88d85059e74434dd080bf67c0cf18dc514d666bbe1a87",
+    "2116942192497533418": "6a0352a666b5c4ffc34f77971b93a57597a5bdeb2dead2d594cb6421abdce663"
   },
   "latestObservedPost": {
-    "id": "2116692827459747906",
-    "canonicalId": "2116692827459747906",
-    "text": "@yacineMTB ?!",
-    "createdAt": "2026-11-01T00:44:30.000Z",
-    "url": "https://x.com/thsottiaux/status/2116692827459747906",
+    "id": "2116942192497533418",
+    "canonicalId": "2116942192497533418",
+    "text": "@TokenGremlin I demand a banked reset",
+    "createdAt": "2026-11-01T17:15:24.000Z",
+    "url": "https://x.com/thsottiaux/status/2116942192497533418",
     "media": [],
     "authorUsername": "thsottiaux"
   },
@@ -1803,6 +1809,63 @@
       "text": "@yacineMTB ?!",
       "createdAt": "2026-11-01T00:44:30.000Z",
       "url": "https://x.com/thsottiaux/status/2116692827459747906",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2116935471976919340": {
+      "id": "2116935471976919340",
+      "canonicalId": "2116935471976919340",
+      "text": "@jxnlco @wesleytian @romainhuet 😂",
+      "createdAt": "2026-11-01T16:48:41.000Z",
+      "url": "https://x.com/thsottiaux/status/2116935471976919340",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2116935650511585696": {
+      "id": "2116935650511585696",
+      "canonicalId": "2116935650511585696",
+      "text": "Dot still autocorrects to dog and that makes many texts I receive hilarious",
+      "createdAt": "2026-11-01T16:49:24.000Z",
+      "url": "https://x.com/thsottiaux/status/2116935650511585696",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2116935821534380166": {
+      "id": "2116935821534380166",
+      "canonicalId": "2116935821534380166",
+      "text": "I love my dog, I have it on speed dial, arranged my haircut yesterday",
+      "createdAt": "2026-11-01T16:50:05.000Z",
+      "url": "https://x.com/thsottiaux/status/2116935821534380166",
+      "media": [],
+      "authorUsername": "thsottiaux",
+      "replyToId": "2116935650511585696"
+    },
+    "2116936031866077423": {
+      "id": "2116936031866077423",
+      "canonicalId": "2116936031866077423",
+      "text": "My dog sent you the meeting notes from yesterday, did you see them?",
+      "createdAt": "2026-11-01T16:50:55.000Z",
+      "url": "https://x.com/thsottiaux/status/2116936031866077423",
+      "media": [],
+      "authorUsername": "thsottiaux",
+      "replyToId": "2116935650511585696"
+    },
+    "2116936205623611781": {
+      "id": "2116936205623611781",
+      "canonicalId": "2116936205623611781",
+      "text": "My dog just patched that bug we couldn’t find for two weeks. Clever dog",
+      "createdAt": "2026-11-01T16:51:36.000Z",
+      "url": "https://x.com/thsottiaux/status/2116936205623611781",
+      "media": [],
+      "authorUsername": "thsottiaux",
+      "replyToId": "2116935650511585696"
+    },
+    "2116942192497533418": {
+      "id": "2116942192497533418",
+      "canonicalId": "2116942192497533418",
+      "text": "@TokenGremlin I demand a banked reset",
+      "createdAt": "2026-11-01T17:15:24.000Z",
+      "url": "https://x.com/thsottiaux/status/2116942192497533418",
       "media": [],
       "authorUsername": "thsottiaux"
     }

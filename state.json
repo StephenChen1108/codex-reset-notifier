@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2116942192497533418",
-  "lastCheckedAt": "2026-11-01T22:02:21.320Z",
-  "lastSuccessAt": "2026-11-01T22:02:21.320Z",
-  "lastRunStatus": "checked-0-posts",
-  "postsScanned": 157,
+  "sinceId": "2117035794678546764",
+  "lastCheckedAt": "2026-11-02T01:28:49.674Z",
+  "lastSuccessAt": "2026-11-02T01:28:49.674Z",
+  "lastRunStatus": "checked-2-posts",
+  "postsScanned": 159,
   "matches": [],
   "outbox": [],
   "seen": {
@@ -167,14 +167,16 @@
     "2116935821534380166": "31e10f3482493562e3db8fae26a1278267d39edafbc7b45aca70a679051b0280",
     "2116936031866077423": "182f61b86caf7972160cd609969b88bd7ae477f47f512003f037513ca44a26e9",
     "2116936205623611781": "090cdf1d5215c7a27cb88d85059e74434dd080bf67c0cf18dc514d666bbe1a87",
-    "2116942192497533418": "6a0352a666b5c4ffc34f77971b93a57597a5bdeb2dead2d594cb6421abdce663"
+    "2116942192497533418": "6a0352a666b5c4ffc34f77971b93a57597a5bdeb2dead2d594cb6421abdce663",
+    "2117035666332954818": "0d77e08d7e4f287ba832a96e6807b8abdb2d9d6cf3265be4686aa9d51fd81146",
+    "2117035794678546764": "f81460dab5a8a566c98134727d5014e960246a39c9da32ebf4b7f5e156588769"
   },
   "latestObservedPost": {
-    "id": "2116942192497533418",
-    "canonicalId": "2116942192497533418",
-    "text": "@TokenGremlin I demand a banked reset",
-    "createdAt": "2026-11-01T17:15:24.000Z",
-    "url": "https://x.com/thsottiaux/status/2116942192497533418",
+    "id": "2117035794678546764",
+    "canonicalId": "2117035794678546764",
+    "text": "Day 28/ Banked 2/2",
+    "createdAt": "2026-11-01T23:27:20.000Z",
+    "url": "https://x.com/thsottiaux/status/2117035794678546764",
     "media": [],
     "authorUsername": "thsottiaux"
   },
@@ -1866,6 +1868,24 @@
       "text": "@TokenGremlin I demand a banked reset",
       "createdAt": "2026-11-01T17:15:24.000Z",
       "url": "https://x.com/thsottiaux/status/2116942192497533418",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2117035666332954818": {
+      "id": "2117035666332954818",
+      "canonicalId": "2117035666332954818",
+      "text": "@poteto @MyCrazyIdeal it's fine to admit we plan these together months in advance",
+      "createdAt": "2026-11-01T23:26:50.000Z",
+      "url": "https://x.com/thsottiaux/status/2117035666332954818",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2117035794678546764": {
+      "id": "2117035794678546764",
+      "canonicalId": "2117035794678546764",
+      "text": "Day 28/ Banked 2/2",
+      "createdAt": "2026-11-01T23:27:20.000Z",
+      "url": "https://x.com/thsottiaux/status/2117035794678546764",
       "media": [],
       "authorUsername": "thsottiaux"
     }

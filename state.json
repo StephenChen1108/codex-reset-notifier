@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2117035794678546764",
-  "lastCheckedAt": "2026-11-02T01:28:49.674Z",
-  "lastSuccessAt": "2026-11-02T01:28:49.674Z",
+  "sinceId": "2117151862705230048",
+  "lastCheckedAt": "2026-11-02T08:11:37.378Z",
+  "lastSuccessAt": "2026-11-02T08:11:37.378Z",
   "lastRunStatus": "checked-2-posts",
-  "postsScanned": 159,
+  "postsScanned": 161,
   "matches": [],
   "outbox": [],
   "seen": {
@@ -169,16 +169,19 @@
     "2116936205623611781": "090cdf1d5215c7a27cb88d85059e74434dd080bf67c0cf18dc514d666bbe1a87",
     "2116942192497533418": "6a0352a666b5c4ffc34f77971b93a57597a5bdeb2dead2d594cb6421abdce663",
     "2117035666332954818": "0d77e08d7e4f287ba832a96e6807b8abdb2d9d6cf3265be4686aa9d51fd81146",
-    "2117035794678546764": "f81460dab5a8a566c98134727d5014e960246a39c9da32ebf4b7f5e156588769"
+    "2117035794678546764": "f81460dab5a8a566c98134727d5014e960246a39c9da32ebf4b7f5e156588769",
+    "2117151734506397716": "4983ca67a0406e8375fd1bddf72a4039df8f755684e03fac791f04acbced8929",
+    "2117151862705230048": "815ba17d97ceb2c0b7d4d71a23f0629ca6dbbf2c28d0d99f7c5533e62fdbac3e"
   },
   "latestObservedPost": {
-    "id": "2117035794678546764",
-    "canonicalId": "2117035794678546764",
-    "text": "Day 28/ Banked 2/2",
-    "createdAt": "2026-11-01T23:27:20.000Z",
-    "url": "https://x.com/thsottiaux/status/2117035794678546764",
+    "id": "2117151862705230048",
+    "canonicalId": "2117151862705230048",
+    "text": "@poteto I finished it though",
+    "createdAt": "2026-11-02T07:08:33.000Z",
+    "url": "https://x.com/thsottiaux/status/2117151862705230048",
     "media": [],
-    "authorUsername": "thsottiaux"
+    "authorUsername": "thsottiaux",
+    "replyToId": "2117151734506397716"
   },
   "eventParserVersion": 6,
   "announcementSeen": {
@@ -1519,8 +1522,7 @@
       "createdAt": "2026-10-28T02:43:38.000Z",
       "url": "https://x.com/thsottiaux/status/2115273253711409208",
       "media": [],
-      "authorUsername": "thsottiaux",
-      "replyToId": "2115273064481218829"
+      "authorUsername": "thsottiaux"
     },
     "2115289940233961584": {
       "id": "2115289940233961584",
@@ -1888,6 +1890,25 @@
       "url": "https://x.com/thsottiaux/status/2117035794678546764",
       "media": [],
       "authorUsername": "thsottiaux"
+    },
+    "2117151734506397716": {
+      "id": "2117151734506397716",
+      "canonicalId": "2117151734506397716",
+      "text": "@poteto Game so good because poteto used all the compute and forced Elon to pull the plug\n\nhttps://t.co/NqmIAzraQm",
+      "createdAt": "2026-11-02T07:08:02.000Z",
+      "url": "https://x.com/thsottiaux/status/2117151734506397716",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2117151862705230048": {
+      "id": "2117151862705230048",
+      "canonicalId": "2117151862705230048",
+      "text": "@poteto I finished it though",
+      "createdAt": "2026-11-02T07:08:33.000Z",
+      "url": "https://x.com/thsottiaux/status/2117151862705230048",
+      "media": [],
+      "authorUsername": "thsottiaux",
+      "replyToId": "2117151734506397716"
     }
   },
   "contextVersion": 1

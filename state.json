@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2117412956950638872",
-  "lastCheckedAt": "2026-11-03T01:11:19.591Z",
-  "lastSuccessAt": "2026-11-03T01:11:19.591Z",
-  "lastRunStatus": "checked-2-posts",
-  "postsScanned": 165,
+  "sinceId": "2117515752588853710",
+  "lastCheckedAt": "2026-11-03T07:57:04.210Z",
+  "lastSuccessAt": "2026-11-03T07:57:04.210Z",
+  "lastRunStatus": "checked-3-posts",
+  "postsScanned": 168,
   "matches": [],
   "outbox": [],
   "seen": {
@@ -175,14 +175,17 @@
     "2117283124833055196": "7360b7762eac7c109a506053ef8f8e3a5dd16e98cd4aa1cd2c37fa2bb98ae544",
     "2117283355427495983": "a213969fdf4d4b3bccb623aa0b3b3fc9303096b9cd0a7f5a4822e4abaebf72ac",
     "2117364233210151160": "9be417143926430eb3374e5ef0452b74e73524b9076a91c2da821961c8f3870a",
-    "2117412956950638872": "a0bf06976acace72c0ea4c178156d34c9767516b7fdfbf684ed6d2bba5e76cdd"
+    "2117412956950638872": "a0bf06976acace72c0ea4c178156d34c9767516b7fdfbf684ed6d2bba5e76cdd",
+    "2117489367417803042": "c443f9c8baf5a52ac7550077cd1b0783b115da40115d316b61fb3343ea2064fe",
+    "2117506709417795626": "197322de1438cca2db3708bed1e771c6c7fbe624d4a08f9dfd724c5bd20e4ca8",
+    "2117515752588853710": "514fcef91054a256c44dfe6c6db5f8f26aa617c598e45c0b394d7a4117bad746"
   },
   "latestObservedPost": {
-    "id": "2117412956950638872",
-    "canonicalId": "2117412956950638872",
-    "text": "We know some Git-fu. Excited the team is finally able to talk about it a bit. Massive props to @tnm and team",
-    "createdAt": "2026-11-03T00:26:03.000Z",
-    "url": "https://x.com/thsottiaux/status/2117412956950638872",
+    "id": "2117515752588853710",
+    "canonicalId": "2117515752588853710",
+    "text": "@Raitox_tech 🫨",
+    "createdAt": "2026-11-03T07:14:31.000Z",
+    "url": "https://x.com/thsottiaux/status/2117515752588853710",
     "media": [],
     "authorUsername": "thsottiaux"
   },
@@ -1947,6 +1950,33 @@
       "text": "We know some Git-fu. Excited the team is finally able to talk about it a bit. Massive props to @tnm and team",
       "createdAt": "2026-11-03T00:26:03.000Z",
       "url": "https://x.com/thsottiaux/status/2117412956950638872",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2117489367417803042": {
+      "id": "2117489367417803042",
+      "canonicalId": "2117489367417803042",
+      "text": "Le GPT Fat",
+      "createdAt": "2026-11-03T05:29:40.000Z",
+      "url": "https://x.com/thsottiaux/status/2117489367417803042",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2117506709417795626": {
+      "id": "2117506709417795626",
+      "canonicalId": "2117506709417795626",
+      "text": "@_aidan_clark_ twitter really",
+      "createdAt": "2026-11-03T06:38:35.000Z",
+      "url": "https://x.com/thsottiaux/status/2117506709417795626",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2117515752588853710": {
+      "id": "2117515752588853710",
+      "canonicalId": "2117515752588853710",
+      "text": "@Raitox_tech 🫨",
+      "createdAt": "2026-11-03T07:14:31.000Z",
+      "url": "https://x.com/thsottiaux/status/2117515752588853710",
       "media": [],
       "authorUsername": "thsottiaux"
     }

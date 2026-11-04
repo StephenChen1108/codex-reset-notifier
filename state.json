@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2117889346426823037",
-  "lastCheckedAt": "2026-11-04T16:14:33.802Z",
-  "lastSuccessAt": "2026-11-04T16:14:33.802Z",
-  "lastRunStatus": "checked-0-posts",
-  "postsScanned": 176,
+  "sinceId": "2118024737070957009",
+  "lastCheckedAt": "2026-11-04T21:57:33.594Z",
+  "lastSuccessAt": "2026-11-04T21:57:33.594Z",
+  "lastRunStatus": "checked-3-posts",
+  "postsScanned": 179,
   "matches": [],
   "outbox": [],
   "seen": {
@@ -186,14 +186,17 @@
     "2117884611640668212": "7c84b11f238c643e6d297d0707bbd2691e35d817399956b0e8e63a06ea5ae6ea",
     "2117888243119304945": "42e07eb9e431b874228095c74f633153672bb303c07fd02fb8870a2cd580de9a",
     "2117888828874936679": "3cac1518a7e5c2e799d3a0d47c9782b5546d58d6e84a528898858000510c6209",
-    "2117889346426823037": "9a82cd9d7f8cc92f72ae45a4b015bd5f6a5aba236e1e17c7ca9b83cfebf67716"
+    "2117889346426823037": "9a82cd9d7f8cc92f72ae45a4b015bd5f6a5aba236e1e17c7ca9b83cfebf67716",
+    "2118024169762029594": "7dada5ffd0a298352bc496a4531e30d9d2642af13c3cff016e1f03fbc9d85a4c",
+    "2118024484594803084": "ef506fe0badc3b544d25e57ae8b3b2464fd17b17503d7723cfcbe68dd7b5657f",
+    "2118024737070957009": "dbb0c0a48eb47d8407afa2b2b45f268de815e0ef184c06802e79d569d312beb6"
   },
   "latestObservedPost": {
-    "id": "2117889346426823037",
-    "canonicalId": "2117889346426823037",
-    "text": "@haydenfield Asked chat and it confirmed the story",
-    "createdAt": "2026-11-04T07:59:03.000Z",
-    "url": "https://x.com/thsottiaux/status/2117889346426823037",
+    "id": "2118024737070957009",
+    "canonicalId": "2118024737070957009",
+    "text": "@AnikaCodes I was moved to the basement yesterday",
+    "createdAt": "2026-11-04T16:57:02.000Z",
+    "url": "https://x.com/thsottiaux/status/2118024737070957009",
     "media": [],
     "authorUsername": "thsottiaux"
   },
@@ -2058,6 +2061,33 @@
       "text": "@haydenfield Asked chat and it confirmed the story",
       "createdAt": "2026-11-04T07:59:03.000Z",
       "url": "https://x.com/thsottiaux/status/2117889346426823037",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2118024169762029594": {
+      "id": "2118024169762029594",
+      "canonicalId": "2118024169762029594",
+      "text": "Computers have RAM, right? \n\nWelcome Pierre. Let’s reinvent everything",
+      "createdAt": "2026-11-04T16:54:47.000Z",
+      "url": "https://x.com/thsottiaux/status/2118024169762029594",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2118024484594803084": {
+      "id": "2118024484594803084",
+      "canonicalId": "2118024484594803084",
+      "text": "@theo Which team were you on?",
+      "createdAt": "2026-11-04T16:56:02.000Z",
+      "url": "https://x.com/thsottiaux/status/2118024484594803084",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2118024737070957009": {
+      "id": "2118024737070957009",
+      "canonicalId": "2118024737070957009",
+      "text": "@AnikaCodes I was moved to the basement yesterday",
+      "createdAt": "2026-11-04T16:57:02.000Z",
+      "url": "https://x.com/thsottiaux/status/2118024737070957009",
       "media": [],
       "authorUsername": "thsottiaux"
     }

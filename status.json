@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-04T21:57:33.600Z",
+  "updatedAt": "2026-11-05T02:12:57.877Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-11-04T21:57:33.594Z",
-    "lastSuccessAt": "2026-11-04T21:57:33.594Z",
-    "lastRunStatus": "checked-3-posts"
+    "lastCheckedAt": "2026-11-05T02:12:57.873Z",
+    "lastSuccessAt": "2026-11-05T02:12:57.873Z",
+    "lastRunStatus": "checked-8-posts"
   },
   "latestObservedPost": {
-    "id": "2118024737070957009",
-    "text": "@AnikaCodes I was moved to the basement yesterday",
-    "url": "https://x.com/thsottiaux/status/2118024737070957009",
-    "postCreatedAt": "2026-11-04T16:57:02.000Z"
+    "id": "2118147545931374976",
+    "text": "@fly3nn @grok Reports of my retirement have been greatly exaggerated",
+    "url": "https://x.com/thsottiaux/status/2118147545931374976",
+    "postCreatedAt": "2026-11-05T01:05:02.000Z"
   },
   "latest": {
     "reset": null,

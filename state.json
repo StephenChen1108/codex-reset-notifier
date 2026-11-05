@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2118147545931374976",
-  "lastCheckedAt": "2026-11-05T02:12:57.873Z",
-  "lastSuccessAt": "2026-11-05T02:12:57.873Z",
-  "lastRunStatus": "checked-8-posts",
-  "postsScanned": 187,
+  "sinceId": "2118255144836161582",
+  "lastCheckedAt": "2026-11-05T09:35:25.218Z",
+  "lastSuccessAt": "2026-11-05T09:35:25.218Z",
+  "lastRunStatus": "checked-10-posts",
+  "postsScanned": 197,
   "matches": [],
   "outbox": [],
   "seen": {
@@ -197,14 +197,24 @@
     "2118146834325733453": "5669992f9ab5a90f3d07786b34adeb758f8a2eb7eba3835dfb2118fa2753980d",
     "2118147019030335666": "d516a357d8a301866e0e972f00615a642c5b241f389d4eab790fb3da1184d665",
     "2118147091155529874": "62734b96854afe3fc8256817a7e78fc555641732f4da15d3cabbe0eb029f17fe",
-    "2118147545931374976": "ccd7bdf6817fe20f7db88a5cc2ea155cffed1acc812f0170d2b5853b5b8bc0b8"
+    "2118147545931374976": "ccd7bdf6817fe20f7db88a5cc2ea155cffed1acc812f0170d2b5853b5b8bc0b8",
+    "2118165504955494695": "703ad6fee61abed6265edf9c6e41ab8b54a2f7787f7ec5b18400df978a54ce56",
+    "2118248900381536740": "53a4b7d7fb5b19a80f458689ca4424df9f297976211415513707bc143adfcb34",
+    "2118249806875533399": "a00fc5d0b30d2f4f1975548a6ef5bba0455e73d2b7564a8b29368094161455a7",
+    "2118250462092914736": "e61869310fe54677be32af7b0fc6c46e14ed4deb11300786073b6915ca8a828d",
+    "2118250631165300747": "5847aa6b3b9d6ad3b759fb8b890fad36ab93684ea7b8311909294f861f88ed27",
+    "2118251848297783385": "3bd0576e3c3d2de8c8093083f0ffc120c06aeb47804cede8fb68540217230a41",
+    "2118252192536973501": "6e3051d725b013d1699acff829cd46402de2e83e2943842f848ce09317e80c6b",
+    "2118253609272177047": "01f90f451a5d21ce8688c46dbfa31da2aa4fa9dba6fc59ae4d35703c9e2c5b85",
+    "2118254289894445278": "8291f0aed4c1d5f7808b2dbfe5603d52ecdeb4d48eab73a151ef632cb03db26b",
+    "2118255144836161582": "c29421d4c09ac0e3126b3ea72f57c739c4756f11b1a48764c62317681c2457dc"
   },
   "latestObservedPost": {
-    "id": "2118147545931374976",
-    "canonicalId": "2118147545931374976",
-    "text": "@fly3nn @grok Reports of my retirement have been greatly exaggerated",
-    "createdAt": "2026-11-05T01:05:02.000Z",
-    "url": "https://x.com/thsottiaux/status/2118147545931374976",
+    "id": "2118255144836161582",
+    "canonicalId": "2118255144836161582",
+    "text": "@theo @thdxr Congrats I guess",
+    "createdAt": "2026-11-05T08:12:36.000Z",
+    "url": "https://x.com/thsottiaux/status/2118255144836161582",
     "media": [],
     "authorUsername": "thsottiaux"
   },
@@ -2170,6 +2180,96 @@
       "text": "@fly3nn @grok Reports of my retirement have been greatly exaggerated",
       "createdAt": "2026-11-05T01:05:02.000Z",
       "url": "https://x.com/thsottiaux/status/2118147545931374976",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2118165504955494695": {
+      "id": "2118165504955494695",
+      "canonicalId": "2118165504955494695",
+      "text": "@jonoalford We needed the eyeballs",
+      "createdAt": "2026-11-05T02:16:24.000Z",
+      "url": "https://x.com/thsottiaux/status/2118165504955494695",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2118248900381536740": {
+      "id": "2118248900381536740",
+      "canonicalId": "2118248900381536740",
+      "text": "Privilege to work alongside so many amazing people who won’t rest until we materialize a better future.",
+      "createdAt": "2026-11-05T07:47:47.000Z",
+      "url": "https://x.com/thsottiaux/status/2118248900381536740",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2118249806875533399": {
+      "id": "2118249806875533399",
+      "canonicalId": "2118249806875533399",
+      "text": "@dani_avila7 Codex",
+      "createdAt": "2026-11-05T07:51:23.000Z",
+      "url": "https://x.com/thsottiaux/status/2118249806875533399",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2118250462092914736": {
+      "id": "2118250462092914736",
+      "canonicalId": "2118250462092914736",
+      "text": "@rileybrown Yes and\n\nhttps://t.co/jgEYox5nYJ",
+      "createdAt": "2026-11-05T07:54:00.000Z",
+      "url": "https://x.com/thsottiaux/status/2118250462092914736",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2118250631165300747": {
+      "id": "2118250631165300747",
+      "canonicalId": "2118250631165300747",
+      "text": "Follow Samir for dot updates",
+      "createdAt": "2026-11-05T07:54:40.000Z",
+      "url": "https://x.com/thsottiaux/status/2118250631165300747",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2118251848297783385": {
+      "id": "2118251848297783385",
+      "canonicalId": "2118251848297783385",
+      "text": "@amix3k In 6 months this will look quite funny in retrospect",
+      "createdAt": "2026-11-05T07:59:30.000Z",
+      "url": "https://x.com/thsottiaux/status/2118251848297783385",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2118252192536973501": {
+      "id": "2118252192536973501",
+      "canonicalId": "2118252192536973501",
+      "text": "@helloitsaustin @OpenAI Welcome sir",
+      "createdAt": "2026-11-05T08:00:52.000Z",
+      "url": "https://x.com/thsottiaux/status/2118252192536973501",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2118253609272177047": {
+      "id": "2118253609272177047",
+      "canonicalId": "2118253609272177047",
+      "text": "@JamesMalsawm 50X",
+      "createdAt": "2026-11-05T08:06:30.000Z",
+      "url": "https://x.com/thsottiaux/status/2118253609272177047",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2118254289894445278": {
+      "id": "2118254289894445278",
+      "canonicalId": "2118254289894445278",
+      "text": "@fudgeposting Might be",
+      "createdAt": "2026-11-05T08:09:12.000Z",
+      "url": "https://x.com/thsottiaux/status/2118254289894445278",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2118255144836161582": {
+      "id": "2118255144836161582",
+      "canonicalId": "2118255144836161582",
+      "text": "@theo @thdxr Congrats I guess",
+      "createdAt": "2026-11-05T08:12:36.000Z",
+      "url": "https://x.com/thsottiaux/status/2118255144836161582",
       "media": [],
       "authorUsername": "thsottiaux"
     }

@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2118376946652557613",
-  "lastCheckedAt": "2026-11-05T17:38:11.641Z",
-  "lastSuccessAt": "2026-11-05T17:38:11.641Z",
-  "lastRunStatus": "checked-1-posts",
-  "postsScanned": 198,
+  "sinceId": "2118473288368406582",
+  "lastCheckedAt": "2026-11-05T22:52:28.390Z",
+  "lastSuccessAt": "2026-11-05T22:52:28.390Z",
+  "lastRunStatus": "checked-8-posts",
+  "postsScanned": 206,
   "matches": [],
   "outbox": [],
   "seen": {
@@ -208,16 +208,25 @@
     "2118253609272177047": "01f90f451a5d21ce8688c46dbfa31da2aa4fa9dba6fc59ae4d35703c9e2c5b85",
     "2118254289894445278": "8291f0aed4c1d5f7808b2dbfe5603d52ecdeb4d48eab73a151ef632cb03db26b",
     "2118255144836161582": "c29421d4c09ac0e3126b3ea72f57c739c4756f11b1a48764c62317681c2457dc",
-    "2118376946652557613": "e1624794dc06315d016915ed1859f76bc4e0f7958baf9e8dcd0d43659dff61f6"
+    "2118376946652557613": "e1624794dc06315d016915ed1859f76bc4e0f7958baf9e8dcd0d43659dff61f6",
+    "2118401691032973416": "fbd1646195ba988874754a06bfca27f907861fae1fae9e3946b5a5977b8df4b1",
+    "2118402103907655903": "431e7d052b31a5f74878abe7021886cfecd9db8d8fbed40adc9e2885b6f1cea4",
+    "2118443570298568886": "82539943e4ab297bbe0de3e6a5962bba4ebec47770bb2b898ae8b7151e9b75b7",
+    "2118444105969926407": "c75587e23d2f5e74d77aabccfabb0fab3d8936f02d6dfd66d0b52ee63ded92d9",
+    "2118469621011677521": "324f650780e0e9fb23fa75775d21a696a84e81b88da4bc281c440578845975db",
+    "2118469869423526046": "150c9783218d9542eb767bd57ee90cf0dcd6f71fb96295453298e85056a1908d",
+    "2118470016127598724": "f8c4499c416c67b5832b7f613d1599743190fb48848a7d0a6aa9a7e3240c0645",
+    "2118473288368406582": "de4eaf3e81c43302468bb2a204e66fb3361726aed8c791128cff4d4ebce31f54"
   },
   "latestObservedPost": {
-    "id": "2118376946652557613",
-    "canonicalId": "2118376946652557613",
-    "text": "@ohayou792 Who comes up with these haha. Dane Starbuck. Haha",
-    "createdAt": "2026-11-05T16:16:36.000Z",
-    "url": "https://x.com/thsottiaux/status/2118376946652557613",
+    "id": "2118473288368406582",
+    "canonicalId": "2118473288368406582",
+    "text": "Generating*",
+    "createdAt": "2026-11-05T22:39:25.000Z",
+    "url": "https://x.com/thsottiaux/status/2118473288368406582",
     "media": [],
-    "authorUsername": "thsottiaux"
+    "authorUsername": "thsottiaux",
+    "replyToId": "2118469621011677521"
   },
   "eventParserVersion": 6,
   "announcementSeen": {
@@ -2282,6 +2291,80 @@
       "url": "https://x.com/thsottiaux/status/2118376946652557613",
       "media": [],
       "authorUsername": "thsottiaux"
+    },
+    "2118401691032973416": {
+      "id": "2118401691032973416",
+      "canonicalId": "2118401691032973416",
+      "text": "@ajambrosino Bunch of interesting buttons here: https://t.co/Qe9q3hPcGx",
+      "createdAt": "2026-11-05T17:54:55.000Z",
+      "url": "https://x.com/thsottiaux/status/2118401691032973416",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2118402103907655903": {
+      "id": "2118402103907655903",
+      "canonicalId": "2118402103907655903",
+      "text": "Our latest cyber-specialized model is out. It's in its own league on many cyber-specific use cases. Available through Daybreak Red access.",
+      "createdAt": "2026-11-05T17:56:34.000Z",
+      "url": "https://x.com/thsottiaux/status/2118402103907655903",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2118443570298568886": {
+      "id": "2118443570298568886",
+      "canonicalId": "2118443570298568886",
+      "text": "@kimmonismus Don't know, I live in the basement now",
+      "createdAt": "2026-11-05T20:41:20.000Z",
+      "url": "https://x.com/thsottiaux/status/2118443570298568886",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2118444105969926407": {
+      "id": "2118444105969926407",
+      "canonicalId": "2118444105969926407",
+      "text": "Come push the frontier of fluffiness",
+      "createdAt": "2026-11-05T20:43:28.000Z",
+      "url": "https://x.com/thsottiaux/status/2118444105969926407",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2118469621011677521": {
+      "id": "2118469621011677521",
+      "canonicalId": "2118469621011677521",
+      "text": "Wild stat. We are now generate more than 4B images per week across ChatGPT and the API, up from the more than 3B per week only 8 weeks ago.",
+      "createdAt": "2026-11-05T22:24:51.000Z",
+      "url": "https://x.com/thsottiaux/status/2118469621011677521",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2118469869423526046": {
+      "id": "2118469869423526046",
+      "canonicalId": "2118469869423526046",
+      "text": "@JustinBleuel @ChatGPT 👀",
+      "createdAt": "2026-11-05T22:25:50.000Z",
+      "url": "https://x.com/thsottiaux/status/2118469869423526046",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2118470016127598724": {
+      "id": "2118470016127598724",
+      "canonicalId": "2118470016127598724",
+      "text": "If I count well, that's more than 500M images per day.",
+      "createdAt": "2026-11-05T22:26:25.000Z",
+      "url": "https://x.com/thsottiaux/status/2118470016127598724",
+      "media": [],
+      "authorUsername": "thsottiaux",
+      "replyToId": "2118469621011677521"
+    },
+    "2118473288368406582": {
+      "id": "2118473288368406582",
+      "canonicalId": "2118473288368406582",
+      "text": "Generating*",
+      "createdAt": "2026-11-05T22:39:25.000Z",
+      "url": "https://x.com/thsottiaux/status/2118473288368406582",
+      "media": [],
+      "authorUsername": "thsottiaux",
+      "replyToId": "2118469621011677521"
     }
   },
   "contextVersion": 1

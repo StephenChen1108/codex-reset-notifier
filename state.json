@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2118473288368406582",
-  "lastCheckedAt": "2026-11-06T03:04:08.091Z",
-  "lastSuccessAt": "2026-11-06T03:04:08.091Z",
-  "lastRunStatus": "checked-0-posts",
-  "postsScanned": 206,
+  "sinceId": "2118574897542922697",
+  "lastCheckedAt": "2026-11-06T10:45:40.190Z",
+  "lastSuccessAt": "2026-11-06T10:45:40.190Z",
+  "lastRunStatus": "checked-7-posts",
+  "postsScanned": 213,
   "matches": [],
   "outbox": [],
   "seen": {
@@ -216,17 +216,23 @@
     "2118469621011677521": "324f650780e0e9fb23fa75775d21a696a84e81b88da4bc281c440578845975db",
     "2118469869423526046": "150c9783218d9542eb767bd57ee90cf0dcd6f71fb96295453298e85056a1908d",
     "2118470016127598724": "f8c4499c416c67b5832b7f613d1599743190fb48848a7d0a6aa9a7e3240c0645",
-    "2118473288368406582": "de4eaf3e81c43302468bb2a204e66fb3361726aed8c791128cff4d4ebce31f54"
+    "2118473288368406582": "de4eaf3e81c43302468bb2a204e66fb3361726aed8c791128cff4d4ebce31f54",
+    "2118567451596300778": "61f53f4a95c0cb1714e596c3647ca3c26d50586320def8a659522e6485c4c213",
+    "2118567894309306654": "9194d52c52208504513bca230eb8b0304f6f9092fd50f966cd7eb2376893bd43",
+    "2118569235953893573": "0affc47d68c68d566ab9ffa5cb7daeca6a7a4855f14f251154b0cb61c54fca76",
+    "2118569441860723112": "7f39636037e13b41dfa18239b0e983c66a30460b5fbf9492b5fa0ddab178ce52",
+    "2118569868278796680": "c6f7ccd6fc51be685222da9119ec5e584c0ec79855f979971dba0b124eab6d51",
+    "2118572184679710964": "038abf61f8269b23c0cab1a7c5f7be8159f61ba353f3ed6866fb75102ceb1627",
+    "2118574897542922697": "bf01a1756f56b817727f15ff205a3ddb95d5bb6c40caea49b10f8b5a7d8140c1"
   },
   "latestObservedPost": {
-    "id": "2118473288368406582",
-    "canonicalId": "2118473288368406582",
-    "text": "Generating*",
-    "createdAt": "2026-11-05T22:39:25.000Z",
-    "url": "https://x.com/thsottiaux/status/2118473288368406582",
+    "id": "2118574897542922697",
+    "canonicalId": "2118574897542922697",
+    "text": "@ThePrimeagen My loop caught this. It's the future",
+    "createdAt": "2026-11-06T05:23:11.000Z",
+    "url": "https://x.com/thsottiaux/status/2118574897542922697",
     "media": [],
-    "authorUsername": "thsottiaux",
-    "replyToId": "2118469621011677521"
+    "authorUsername": "thsottiaux"
   },
   "eventParserVersion": 6,
   "announcementSeen": {
@@ -2365,6 +2371,70 @@
       "media": [],
       "authorUsername": "thsottiaux",
       "replyToId": "2118469621011677521"
+    },
+    "2118567451596300778": {
+      "id": "2118567451596300778",
+      "canonicalId": "2118567451596300778",
+      "text": "@Layton_Gott Basement is full of wonders",
+      "createdAt": "2026-11-06T04:53:36.000Z",
+      "url": "https://x.com/thsottiaux/status/2118567451596300778",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2118567894309306654": {
+      "id": "2118567894309306654",
+      "canonicalId": "2118567894309306654",
+      "text": "@maxleiter Hi Max 👀",
+      "createdAt": "2026-11-06T04:55:21.000Z",
+      "url": "https://x.com/thsottiaux/status/2118567894309306654",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2118569235953893573": {
+      "id": "2118569235953893573",
+      "canonicalId": "2118569235953893573",
+      "text": "I can confidently say that humans were not very good at writing secure infrastructure. The endstate will be hypersecure infrastructure and software for all, but we're going to go through some turbulence before we reach that.",
+      "createdAt": "2026-11-06T05:00:41.000Z",
+      "url": "https://x.com/thsottiaux/status/2118569235953893573",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2118569441860723112": {
+      "id": "2118569441860723112",
+      "canonicalId": "2118569441860723112",
+      "text": "Formal proofs of tens of millions of lines of code are not a ridiculous thing anymore and within the realm of what should be considered when designing new systems.",
+      "createdAt": "2026-11-06T05:01:30.000Z",
+      "url": "https://x.com/thsottiaux/status/2118569441860723112",
+      "media": [],
+      "authorUsername": "thsottiaux",
+      "replyToId": "2118569235953893573"
+    },
+    "2118569868278796680": {
+      "id": "2118569868278796680",
+      "canonicalId": "2118569868278796680",
+      "text": "@Sergey_Rura There is no going back. Software is changed forever.",
+      "createdAt": "2026-11-06T05:03:12.000Z",
+      "url": "https://x.com/thsottiaux/status/2118569868278796680",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2118572184679710964": {
+      "id": "2118572184679710964",
+      "canonicalId": "2118572184679710964",
+      "text": "@ajambrosino @pablostanley Feedback is a gift",
+      "createdAt": "2026-11-06T05:12:24.000Z",
+      "url": "https://x.com/thsottiaux/status/2118572184679710964",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2118574897542922697": {
+      "id": "2118574897542922697",
+      "canonicalId": "2118574897542922697",
+      "text": "@ThePrimeagen My loop caught this. It's the future",
+      "createdAt": "2026-11-06T05:23:11.000Z",
+      "url": "https://x.com/thsottiaux/status/2118574897542922697",
+      "media": [],
+      "authorUsername": "thsottiaux"
     }
   },
   "contextVersion": 1

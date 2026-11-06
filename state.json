@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2118574897542922697",
-  "lastCheckedAt": "2026-11-06T17:42:44.511Z",
-  "lastSuccessAt": "2026-11-06T17:42:44.511Z",
-  "lastRunStatus": "checked-0-posts",
-  "postsScanned": 213,
+  "sinceId": "2118802895604994463",
+  "lastCheckedAt": "2026-11-06T22:25:54.875Z",
+  "lastSuccessAt": "2026-11-06T22:25:54.875Z",
+  "lastRunStatus": "checked-2-posts",
+  "postsScanned": 215,
   "matches": [],
   "outbox": [],
   "seen": {
@@ -223,16 +223,19 @@
     "2118569441860723112": "7f39636037e13b41dfa18239b0e983c66a30460b5fbf9492b5fa0ddab178ce52",
     "2118569868278796680": "c6f7ccd6fc51be685222da9119ec5e584c0ec79855f979971dba0b124eab6d51",
     "2118572184679710964": "038abf61f8269b23c0cab1a7c5f7be8159f61ba353f3ed6866fb75102ceb1627",
-    "2118574897542922697": "bf01a1756f56b817727f15ff205a3ddb95d5bb6c40caea49b10f8b5a7d8140c1"
+    "2118574897542922697": "bf01a1756f56b817727f15ff205a3ddb95d5bb6c40caea49b10f8b5a7d8140c1",
+    "2118802796749508830": "08e2d1c76aa7d6960503b3aa8739310e15493ca39dc72b11855c6ffbc25e51d0",
+    "2118802895604994463": "6b1e4eb4ad26cedad1bbbc0294fbb220dedd4cb39aa852b80bb0fbe0e7a10ddc"
   },
   "latestObservedPost": {
-    "id": "2118574897542922697",
-    "canonicalId": "2118574897542922697",
-    "text": "@ThePrimeagen My loop caught this. It's the future",
-    "createdAt": "2026-11-06T05:23:11.000Z",
-    "url": "https://x.com/thsottiaux/status/2118574897542922697",
+    "id": "2118802895604994463",
+    "canonicalId": "2118802895604994463",
+    "text": "More things to come, join our Cyber at the Frontier livestream on November 12, 10am PT: https://t.co/GiwgmJXL1t",
+    "createdAt": "2026-11-06T20:29:10.000Z",
+    "url": "https://x.com/thsottiaux/status/2118802895604994463",
     "media": [],
-    "authorUsername": "thsottiaux"
+    "authorUsername": "thsottiaux",
+    "replyToId": "2118402103907655903"
   },
   "eventParserVersion": 6,
   "announcementSeen": {
@@ -2435,6 +2438,25 @@
       "url": "https://x.com/thsottiaux/status/2118574897542922697",
       "media": [],
       "authorUsername": "thsottiaux"
+    },
+    "2118802796749508830": {
+      "id": "2118802796749508830",
+      "canonicalId": "2118802796749508830",
+      "text": "@andrewcshin7 No",
+      "createdAt": "2026-11-06T20:28:46.000Z",
+      "url": "https://x.com/thsottiaux/status/2118802796749508830",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2118802895604994463": {
+      "id": "2118802895604994463",
+      "canonicalId": "2118802895604994463",
+      "text": "More things to come, join our Cyber at the Frontier livestream on November 12, 10am PT: https://t.co/GiwgmJXL1t",
+      "createdAt": "2026-11-06T20:29:10.000Z",
+      "url": "https://x.com/thsottiaux/status/2118802895604994463",
+      "media": [],
+      "authorUsername": "thsottiaux",
+      "replyToId": "2118402103907655903"
     }
   },
   "contextVersion": 1

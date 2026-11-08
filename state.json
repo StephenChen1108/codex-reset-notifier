@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2119232059537514598",
-  "lastCheckedAt": "2026-11-08T02:20:04.379Z",
-  "lastSuccessAt": "2026-11-08T02:20:04.379Z",
-  "lastRunStatus": "checked-2-posts",
-  "postsScanned": 235,
+  "sinceId": "2119309070658318698",
+  "lastCheckedAt": "2026-11-08T09:15:15.251Z",
+  "lastSuccessAt": "2026-11-08T09:15:15.251Z",
+  "lastRunStatus": "checked-10-posts",
+  "postsScanned": 245,
   "matches": [],
   "outbox": [],
   "seen": {
@@ -245,14 +245,24 @@
     "2119160727164604874": "7d4010a45e29be51aadaa5ef6828c1414f968b597b7ab1c0e6889409f636a3df",
     "2119161246872429013": "1c064b928924cfe81c59d2132bd4645f56f4be61fd7b2790bfe4f78b2c515509",
     "2119211022410228094": "f9377e02659713e34d7909918591505b72f8642ce0361204eb4c47c01976dafd",
-    "2119232059537514598": "0910a26233b931206f4624471418614e0ffb408671916a7887abd5209b223e25"
+    "2119232059537514598": "0910a26233b931206f4624471418614e0ffb408671916a7887abd5209b223e25",
+    "2119293235353006321": "6ecf44302274bfa89da4c70708e04617b4a0b74204496e888ad11f80d3267edd",
+    "2119294044480401585": "1fe79fd58fd142579549cdda0ea91341d5288960e3c50b678cc5b2407d458231",
+    "2119296267545419987": "a242c712cbc15ff33b7853538989a65b688993c810effbcfb9cb8f5a2b21d1c8",
+    "2119303444683255991": "27db6b76437e2df38dca524ef95dd2f2e6d973a903d766feed947b3339584492",
+    "2119304055126425939": "951e75fdef278beef074b370d46a48662e76b9d27260d77d2a49cc11958d89d7",
+    "2119304841873023158": "de970059a54690504414afe2928fe2e4b62a71cd35ee1ccf5ff84c17a1e82c76",
+    "2119305294291612140": "a8c4319299af68aa19b9fd24ccae0346c0f5253c1b0171a5213bb333df253eb9",
+    "2119305379100450928": "c2c3f3ff8958c2752ca1cf91fcb76a6287f8161d1cf35b59b3e8549256935b31",
+    "2119308687676432672": "968ea4e2d85d2fccdde068e8c8c332ee6bf0c9be3748cd7bfc83a6b8dbfa8074",
+    "2119309070658318698": "d8ef0e6c6eda079386f56be8a18afac7363e384c3abf8487114b0085b83e3073"
   },
   "latestObservedPost": {
-    "id": "2119232059537514598",
-    "canonicalId": "2119232059537514598",
-    "text": "@Tech_girl We doubled the usage on Pro plans and Business 100",
-    "createdAt": "2026-11-08T00:54:31.000Z",
-    "url": "https://x.com/thsottiaux/status/2119232059537514598",
+    "id": "2119309070658318698",
+    "canonicalId": "2119309070658318698",
+    "text": "@alexmichael @claudeai @bot @Meta @OpenAI Alfred plays to win",
+    "createdAt": "2026-11-08T06:00:31.000Z",
+    "url": "https://x.com/thsottiaux/status/2119309070658318698",
     "media": [],
     "authorUsername": "thsottiaux"
   },
@@ -2656,6 +2666,105 @@
       "text": "@Tech_girl We doubled the usage on Pro plans and Business 100",
       "createdAt": "2026-11-08T00:54:31.000Z",
       "url": "https://x.com/thsottiaux/status/2119232059537514598",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2119293235353006321": {
+      "id": "2119293235353006321",
+      "canonicalId": "2119293235353006321",
+      "text": "@hakmgpt That is not correct.",
+      "createdAt": "2026-11-08T04:57:36.000Z",
+      "url": "https://x.com/thsottiaux/status/2119293235353006321",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2119294044480401585": {
+      "id": "2119294044480401585",
+      "canonicalId": "2119294044480401585",
+      "text": "@JamesMalsawm Yes, but I am also very fond of this little x bubble",
+      "createdAt": "2026-11-08T05:00:49.000Z",
+      "url": "https://x.com/thsottiaux/status/2119294044480401585",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2119296267545419987": {
+      "id": "2119296267545419987",
+      "canonicalId": "2119296267545419987",
+      "text": "Saw some confusions, but all Pro plans have no 5-hour limits, and give the following usage compared to Plus.\n\n✅ Pro 100 = 10X\n✅ Pro 200 = 20X\n✅ Pro 500 = 50X, access to ultrafast",
+      "createdAt": "2026-11-08T05:09:39.000Z",
+      "url": "https://x.com/thsottiaux/status/2119296267545419987",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2119303444683255991": {
+      "id": "2119303444683255991",
+      "canonicalId": "2119303444683255991",
+      "text": "@techleadhd https://t.co/Whzn6K6Z7a",
+      "createdAt": "2026-11-08T05:38:10.000Z",
+      "url": "https://x.com/thsottiaux/status/2119303444683255991",
+      "media": [
+        {
+          "mediaKey": "2119303436051398656",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HWlHPx0bwAAYqNq.jpg?name=orig",
+          "previewImageUrl": null,
+          "altText": null
+        }
+      ],
+      "authorUsername": "thsottiaux"
+    },
+    "2119304055126425939": {
+      "id": "2119304055126425939",
+      "canonicalId": "2119304055126425939",
+      "text": "@JamesMalsawm Pretty wild to me that GPT 6.1 Terra gets compared to Opus 5.5. No doubt that it's a great model, but it's not meant to compete in the big leagues. We've got other models for that.",
+      "createdAt": "2026-11-08T05:40:36.000Z",
+      "url": "https://x.com/thsottiaux/status/2119304055126425939",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2119304841873023158": {
+      "id": "2119304841873023158",
+      "canonicalId": "2119304841873023158",
+      "text": "@TJwithAI Basement is fun",
+      "createdAt": "2026-11-08T05:43:43.000Z",
+      "url": "https://x.com/thsottiaux/status/2119304841873023158",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2119305294291612140": {
+      "id": "2119305294291612140",
+      "canonicalId": "2119305294291612140",
+      "text": "Would a Pro 50 make sense? Wdyt?",
+      "createdAt": "2026-11-08T05:45:31.000Z",
+      "url": "https://x.com/thsottiaux/status/2119305294291612140",
+      "media": [],
+      "authorUsername": "thsottiaux",
+      "quotedPostId": "2119296267545419987"
+    },
+    "2119305379100450928": {
+      "id": "2119305379100450928",
+      "canonicalId": "2119305379100450928",
+      "text": "@JamesMalsawm They already did, come over",
+      "createdAt": "2026-11-08T05:45:51.000Z",
+      "url": "https://x.com/thsottiaux/status/2119305379100450928",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2119308687676432672": {
+      "id": "2119308687676432672",
+      "canonicalId": "2119308687676432672",
+      "text": "@ForwardEditor We hesitated to embed https://t.co/TnRNoyTR5X into the codex app to make sense of the resets, but decided against it.",
+      "createdAt": "2026-11-08T05:59:00.000Z",
+      "url": "https://x.com/thsottiaux/status/2119308687676432672",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2119309070658318698": {
+      "id": "2119309070658318698",
+      "canonicalId": "2119309070658318698",
+      "text": "@alexmichael @claudeai @bot @Meta @OpenAI Alfred plays to win",
+      "createdAt": "2026-11-08T06:00:31.000Z",
+      "url": "https://x.com/thsottiaux/status/2119309070658318698",
       "media": [],
       "authorUsername": "thsottiaux"
     }

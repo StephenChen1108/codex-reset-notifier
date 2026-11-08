@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T02:20:04.386Z",
+  "updatedAt": "2026-11-08T09:15:15.257Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-11-08T02:20:04.379Z",
-    "lastSuccessAt": "2026-11-08T02:20:04.379Z",
-    "lastRunStatus": "checked-2-posts"
+    "lastCheckedAt": "2026-11-08T09:15:15.251Z",
+    "lastSuccessAt": "2026-11-08T09:15:15.251Z",
+    "lastRunStatus": "checked-10-posts"
   },
   "latestObservedPost": {
-    "id": "2119232059537514598",
-    "text": "@Tech_girl We doubled the usage on Pro plans and Business 100",
-    "url": "https://x.com/thsottiaux/status/2119232059537514598",
-    "postCreatedAt": "2026-11-08T00:54:31.000Z"
+    "id": "2119309070658318698",
+    "text": "@alexmichael @claudeai @bot @Meta @OpenAI Alfred plays to win",
+    "url": "https://x.com/thsottiaux/status/2119309070658318698",
+    "postCreatedAt": "2026-11-08T06:00:31.000Z"
   },
   "latest": {
     "reset": null,

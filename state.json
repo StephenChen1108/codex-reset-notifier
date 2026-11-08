@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2119309070658318698",
-  "lastCheckedAt": "2026-11-08T20:25:58.074Z",
-  "lastSuccessAt": "2026-11-08T20:25:58.074Z",
-  "lastRunStatus": "checked-0-posts",
-  "postsScanned": 245,
+  "sinceId": "2119532403593191733",
+  "lastCheckedAt": "2026-11-08T23:55:57.706Z",
+  "lastSuccessAt": "2026-11-08T23:55:57.706Z",
+  "lastRunStatus": "checked-2-posts",
+  "postsScanned": 247,
   "matches": [],
   "outbox": [],
   "seen": {
@@ -255,14 +255,16 @@
     "2119305294291612140": "a8c4319299af68aa19b9fd24ccae0346c0f5253c1b0171a5213bb333df253eb9",
     "2119305379100450928": "c2c3f3ff8958c2752ca1cf91fcb76a6287f8161d1cf35b59b3e8549256935b31",
     "2119308687676432672": "968ea4e2d85d2fccdde068e8c8c332ee6bf0c9be3748cd7bfc83a6b8dbfa8074",
-    "2119309070658318698": "d8ef0e6c6eda079386f56be8a18afac7363e384c3abf8487114b0085b83e3073"
+    "2119309070658318698": "d8ef0e6c6eda079386f56be8a18afac7363e384c3abf8487114b0085b83e3073",
+    "2119528988033073501": "ef7eb84d4cd1349aaf337ab58efa0b215b5caddca923e33f792f541bc420b7cd",
+    "2119532403593191733": "8f6d3dfd8382d776462fd8fcefcf16fbeb244ae3d2cabe5e2a25643302da87f0"
   },
   "latestObservedPost": {
-    "id": "2119309070658318698",
-    "canonicalId": "2119309070658318698",
-    "text": "@alexmichael @claudeai @bot @Meta @OpenAI Alfred plays to win",
-    "createdAt": "2026-11-08T06:00:31.000Z",
-    "url": "https://x.com/thsottiaux/status/2119309070658318698",
+    "id": "2119532403593191733",
+    "canonicalId": "2119532403593191733",
+    "text": "@garrytan Thanks for running those and publishing",
+    "createdAt": "2026-11-08T20:47:58.000Z",
+    "url": "https://x.com/thsottiaux/status/2119532403593191733",
     "media": [],
     "authorUsername": "thsottiaux"
   },
@@ -2765,6 +2767,24 @@
       "text": "@alexmichael @claudeai @bot @Meta @OpenAI Alfred plays to win",
       "createdAt": "2026-11-08T06:00:31.000Z",
       "url": "https://x.com/thsottiaux/status/2119309070658318698",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2119528988033073501": {
+      "id": "2119528988033073501",
+      "canonicalId": "2119528988033073501",
+      "text": "@MillionInt Jerry, I challenge you to make a game",
+      "createdAt": "2026-11-08T20:34:24.000Z",
+      "url": "https://x.com/thsottiaux/status/2119528988033073501",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2119532403593191733": {
+      "id": "2119532403593191733",
+      "canonicalId": "2119532403593191733",
+      "text": "@garrytan Thanks for running those and publishing",
+      "createdAt": "2026-11-08T20:47:58.000Z",
+      "url": "https://x.com/thsottiaux/status/2119532403593191733",
       "media": [],
       "authorUsername": "thsottiaux"
     }

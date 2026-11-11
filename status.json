@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T20:26:48.027Z",
+  "updatedAt": "2026-11-11T00:49:53.352Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-11-10T20:26:47.935Z",
-    "lastSuccessAt": "2026-11-10T20:26:47.935Z",
-    "lastRunStatus": "checked-0-posts"
+    "lastCheckedAt": "2026-11-11T00:49:53.347Z",
+    "lastSuccessAt": "2026-11-11T00:49:53.347Z",
+    "lastRunStatus": "checked-4-posts"
   },
   "latestObservedPost": {
-    "id": "2120021043876106429",
-    "text": "Dots can now control many machines in addition to its own little cloud computer that we provide by default.",
-    "url": "https://x.com/thsottiaux/status/2120021043876106429",
-    "postCreatedAt": "2026-11-10T05:09:39.000Z"
+    "id": "2120304649807020238",
+    "text": "@embw_l0x We're assembling one of the best teams ever and I do talk to folks at Anthropic every once in a while. Couldn't be more excited for the months ahead.",
+    "url": "https://x.com/thsottiaux/status/2120304649807020238",
+    "postCreatedAt": "2026-11-10T23:56:36.000Z"
   },
   "latest": {
     "reset": null,

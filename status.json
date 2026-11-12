@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T18:48:42.965Z",
+  "updatedAt": "2026-11-12T23:54:36.463Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-11-12T18:48:42.959Z",
-    "lastSuccessAt": "2026-11-12T18:48:42.959Z",
-    "lastRunStatus": "checked-0-posts"
+    "lastCheckedAt": "2026-11-12T23:54:36.458Z",
+    "lastSuccessAt": "2026-11-12T23:54:36.458Z",
+    "lastRunStatus": "checked-1-posts"
   },
   "latestObservedPost": {
-    "id": "2120621485442339277",
-    "text": "@charlierguo Hi 👋 Buzz Buzz",
-    "url": "https://x.com/thsottiaux/status/2120621485442339277",
-    "postCreatedAt": "2026-11-11T20:55:36.000Z"
+    "id": "2120999993079451919",
+    "text": "We shipped some good updates to dots today and the banked reset has been activated and should land in everyones accounts sometime soon!",
+    "url": "https://x.com/thsottiaux/status/2120999993079451919",
+    "postCreatedAt": "2026-11-12T21:59:39.000Z"
   },
   "latest": {
     "reset": null,

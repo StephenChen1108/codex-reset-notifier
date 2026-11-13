@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2120999993079451919",
-  "lastCheckedAt": "2026-11-12T23:54:36.458Z",
-  "lastSuccessAt": "2026-11-12T23:54:36.458Z",
-  "lastRunStatus": "checked-1-posts",
-  "postsScanned": 259,
+  "sinceId": "2121062974161092792",
+  "lastCheckedAt": "2026-11-13T05:31:21.588Z",
+  "lastSuccessAt": "2026-11-13T05:31:21.588Z",
+  "lastRunStatus": "checked-2-posts",
+  "postsScanned": 261,
   "matches": [],
   "outbox": [],
   "seen": {
@@ -269,14 +269,16 @@
     "2120410480204525936": "b235ca56d1163a72d8f2c668328fdf667e94516ac8548369598679fa46e40aee",
     "2120411235716063700": "69f6e3d9a8d3672a81c799c6cbee42f728362b829eff79d039988558abaca0b0",
     "2120621485442339277": "c799859d296bbf3849c12f5141a98225ae70b286615e30ddf2b4a4bcdf292f0f",
-    "2120999993079451919": "2732b43e8f7002afa5ee3d3720a66a3370014efcbf52871d64eb02dd4dffeafb"
+    "2120999993079451919": "2732b43e8f7002afa5ee3d3720a66a3370014efcbf52871d64eb02dd4dffeafb",
+    "2121036562058400200": "ec245e36cc102b2232cc4a4ac0027bad560c07ac48d455c1d0ef3e194a1fa84e",
+    "2121062974161092792": "6419e4de5344490efeefee15b42626793651b44277235a3b5f4ae9c6d7b3dc1b"
   },
   "latestObservedPost": {
-    "id": "2120999993079451919",
-    "canonicalId": "2120999993079451919",
-    "text": "We shipped some good updates to dots today and the banked reset has been activated and should land in everyones accounts sometime soon!",
-    "createdAt": "2026-11-12T21:59:39.000Z",
-    "url": "https://x.com/thsottiaux/status/2120999993079451919",
+    "id": "2121062974161092792",
+    "canonicalId": "2121062974161092792",
+    "text": "How can codex be improved? Try not to say model.",
+    "createdAt": "2026-11-13T02:09:55.000Z",
+    "url": "https://x.com/thsottiaux/status/2121062974161092792",
     "media": [],
     "authorUsername": "thsottiaux"
   },
@@ -2914,6 +2916,24 @@
       "text": "We shipped some good updates to dots today and the banked reset has been activated and should land in everyones accounts sometime soon!",
       "createdAt": "2026-11-12T21:59:39.000Z",
       "url": "https://x.com/thsottiaux/status/2120999993079451919",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2121036562058400200": {
+      "id": "2121036562058400200",
+      "canonicalId": "2121036562058400200",
+      "text": "We announced new tools we're developing for cybersecurity today across automated patching and automated red teaming. Watch the recording here https://t.co/fW371aFjB5",
+      "createdAt": "2026-11-13T00:24:58.000Z",
+      "url": "https://x.com/thsottiaux/status/2121036562058400200",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2121062974161092792": {
+      "id": "2121062974161092792",
+      "canonicalId": "2121062974161092792",
+      "text": "How can codex be improved? Try not to say model.",
+      "createdAt": "2026-11-13T02:09:55.000Z",
+      "url": "https://x.com/thsottiaux/status/2121062974161092792",
       "media": [],
       "authorUsername": "thsottiaux"
     }

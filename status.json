@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T05:31:21.592Z",
+  "updatedAt": "2026-11-13T13:24:07.091Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-11-13T05:31:21.588Z",
-    "lastSuccessAt": "2026-11-13T05:31:21.588Z",
-    "lastRunStatus": "checked-2-posts"
+    "lastCheckedAt": "2026-11-13T13:24:07.017Z",
+    "lastSuccessAt": "2026-11-13T13:24:07.017Z",
+    "lastRunStatus": "checked-3-posts"
   },
   "latestObservedPost": {
-    "id": "2121062974161092792",
-    "text": "How can codex be improved? Try not to say model.",
-    "url": "https://x.com/thsottiaux/status/2121062974161092792",
-    "postCreatedAt": "2026-11-13T02:09:55.000Z"
+    "id": "2121134582527594929",
+    "text": "@argofowl Hi 👋 Doing well. Team is busy",
+    "url": "https://x.com/thsottiaux/status/2121134582527594929",
+    "postCreatedAt": "2026-11-13T06:54:27.000Z"
   },
   "latest": {
     "reset": null,

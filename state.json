@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2122534533216268747",
-  "lastCheckedAt": "2026-11-17T10:52:15.644Z",
-  "lastSuccessAt": "2026-11-17T10:52:15.644Z",
-  "lastRunStatus": "checked-1-posts",
-  "postsScanned": 267,
+  "sinceId": "2122754551187132438",
+  "lastCheckedAt": "2026-11-17T19:31:37.929Z",
+  "lastSuccessAt": "2026-11-17T19:31:37.929Z",
+  "lastRunStatus": "checked-2-posts",
+  "postsScanned": 269,
   "matches": [],
   "outbox": [],
   "seen": {
@@ -277,24 +277,27 @@
     "2121134582527594929": "99f20c42e8876eb0b4b8865205e29c3f03ca08d8708dfb8af4f9ee5082eddf74",
     "2121845965997101118": "cd3a8cae6a2e03fc3ac1f1f6e9ab4a38331b5adabefe02b336057a91a0cac762",
     "2122206990101536852": "079920e9348372354e0b65b400af43a6a17b5a808bf8a691768dbf5e544c2bdf",
-    "2122534533216268747": "762bf0a0ff52b0785c7df7c9bed5739cbe8702d35d80c05730325b6bc963e14c"
+    "2122534533216268747": "762bf0a0ff52b0785c7df7c9bed5739cbe8702d35d80c05730325b6bc963e14c",
+    "2122753991000133943": "6a081793cc0525495a517d3c984e419ddf6add9235c297098426c156c4bc7910",
+    "2122754551187132438": "97a5d471989ead12adf9730e7318019a484e72df3b03850e7df6fb26e778a7c5"
   },
   "latestObservedPost": {
-    "id": "2122534533216268747",
-    "canonicalId": "2122534533216268747",
-    "text": "@AdamHoltererer 6.1 Sol forever https://t.co/1aDFb686jX",
-    "createdAt": "2026-11-17T03:37:22.000Z",
-    "url": "https://x.com/thsottiaux/status/2122534533216268747",
+    "id": "2122754551187132438",
+    "canonicalId": "2122754551187132438",
+    "text": "These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes https://t.co/HIFob2j9Ag",
+    "createdAt": "2026-11-17T18:11:38.000Z",
+    "url": "https://x.com/thsottiaux/status/2122754551187132438",
     "media": [
       {
-        "mediaKey": "2122534506628591616",
+        "mediaKey": "2122754370001600512",
         "type": "photo",
-        "url": "https://pbs.twimg.com/media/HXTB41sbMAA55mX.jpg?name=orig",
+        "url": "https://pbs.twimg.com/media/HXWJ2klagAAb-MU.png?name=orig",
         "previewImageUrl": null,
         "altText": null
       }
     ],
-    "authorUsername": "thsottiaux"
+    "authorUsername": "thsottiaux",
+    "replyToId": "2122753991000133943"
   },
   "eventParserVersion": 6,
   "announcementSeen": {
@@ -3020,6 +3023,33 @@
         }
       ],
       "authorUsername": "thsottiaux"
+    },
+    "2122753991000133943": {
+      "id": "2122753991000133943",
+      "canonicalId": "2122753991000133943",
+      "text": "GPT-6.2 Sol &amp; Astra are *finally* here. We've also expanded ultrafast to Pro 200 plans for GPT-6.2 Sol, it's my go-to model for most day to day things.",
+      "createdAt": "2026-11-17T18:09:24.000Z",
+      "url": "https://x.com/thsottiaux/status/2122753991000133943",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2122754551187132438": {
+      "id": "2122754551187132438",
+      "canonicalId": "2122754551187132438",
+      "text": "These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes https://t.co/HIFob2j9Ag",
+      "createdAt": "2026-11-17T18:11:38.000Z",
+      "url": "https://x.com/thsottiaux/status/2122754551187132438",
+      "media": [
+        {
+          "mediaKey": "2122754370001600512",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXWJ2klagAAb-MU.png?name=orig",
+          "previewImageUrl": null,
+          "altText": null
+        }
+      ],
+      "authorUsername": "thsottiaux",
+      "replyToId": "2122753991000133943"
     }
   },
   "contextVersion": 1

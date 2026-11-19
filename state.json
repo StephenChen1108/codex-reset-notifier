@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2123179276199735535",
-  "lastCheckedAt": "2026-11-19T17:14:20.964Z",
-  "lastSuccessAt": "2026-11-19T17:14:20.964Z",
-  "lastRunStatus": "checked-0-posts",
-  "postsScanned": 294,
+  "sinceId": "2123557171321561133",
+  "lastCheckedAt": "2026-11-19T23:37:44.315Z",
+  "lastSuccessAt": "2026-11-19T23:37:44.315Z",
+  "lastRunStatus": "checked-7-posts",
+  "postsScanned": 301,
   "matches": [],
   "outbox": [],
   "seen": {
@@ -304,16 +304,41 @@
     "2123150581321883811": "7421c9a8ba700c0a7781a73666b4e2b7a032c6cff9c131579c1389e379991f0f",
     "2123151267002503570": "06498a8eeec8a31e9badb1deb9129d0998928d82d87474ab23ee76a1704a76f4",
     "2123175166519992652": "fbae532ef257f6a6572d7ccda534a9924981dece4bed7bc8a45ad4766c9025b5",
-    "2123179276199735535": "61b537d9a9df332a041790dca8d9c738784991bf2f0c2faeffdb34908af1cbf1"
+    "2123179276199735535": "61b537d9a9df332a041790dca8d9c738784991bf2f0c2faeffdb34908af1cbf1",
+    "2123498899298210201": "3575dbf43ec0dced771d0b999d6d7f6796a7fe7893d3b559e368c20f1046cb70",
+    "2123505331531882923": "08408a0dda1caa9595d145cff88369ab5ee9a9a4707aa973e26b529e5814927a",
+    "2123505661741084830": "8d861a963ba464ef20a7f888170a2d9b7a9e187debc7f8a884e1e6ad8b478e40",
+    "2123527632700747862": "3db24f107e0c3943a40a2aec38ab7cdf97215275fbba8bd0c2cddf81f1767fcf",
+    "2123527849403674729": "963704788715d05a53e4d4da2af59baf4b2306d7cde38262b2e4deef65d6c4d1",
+    "2123556256392847657": "a320ef3957d0f0a24c09bd89796f926cf1dd0ef051aa88633fe05bde6c9c5457",
+    "2123557171321561133": "2c4e0e5bd9ddd297c2f0ea142e020bf52fa7ebd4b4aa1a0c425062a9060a49a3"
   },
   "latestObservedPost": {
-    "id": "2123179276199735535",
-    "canonicalId": "2123179276199735535",
-    "text": "@DannyIO It does like math",
-    "createdAt": "2026-11-18T22:19:20.000Z",
-    "url": "https://x.com/thsottiaux/status/2123179276199735535",
-    "media": [],
-    "authorUsername": "thsottiaux"
+    "id": "2123557171321561133",
+    "canonicalId": "2123557171321561133",
+    "text": "We’re also working on a new mobile experience for ChatGPT! \n\nIt’s easier to get to your favorite features and discover what you can do in ChatGPT. We’re starting with Pro users who have a dot or are eligible to create one. Your dot gets its own tab, and you can pin Codex, Projects, Images, and more to the tab bar. Some of you will see the new experience by default. \n\nYou can turn it on or off anytime in Settings > New ChatGPT Design. \n\nSuper excited to hear your feedback before we roll it out more widely!",
+    "createdAt": "2026-11-19T23:20:58.000Z",
+    "url": "https://x.com/thsottiaux/status/2123557171321561133",
+    "media": [
+      {
+        "mediaKey": "2123557071723565056",
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2123557071723565056/vid/avc1/1080x1350/MD4H-9s2BwfKh_XA.mp4?tag=29",
+        "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2123557071723565056/img/DO1s4ZVPR6Yamusk.jpg",
+        "altText": null
+      }
+    ],
+    "authorUsername": "thsottiaux",
+    "quotedPostId": "2123556256392847657",
+    "quotedPost": {
+      "id": "2123556256392847657",
+      "canonicalId": "2123556256392847657",
+      "text": "Heads up, we’re starting to test dots with a small number of ChatGPT Plus users. Looking forward to the continued feedback as we expand and I’m recently seeing a lot more positives around how good the proactivity has been after many improvements. \n\nWe’re also bringing dots to all ChatGPT Business Standard users. Rollout will start today.",
+      "createdAt": "2026-11-19T23:17:19.000Z",
+      "url": "https://x.com/thsottiaux/status/2123556256392847657",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    }
   },
   "eventParserVersion": 6,
   "announcementSeen": {
@@ -3157,6 +3182,15 @@
       "media": [],
       "authorUsername": "thsottiaux"
     },
+    "2122928699838492690": {
+      "id": "2122928699838492690",
+      "canonicalId": "2122928699838492690",
+      "text": "@theo Love Theo and all, but ... :D",
+      "createdAt": "2026-11-18T05:43:38.000Z",
+      "url": "https://x.com/thsottiaux/status/2122928699838492690",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
     "2122929634916679820": {
       "id": "2122929634916679820",
       "canonicalId": "2122929634916679820",
@@ -3165,6 +3199,16 @@
       "url": "https://x.com/thsottiaux/status/2122929634916679820",
       "media": [],
       "authorUsername": "thsottiaux"
+    },
+    "2122929829863735594": {
+      "id": "2122929829863735594",
+      "canonicalId": "2122929829863735594",
+      "text": "If you have Pro 200/500, I do recommend trying out 6.2 Sol ultrafast, it's quite the blast to use and a completely different feel. I'm excited to keep pushing in bringing these speeds to more users over time.",
+      "createdAt": "2026-11-18T05:48:08.000Z",
+      "url": "https://x.com/thsottiaux/status/2122929829863735594",
+      "media": [],
+      "authorUsername": "thsottiaux",
+      "replyToId": "2122929634916679820"
     },
     "2122938155225752015": {
       "id": "2122938155225752015",
@@ -3291,6 +3335,79 @@
       "url": "https://x.com/thsottiaux/status/2123179276199735535",
       "media": [],
       "authorUsername": "thsottiaux"
+    },
+    "2123498899298210201": {
+      "id": "2123498899298210201",
+      "canonicalId": "2123498899298210201",
+      "text": "@_simonsmith Max is for benchmaxxxing",
+      "createdAt": "2026-11-19T19:29:24.000Z",
+      "url": "https://x.com/thsottiaux/status/2123498899298210201",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2123505331531882923": {
+      "id": "2123505331531882923",
+      "canonicalId": "2123505331531882923",
+      "text": "Tokens go brrrrrr. Going to need more compute.",
+      "createdAt": "2026-11-19T19:54:58.000Z",
+      "url": "https://x.com/thsottiaux/status/2123505331531882923",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2123505661741084830": {
+      "id": "2123505661741084830",
+      "canonicalId": "2123505661741084830",
+      "text": "New Sol being particularly popular.",
+      "createdAt": "2026-11-19T19:56:17.000Z",
+      "url": "https://x.com/thsottiaux/status/2123505661741084830",
+      "media": [],
+      "authorUsername": "thsottiaux",
+      "replyToId": "2123505331531882923"
+    },
+    "2123527632700747862": {
+      "id": "2123527632700747862",
+      "canonicalId": "2123527632700747862",
+      "text": "@AdamHoltererer Why did I turn into Dario",
+      "createdAt": "2026-11-19T21:23:35.000Z",
+      "url": "https://x.com/thsottiaux/status/2123527632700747862",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2123527849403674729": {
+      "id": "2123527849403674729",
+      "canonicalId": "2123527849403674729",
+      "text": "@theo I still count 6 weeks in the year",
+      "createdAt": "2026-11-19T21:24:27.000Z",
+      "url": "https://x.com/thsottiaux/status/2123527849403674729",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2123556256392847657": {
+      "id": "2123556256392847657",
+      "canonicalId": "2123556256392847657",
+      "text": "Heads up, we’re starting to test dots with a small number of ChatGPT Plus users. Looking forward to the continued feedback as we expand and I’m recently seeing a lot more positives around how good the proactivity has been after many improvements. \n\nWe’re also bringing dots to all ChatGPT Business Standard users. Rollout will start today.",
+      "createdAt": "2026-11-19T23:17:19.000Z",
+      "url": "https://x.com/thsottiaux/status/2123556256392847657",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2123557171321561133": {
+      "id": "2123557171321561133",
+      "canonicalId": "2123557171321561133",
+      "text": "We’re also working on a new mobile experience for ChatGPT! \n\nIt’s easier to get to your favorite features and discover what you can do in ChatGPT. We’re starting with Pro users who have a dot or are eligible to create one. Your dot gets its own tab, and you can pin Codex, Projects, Images, and more to the tab bar. Some of you will see the new experience by default. \n\nYou can turn it on or off anytime in Settings > New ChatGPT Design. \n\nSuper excited to hear your feedback before we roll it out more widely!",
+      "createdAt": "2026-11-19T23:20:58.000Z",
+      "url": "https://x.com/thsottiaux/status/2123557171321561133",
+      "media": [
+        {
+          "mediaKey": "2123557071723565056",
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2123557071723565056/vid/avc1/1080x1350/MD4H-9s2BwfKh_XA.mp4?tag=29",
+          "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2123557071723565056/img/DO1s4ZVPR6Yamusk.jpg",
+          "altText": null
+        }
+      ],
+      "authorUsername": "thsottiaux",
+      "quotedPostId": "2123556256392847657"
     }
   },
   "contextVersion": 1

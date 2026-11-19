@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2123113107048501273",
-  "lastCheckedAt": "2026-11-18T18:21:09.809Z",
-  "lastSuccessAt": "2026-11-18T18:21:09.809Z",
-  "lastRunStatus": "checked-3-posts",
-  "postsScanned": 290,
+  "sinceId": "2123179276199735535",
+  "lastCheckedAt": "2026-11-19T00:37:18.360Z",
+  "lastSuccessAt": "2026-11-19T00:37:18.360Z",
+  "lastRunStatus": "checked-4-posts",
+  "postsScanned": 294,
   "matches": [],
   "outbox": [],
   "seen": {
@@ -300,14 +300,18 @@
     "2122954129094111394": "397ea7bb97dc934a0631a57b5240bf08fa3c03ac6a989538c5a97ff220140605",
     "2123112623294320913": "d849906bae4379029330b2f60bbf7660d6ab3a9438b04e1c00f3406c20bf753c",
     "2123112903809318994": "78c4f530d9f743f1ec0c41da49a2fd5b38d251f59db4fc4798bce69e8705cb8f",
-    "2123113107048501273": "a24ba6fd0d48db63ed8ba8ec0b370b59ce9bcd31fc42aded3f0e8b0e43eff2bc"
+    "2123113107048501273": "a24ba6fd0d48db63ed8ba8ec0b370b59ce9bcd31fc42aded3f0e8b0e43eff2bc",
+    "2123150581321883811": "7421c9a8ba700c0a7781a73666b4e2b7a032c6cff9c131579c1389e379991f0f",
+    "2123151267002503570": "06498a8eeec8a31e9badb1deb9129d0998928d82d87474ab23ee76a1704a76f4",
+    "2123175166519992652": "fbae532ef257f6a6572d7ccda534a9924981dece4bed7bc8a45ad4766c9025b5",
+    "2123179276199735535": "61b537d9a9df332a041790dca8d9c738784991bf2f0c2faeffdb34908af1cbf1"
   },
   "latestObservedPost": {
-    "id": "2123113107048501273",
-    "canonicalId": "2123113107048501273",
-    "text": "How is 6.2 Sol treating you today?",
-    "createdAt": "2026-11-18T17:56:24.000Z",
-    "url": "https://x.com/thsottiaux/status/2123113107048501273",
+    "id": "2123179276199735535",
+    "canonicalId": "2123179276199735535",
+    "text": "@DannyIO It does like math",
+    "createdAt": "2026-11-18T22:19:20.000Z",
+    "url": "https://x.com/thsottiaux/status/2123179276199735535",
     "media": [],
     "authorUsername": "thsottiaux"
   },
@@ -3249,6 +3253,42 @@
       "text": "How is 6.2 Sol treating you today?",
       "createdAt": "2026-11-18T17:56:24.000Z",
       "url": "https://x.com/thsottiaux/status/2123113107048501273",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2123150581321883811": {
+      "id": "2123150581321883811",
+      "canonicalId": "2123150581321883811",
+      "text": "@Leapofcode GG",
+      "createdAt": "2026-11-18T20:25:19.000Z",
+      "url": "https://x.com/thsottiaux/status/2123150581321883811",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2123151267002503570": {
+      "id": "2123151267002503570",
+      "canonicalId": "2123151267002503570",
+      "text": "@AdamHoltererer Climbing",
+      "createdAt": "2026-11-18T20:28:02.000Z",
+      "url": "https://x.com/thsottiaux/status/2123151267002503570",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2123175166519992652": {
+      "id": "2123175166519992652",
+      "canonicalId": "2123175166519992652",
+      "text": "GPT-6.2 Astra is pretty good at hard things. Here the team shared some results on AMD and Jalapeño chip optimizations.\n\nI do get the feedback on its communication style and we're working on that, but for really the hardest tasks in the world it does seem to be in a league of its own at the moment.",
+      "createdAt": "2026-11-18T22:03:01.000Z",
+      "url": "https://x.com/thsottiaux/status/2123175166519992652",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2123179276199735535": {
+      "id": "2123179276199735535",
+      "canonicalId": "2123179276199735535",
+      "text": "@DannyIO It does like math",
+      "createdAt": "2026-11-18T22:19:20.000Z",
+      "url": "https://x.com/thsottiaux/status/2123179276199735535",
       "media": [],
       "authorUsername": "thsottiaux"
     }

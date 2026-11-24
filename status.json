@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T01:13:52.537Z",
+  "updatedAt": "2026-11-24T11:04:57.975Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-11-24T01:13:52.531Z",
-    "lastSuccessAt": "2026-11-24T01:13:52.531Z",
-    "lastRunStatus": "checked-6-posts"
+    "lastCheckedAt": "2026-11-24T11:04:57.969Z",
+    "lastSuccessAt": "2026-11-24T11:04:57.969Z",
+    "lastRunStatus": "checked-1-posts"
   },
   "latestObservedPost": {
-    "id": "2125027477877887231",
-    "text": "Worth listening to if you're curious what goes on in the minds of the people at OpenAI who are obsessively trying to patch all the flaws in OSS software and infrastructure we all rely on",
-    "url": "https://x.com/thsottiaux/status/2125027477877887231",
-    "postCreatedAt": "2026-11-24T00:43:26.000Z"
+    "id": "2125141302501417232",
+    "text": "We’re working with Cisco on what we think are going to be key infrastructure primitives in the new era of cybersecurity. \n\nEverything needs to be built to be operated safely by aligned agents at machine speed.",
+    "url": "https://x.com/thsottiaux/status/2125141302501417232",
+    "postCreatedAt": "2026-11-24T08:15:44.000Z"
   },
   "latest": {
     "reset": null,

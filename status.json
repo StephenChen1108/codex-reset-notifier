@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T13:37:55.327Z",
+  "updatedAt": "2026-11-24T01:13:52.537Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-11-23T13:37:55.319Z",
-    "lastSuccessAt": "2026-11-23T13:37:55.319Z",
-    "lastRunStatus": "checked-0-posts"
+    "lastCheckedAt": "2026-11-24T01:13:52.531Z",
+    "lastSuccessAt": "2026-11-24T01:13:52.531Z",
+    "lastRunStatus": "checked-6-posts"
   },
   "latestObservedPost": {
-    "id": "2124322968499282388",
-    "text": "Team is already preparing another big update, but how are things since yesterday’s update to the ChatGPT/Codex desktop app? What still requires attention and is not quite there?",
-    "url": "https://x.com/thsottiaux/status/2124322968499282388",
-    "postCreatedAt": "2026-11-22T02:03:58.000Z"
+    "id": "2125027477877887231",
+    "text": "Worth listening to if you're curious what goes on in the minds of the people at OpenAI who are obsessively trying to patch all the flaws in OSS software and infrastructure we all rely on",
+    "url": "https://x.com/thsottiaux/status/2125027477877887231",
+    "postCreatedAt": "2026-11-24T00:43:26.000Z"
   },
   "latest": {
     "reset": null,

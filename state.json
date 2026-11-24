@@ -3,12 +3,43 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2125141302501417232",
-  "lastCheckedAt": "2026-11-24T11:04:57.969Z",
-  "lastSuccessAt": "2026-11-24T11:04:57.969Z",
-  "lastRunStatus": "checked-1-posts",
-  "postsScanned": 323,
-  "matches": [],
+  "sinceId": "2125299467691987445",
+  "lastCheckedAt": "2026-11-24T21:08:09.727Z",
+  "lastSuccessAt": "2026-11-24T21:08:09.727Z",
+  "lastRunStatus": "checked-4-posts",
+  "postsScanned": 327,
+  "matches": [
+    {
+      "version": "4992692a2d865c3ca16db2c7827b29ea0c482677e1b5ce6993a1628eb339e922",
+      "id": "2125299248782778588",
+      "canonicalId": "2125299248782778588",
+      "text": "To all the ChatGPT Business teams out there. We have two small things for you, a banked reset and fast mode at no extra charge through Dec 31. Have fun!",
+      "createdAt": "2026-11-24T18:43:21.000Z",
+      "url": "https://x.com/thsottiaux/status/2125299248782778588",
+      "media": [],
+      "authorUsername": "thsottiaux",
+      "detectedAt": "2026-11-24T21:08:09.726Z",
+      "events": [
+        {
+          "type": "bank_credit",
+          "status": "scheduled",
+          "evidence": "We have two small things for you, a banked reset and fast mode at no extra charge through Dec 31",
+          "time": {
+            "kind": "date",
+            "start": "2026-12-31T08:00:00.000Z",
+            "end": "2027-01-01T08:00:00.000Z",
+            "evidence": "Dec 31",
+            "note": "按配置假设原文时区为 America/Los_Angeles"
+          }
+        }
+      ],
+      "channels": [
+        "feishu",
+        "github-actions"
+      ],
+      "notifiedAt": "2026-11-24T21:08:09.730Z"
+    }
+  ],
   "outbox": [],
   "seen": {
     "2109832541956194798": "400e9c3e611504b52b43faef730e4ea8f9885d2ac079683bad3ab293ce207a6e",
@@ -333,16 +364,21 @@
     "2124923142762361133": "7a73e2b60bed38773646b56d943761d68071b0dc5a32b9109a598d7ec01e0c0b",
     "2124998553856844186": "32a130c0595644f77981f44d5d1e69137e544076870d3fa68c08a30cfd64acef",
     "2125027477877887231": "97d58b05cb3fa56e00411aa0ecfc3721d1f503d1e28d0181a1ce74fcb7877440",
-    "2125141302501417232": "2846590c2803244ebcb6c190b40e64867651b91a031c1a1a968c923559894668"
+    "2125141302501417232": "2846590c2803244ebcb6c190b40e64867651b91a031c1a1a968c923559894668",
+    "2125284868414394550": "dbf52068abe69888664998866650d805cbe9620888efce920d4b6ff3135bb7ee",
+    "2125299248782778588": "4992692a2d865c3ca16db2c7827b29ea0c482677e1b5ce6993a1628eb339e922",
+    "2125299436964479474": "4b723609f474cc926e5bc2a814d13f032f488f1ab7da44c4a7b294e5d4849edf",
+    "2125299467691987445": "bf607f8b7762b188fd3daf8752fd3ed9a2da4e4603da89e9092df7c18d41b591"
   },
   "latestObservedPost": {
-    "id": "2125141302501417232",
-    "canonicalId": "2125141302501417232",
-    "text": "We’re working with Cisco on what we think are going to be key infrastructure primitives in the new era of cybersecurity. \n\nEverything needs to be built to be operated safely by aligned agents at machine speed.",
-    "createdAt": "2026-11-24T08:15:44.000Z",
-    "url": "https://x.com/thsottiaux/status/2125141302501417232",
+    "id": "2125299467691987445",
+    "canonicalId": "2125299467691987445",
+    "text": "Sign up for ChatGPT Business: https://t.co/2WH7P7Yx7L",
+    "createdAt": "2026-11-24T18:44:13.000Z",
+    "url": "https://x.com/thsottiaux/status/2125299467691987445",
     "media": [],
-    "authorUsername": "thsottiaux"
+    "authorUsername": "thsottiaux",
+    "replyToId": "2125299248782778588"
   },
   "eventParserVersion": 6,
   "announcementSeen": {
@@ -3620,6 +3656,52 @@
       "url": "https://x.com/thsottiaux/status/2125141302501417232",
       "media": [],
       "authorUsername": "thsottiaux"
+    },
+    "2125284868414394550": {
+      "id": "2125284868414394550",
+      "canonicalId": "2125284868414394550",
+      "text": "Hi. We’re beginning to roll out the combined Chat and Work experience to a small group of Pro users to learn from feedback before we roll out more broadly. \n\nLet us know what you think and where we can improve!",
+      "createdAt": "2026-11-24T17:46:13.000Z",
+      "url": "https://x.com/thsottiaux/status/2125284868414394550",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2125299248782778588": {
+      "id": "2125299248782778588",
+      "canonicalId": "2125299248782778588",
+      "text": "To all the ChatGPT Business teams out there. We have two small things for you, a banked reset and fast mode at no extra charge through Dec 31. Have fun!",
+      "createdAt": "2026-11-24T18:43:21.000Z",
+      "url": "https://x.com/thsottiaux/status/2125299248782778588",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2125299436964479474": {
+      "id": "2125299436964479474",
+      "canonicalId": "2125299436964479474",
+      "text": "https://t.co/SY2X7f40c5",
+      "createdAt": "2026-11-24T18:44:06.000Z",
+      "url": "https://x.com/thsottiaux/status/2125299436964479474",
+      "media": [
+        {
+          "mediaKey": "2125299419809714176",
+          "type": "gif",
+          "url": "https://video.twimg.com/tweet_video/HX6Uj98aEAAK0XY.mp4",
+          "previewImageUrl": "https://pbs.twimg.com/tweet_video_thumb/HX6Uj98aEAAK0XY.jpg",
+          "altText": null
+        }
+      ],
+      "authorUsername": "thsottiaux",
+      "replyToId": "2125299248782778588"
+    },
+    "2125299467691987445": {
+      "id": "2125299467691987445",
+      "canonicalId": "2125299467691987445",
+      "text": "Sign up for ChatGPT Business: https://t.co/2WH7P7Yx7L",
+      "createdAt": "2026-11-24T18:44:13.000Z",
+      "url": "https://x.com/thsottiaux/status/2125299467691987445",
+      "media": [],
+      "authorUsername": "thsottiaux",
+      "replyToId": "2125299248782778588"
     }
   },
   "contextVersion": 1

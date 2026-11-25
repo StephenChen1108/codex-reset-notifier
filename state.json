@@ -3,21 +3,21 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2125299467691987445",
-  "lastCheckedAt": "2026-11-24T21:08:09.727Z",
-  "lastSuccessAt": "2026-11-24T21:08:09.727Z",
-  "lastRunStatus": "checked-4-posts",
-  "postsScanned": 327,
+  "sinceId": "2125388306842255694",
+  "lastCheckedAt": "2026-11-25T04:10:54.783Z",
+  "lastSuccessAt": "2026-11-25T04:10:54.783Z",
+  "lastRunStatus": "checked-3-posts",
+  "postsScanned": 330,
   "matches": [
     {
-      "version": "4992692a2d865c3ca16db2c7827b29ea0c482677e1b5ce6993a1628eb339e922",
       "id": "2125299248782778588",
       "canonicalId": "2125299248782778588",
+      "authorUsername": "thsottiaux",
       "text": "To all the ChatGPT Business teams out there. We have two small things for you, a banked reset and fast mode at no extra charge through Dec 31. Have fun!",
       "createdAt": "2026-11-24T18:43:21.000Z",
       "url": "https://x.com/thsottiaux/status/2125299248782778588",
       "media": [],
-      "authorUsername": "thsottiaux",
+      "version": "4992692a2d865c3ca16db2c7827b29ea0c482677e1b5ce6993a1628eb339e922",
       "detectedAt": "2026-11-24T21:08:09.726Z",
       "events": [
         {
@@ -33,11 +33,11 @@
           }
         }
       ],
+      "notifiedAt": "2026-11-24T21:08:09.730Z",
       "channels": [
         "feishu",
         "github-actions"
-      ],
-      "notifiedAt": "2026-11-24T21:08:09.730Z"
+      ]
     }
   ],
   "outbox": [],
@@ -368,17 +368,19 @@
     "2125284868414394550": "dbf52068abe69888664998866650d805cbe9620888efce920d4b6ff3135bb7ee",
     "2125299248782778588": "4992692a2d865c3ca16db2c7827b29ea0c482677e1b5ce6993a1628eb339e922",
     "2125299436964479474": "4b723609f474cc926e5bc2a814d13f032f488f1ab7da44c4a7b294e5d4849edf",
-    "2125299467691987445": "bf607f8b7762b188fd3daf8752fd3ed9a2da4e4603da89e9092df7c18d41b591"
+    "2125299467691987445": "bf607f8b7762b188fd3daf8752fd3ed9a2da4e4603da89e9092df7c18d41b591",
+    "2125353693474365742": "20c036a92bb2d8c196d5b2108c4c67876c2772e3c8aec4fd45fd1eb7bbac04f1",
+    "2125387147633189101": "de9373c2dd7f4471df53c328a5b8fffe2b1d9516cfcdde1d87839343b265c457",
+    "2125388306842255694": "e8e2eb41839323ba47679d3f661f6f523f84a05a6fce9f9eed599adb41b5b349"
   },
   "latestObservedPost": {
-    "id": "2125299467691987445",
-    "canonicalId": "2125299467691987445",
-    "text": "Sign up for ChatGPT Business: https://t.co/2WH7P7Yx7L",
-    "createdAt": "2026-11-24T18:44:13.000Z",
-    "url": "https://x.com/thsottiaux/status/2125299467691987445",
+    "id": "2125388306842255694",
+    "canonicalId": "2125388306842255694",
+    "text": "@TokenGremlin @amorriscode @trq212 Wait, is that true?",
+    "createdAt": "2026-11-25T00:37:14.000Z",
+    "url": "https://x.com/thsottiaux/status/2125388306842255694",
     "media": [],
-    "authorUsername": "thsottiaux",
-    "replyToId": "2125299248782778588"
+    "authorUsername": "thsottiaux"
   },
   "eventParserVersion": 6,
   "announcementSeen": {
@@ -3702,6 +3704,33 @@
       "media": [],
       "authorUsername": "thsottiaux",
       "replyToId": "2125299248782778588"
+    },
+    "2125353693474365742": {
+      "id": "2125353693474365742",
+      "canonicalId": "2125353693474365742",
+      "text": "@AzianMike Team is shipping",
+      "createdAt": "2026-11-24T22:19:42.000Z",
+      "url": "https://x.com/thsottiaux/status/2125353693474365742",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2125387147633189101": {
+      "id": "2125387147633189101",
+      "canonicalId": "2125387147633189101",
+      "text": "@danshipper @every 👀",
+      "createdAt": "2026-11-25T00:32:38.000Z",
+      "url": "https://x.com/thsottiaux/status/2125387147633189101",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2125388306842255694": {
+      "id": "2125388306842255694",
+      "canonicalId": "2125388306842255694",
+      "text": "@TokenGremlin @amorriscode @trq212 Wait, is that true?",
+      "createdAt": "2026-11-25T00:37:14.000Z",
+      "url": "https://x.com/thsottiaux/status/2125388306842255694",
+      "media": [],
+      "authorUsername": "thsottiaux"
     }
   },
   "contextVersion": 1

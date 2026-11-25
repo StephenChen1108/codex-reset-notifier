@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2125388306842255694",
-  "lastCheckedAt": "2026-11-25T04:10:54.783Z",
-  "lastSuccessAt": "2026-11-25T04:10:54.783Z",
-  "lastRunStatus": "checked-3-posts",
-  "postsScanned": 330,
+  "sinceId": "2125494608826372329",
+  "lastCheckedAt": "2026-11-25T14:26:38.524Z",
+  "lastSuccessAt": "2026-11-25T14:26:38.524Z",
+  "lastRunStatus": "checked-1-posts",
+  "postsScanned": 331,
   "matches": [
     {
       "id": "2125299248782778588",
@@ -371,14 +371,15 @@
     "2125299467691987445": "bf607f8b7762b188fd3daf8752fd3ed9a2da4e4603da89e9092df7c18d41b591",
     "2125353693474365742": "20c036a92bb2d8c196d5b2108c4c67876c2772e3c8aec4fd45fd1eb7bbac04f1",
     "2125387147633189101": "de9373c2dd7f4471df53c328a5b8fffe2b1d9516cfcdde1d87839343b265c457",
-    "2125388306842255694": "e8e2eb41839323ba47679d3f661f6f523f84a05a6fce9f9eed599adb41b5b349"
+    "2125388306842255694": "e8e2eb41839323ba47679d3f661f6f523f84a05a6fce9f9eed599adb41b5b349",
+    "2125494608826372329": "cba235af6a44647eced184fe9f8b11c60a1feae9719051a7902e507621e60bdd"
   },
   "latestObservedPost": {
-    "id": "2125388306842255694",
-    "canonicalId": "2125388306842255694",
-    "text": "@TokenGremlin @amorriscode @trq212 Wait, is that true?",
-    "createdAt": "2026-11-25T00:37:14.000Z",
-    "url": "https://x.com/thsottiaux/status/2125388306842255694",
+    "id": "2125494608826372329",
+    "canonicalId": "2125494608826372329",
+    "text": "@jxnlco very tool of you",
+    "createdAt": "2026-11-25T07:39:39.000Z",
+    "url": "https://x.com/thsottiaux/status/2125494608826372329",
     "media": [],
     "authorUsername": "thsottiaux"
   },
@@ -3729,6 +3730,15 @@
       "text": "@TokenGremlin @amorriscode @trq212 Wait, is that true?",
       "createdAt": "2026-11-25T00:37:14.000Z",
       "url": "https://x.com/thsottiaux/status/2125388306842255694",
+      "media": [],
+      "authorUsername": "thsottiaux"
+    },
+    "2125494608826372329": {
+      "id": "2125494608826372329",
+      "canonicalId": "2125494608826372329",
+      "text": "@jxnlco very tool of you",
+      "createdAt": "2026-11-25T07:39:39.000Z",
+      "url": "https://x.com/thsottiaux/status/2125494608826372329",
       "media": [],
       "authorUsername": "thsottiaux"
     }
